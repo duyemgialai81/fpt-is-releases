@@ -1,7 +1,15 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-08-26T08:35:36.842Z",
+  "updatedAt": "2026-08-26T08:54:47.117Z",
   "modules": [
+    {
+      "moduleId": "account-editor",
+      "moduleName": "Cán Bộ (eAccount)",
+      "description": "Chỉnh sửa tài khoản cán bộ",
+      "version": "1.0.0",
+      "icon": "👤",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/account-editor-1.0.0.zip"
+    },
     {
       "moduleId": "ai-assistant",
       "moduleName": "Trợ Lý AI Oracle",
@@ -11,12 +19,189 @@
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ai-assistant-1.0.0.zip"
     },
     {
+      "moduleId": "aka247",
+      "moduleName": "AKA247",
+      "description": "Realtime AKA247",
+      "version": "1.0.0",
+      "icon": "⚡",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aka247-1.0.0.zip"
+    },
+    {
+      "moduleId": "assignee-extractor",
+      "moduleName": "Tìm MHS bằng ticket",
+      "description": "Tìm mã hồ sơ bằng ticket",
+      "version": "1.0.0",
+      "icon": "♙",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/assignee-extractor-1.0.0.zip"
+    },
+    {
+      "moduleId": "authority-assign",
+      "moduleName": "Phân Quyền Hồ Sơ",
+      "description": "Phân quyền xử lý hồ sơ",
+      "version": "1.0.0",
+      "icon": "♢",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/authority-assign-1.0.0.zip"
+    },
+    {
       "moduleId": "auto-login",
       "moduleName": "Auto Login",
-      "description": "Tự động đnăg nhập tài khoản  khách ",
+      "description": "Tự động đăng nhập vào hệ thống",
       "version": "1.0.1",
       "icon": "🔐",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.1.zip"
+    },
+    {
+      "moduleId": "batch-delete-enforcement",
+      "moduleName": "Xóa Hồ Sơ Hàng Loạt",
+      "description": "Xóa hồ sơ hàng loạt",
+      "version": "1.0.0",
+      "icon": "⌫",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/batch-delete-enforcement-1.0.0.zip"
+    },
+    {
+      "moduleId": "batch-search-receipts",
+      "moduleName": "Ticket Biên Lai",
+      "description": "Tra cứu biên lai hàng loạt",
+      "version": "1.0.0",
+      "icon": "⌕",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/batch-search-receipts-1.0.0.zip"
+    },
+    {
+      "moduleId": "call-log",
+      "moduleName": "Lịch Sử Gọi Lệnh",
+      "description": "Xem lịch sử gọi lệnh",
+      "version": "1.0.0",
+      "icon": "◷",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/call-log-1.0.0.zip"
+    },
+    {
+      "moduleId": "change-case-code",
+      "moduleName": "Đổi Mã Hồ Sơ",
+      "description": "Thay đổi mã hồ sơ",
+      "version": "1.0.0",
+      "icon": "✎",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-case-code-1.0.0.zip"
+    },
+    {
+      "moduleId": "change-password",
+      "moduleName": "Cấp Lại Mật Khẩu",
+      "description": "Cấp lại mật khẩu tài khoản",
+      "version": "1.0.0",
+      "icon": "⌁",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-1.0.0.zip"
+    },
+    {
+      "moduleId": "contract-receipt-manager",
+      "moduleName": "Hợp Đồng & Biên Lai",
+      "description": "Quản lý hợp đồng và biên lai",
+      "version": "1.0.0",
+      "icon": "▣",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/contract-receipt-manager-1.0.0.zip"
+    },
+    {
+      "moduleId": "dashboard",
+      "moduleName": "Bảng Điều Khiển",
+      "description": "Quản lý dashboard và môi trường làm việc",
+      "version": "1.0.0",
+      "icon": "▦",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dashboard-1.0.0.zip"
+    },
+    {
+      "moduleId": "deep-scan",
+      "moduleName": "Lấy Ticket eQD",
+      "description": "Quét sâu và lấy ticket eQD",
+      "version": "1.0.0",
+      "icon": "⌕",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/deep-scan-1.0.0.zip"
+    },
+    {
+      "moduleId": "doc-code-extractor",
+      "moduleName": "Trích Xuất Hồ Sơ",
+      "description": "Lấy mã hồ sơ từ dữ liệu đầu vào",
+      "version": "1.0.0",
+      "icon": "▤",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-1.0.0.zip"
+    },
+    {
+      "moduleId": "license-manager",
+      "moduleName": "Quản Lý Bản Quyền App",
+      "description": "Quản lý bản quyền ứng dụng",
+      "version": "1.0.0",
+      "icon": "♙",
+      "requiredRole": "admin",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/license-manager-1.0.0.zip"
+    },
+    {
+      "moduleId": "node-trigger",
+      "moduleName": "Kích Hoạt Chuyển Bước",
+      "description": "Kích hoạt chuyển bước hồ sơ",
+      "version": "1.0.0",
+      "icon": "▷",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/node-trigger-1.0.0.zip"
+    },
+    {
+      "moduleId": "quick-ticket-opener",
+      "moduleName": "Quick Ticket Opener",
+      "description": "Mở nhanh nhiều ticket cùng lúc",
+      "version": "1.0.0",
+      "icon": "🚀",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/quick-ticket-opener-1.0.0.zip"
+    },
+    {
+      "moduleId": "recall-node",
+      "moduleName": "Thu Hồi Luồng",
+      "description": "Thu hồi luồng xử lý hồ sơ",
+      "version": "1.0.0",
+      "icon": "↶",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/recall-node-1.0.0.zip"
+    },
+    {
+      "moduleId": "regoto-processing",
+      "moduleName": "Ép Trạng Thái Xử Lý",
+      "description": "Đưa hồ sơ về trạng thái xử lý",
+      "version": "1.0.0",
+      "icon": "↻",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/regoto-processing-1.0.0.zip"
+    },
+    {
+      "moduleId": "search-ticket",
+      "moduleName": "Search Ticket",
+      "description": "Tra cứu nhiều ticket và xem kết quả xử lý",
+      "version": "1.0.0",
+      "icon": "🔎",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/search-ticket-1.0.0.zip"
+    },
+    {
+      "moduleId": "ticket-extender",
+      "moduleName": "Gia Hạn Biên Lai",
+      "description": "Gia hạn biên lai",
+      "version": "1.0.0",
+      "icon": "◷",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-extender-1.0.0.zip"
+    },
+    {
+      "moduleId": "ticket-extractor",
+      "moduleName": "Ticket Extractor",
+      "description": "Lấy danh sách Ticket ID tự động",
+      "version": "1.0.0",
+      "icon": "🎫",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-extractor-1.0.0.zip"
+    },
+    {
+      "moduleId": "ticket-transfer",
+      "moduleName": "Điều Chuyển Hàng Loạt",
+      "description": "Điều chuyển hồ sơ hàng loạt",
+      "version": "1.0.0",
+      "icon": "⇄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-transfer-1.0.0.zip"
+    },
+    {
+      "moduleId": "update-money",
+      "moduleName": "Update Lại Tiền",
+      "description": "Cập nhật lại số tiền",
+      "version": "1.0.0",
+      "icon": "₫",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/update-money-1.0.0.zip"
     }
   ]
 }
