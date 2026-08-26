@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-08-26T08:30:33.927Z",
+  "updatedAt": "2026-08-26T08:35:36.842Z",
   "modules": [
     {
       "moduleId": "ai-assistant",
@@ -9,6 +9,14 @@
       "version": "1.0.0",
       "icon": "🤖",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ai-assistant-1.0.0.zip"
+    },
+    {
+      "moduleId": "auto-login",
+      "moduleName": "Auto Login",
+      "description": "Tự động đnăg nhập tài khoản  khách ",
+      "version": "1.0.1",
+      "icon": "🔐",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.1.zip"
     }
   ]
 }
