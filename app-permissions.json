@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T02:53:19.345Z",
+  "updatedAt": "2026-08-27T03:04:09.970Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -36,7 +36,6 @@
         "authority-assign",
         "ticket-transfer",
         "change-case-code",
-        "update-money",
         "quick-ticket-opener",
         "node-trigger",
         "recall-node",
