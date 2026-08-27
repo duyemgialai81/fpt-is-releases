@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T03:10:20.060Z",
+  "updatedAt": "2026-08-27T03:10:44.548Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -12,6 +12,7 @@
     "batch-delete-enforcement": {
       "requiredRole": "custom",
       "allowedMachines": [
+        "EP-DUYDN25",
         "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa"
