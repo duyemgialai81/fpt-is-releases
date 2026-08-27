@@ -1,22 +1,24 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T08:50:00.000Z",
+  "updatedAt": "2026-08-27T02:36:43.506Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "EP-ANHCV11"
+        "EP-ANHCV11",
+        "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho máy Admin phát hành"
     },
     "batch-delete-enforcement": {
       "requiredRole": "custom",
       "allowedMachines": [
-        "EP-ANHVP8",
-        "EP-DUYDN25"
+        "EP-DUYDN25",
+        "EP-ANHCV11",
+        "EP-ANHVP8"
       ],
-      "description": "Chỉ hiển thị cho máy có thẩm quyền xóa hồ sơ"
+      "description": "Chỉ hiển thị cho người có thẩm quyền xóa"
     }
   },
   "machineAssignments": [
@@ -39,6 +41,33 @@
       "userName": "Anh VP",
       "allowedModules": [
         "*"
+      ]
+    },
+    {
+      "machineName": "EP-BACNPX",
+      "userName": "Đại ca phòng cs",
+      "allowedModules": [
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "aka247",
+        "ai-assistant",
+        "call-log",
+        "auto-login"
       ]
     }
   ]
