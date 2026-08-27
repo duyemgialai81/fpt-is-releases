@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T03:38:30.593Z",
+  "updatedAt": "2026-08-27T03:41:16.577Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -24,13 +24,7 @@
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
       "allowedModules": [
-        "module-studio",
-        "screen-permissions",
-        "license-manager",
-        "batch-delete-enforcement",
-        "account-editor",
-        "batch-search-receipts",
-        "search-ticket"
+        "*"
       ]
     },
     {
