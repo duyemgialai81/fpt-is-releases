@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-08-27T02:29:46.430Z",
+  "updatedAt": "2026-08-27T03:30:28.692Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -54,9 +54,9 @@
       "moduleId": "batch-delete-enforcement",
       "moduleName": "Xóa Hồ Sơ Hàng Loạt",
       "description": "Xóa hồ sơ hàng loạt",
-      "version": "2.0.0",
+      "version": "1.0.0",
       "icon": "⌫",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/batch-delete-enforcement-2.0.0.zip"
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/batch-delete-enforcement-1.0.0.zip"
     },
     {
       "moduleId": "batch-search-receipts",
