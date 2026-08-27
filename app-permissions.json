@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-27T09:11:16.541Z",
+  "updatedAt": "2026-08-27T09:20:46.501Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -45,10 +45,7 @@
         "node-trigger",
         "recall-node",
         "regoto-processing",
-        "change-password",
-        "auto-login",
-        "call-log",
-        "ai-assistant"
+        "change-password"
       ]
     },
     {
