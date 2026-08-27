@@ -1,12 +1,11 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T02:38:51.288Z",
+  "updatedAt": "2026-08-27T02:39:41.545Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
       "allowedMachines": [
-        "EP-DUYDN25",
-        "EP-ANHCV11"
+        "EP-DUYDN25"
       ],
       "description": "Chỉ hiển thị cho máy Admin phát hành"
     },
@@ -14,7 +13,6 @@
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "EP-ANHCV11",
         "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa"
@@ -32,7 +30,29 @@
       "machineName": "EP-ANHCV11",
       "userName": "Anh CV (Lead)",
       "allowedModules": [
-        "*"
+        "dashboard",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "account-editor"
       ]
     },
     {
