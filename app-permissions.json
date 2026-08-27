@@ -1,18 +1,20 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-27T07:08:01.952Z",
+  "updatedAt": "2026-08-27T07:08:43.254Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25"
-      ]
+      ],
+      "description": "Chỉ hiển thị cho máy Admin phát hành"
     },
     "batch-delete-enforcement": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25"
-      ]
+      ],
+      "description": "Chỉ hiển thị cho người có thẩm quyền xóa"
     }
   },
   "machineAssignments": [
@@ -26,7 +28,6 @@
         "license-manager",
         "account-editor",
         "dashboard",
-        "search-ticket",
         "batch-search-receipts",
         "deep-scan",
         "contract-receipt-manager",
