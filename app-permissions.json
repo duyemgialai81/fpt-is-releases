@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T02:50:38.769Z",
+  "updatedAt": "2026-08-27T02:52:03.745Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -12,7 +12,6 @@
     "batch-delete-enforcement": {
       "requiredRole": "custom",
       "allowedMachines": [
-        "EP-DUYDN25",
         "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa"
@@ -25,10 +24,15 @@
       "allowedModules": [
         "module-studio",
         "screen-permissions",
-        "batch-delete-enforcement",
         "license-manager",
         "account-editor",
         "dashboard",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
         "authority-assign",
         "ticket-transfer",
         "change-case-code",
