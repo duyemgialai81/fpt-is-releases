@@ -1,6 +1,20 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-27T07:00:19.934Z",
+  "updatedAt": "2026-08-27T07:08:01.952Z",
+  "moduleRules": {
+    "module-studio": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-DUYDN25"
+      ]
+    },
+    "batch-delete-enforcement": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-DUYDN25"
+      ]
+    }
+  },
   "machineAssignments": [
     {
       "machineName": "EP-DUYDN25",
