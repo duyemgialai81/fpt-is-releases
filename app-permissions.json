@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T03:29:34.600Z",
+  "updatedAt": "2026-08-27T03:38:30.593Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -28,7 +28,9 @@
         "screen-permissions",
         "license-manager",
         "batch-delete-enforcement",
-        "account-editor"
+        "account-editor",
+        "batch-search-receipts",
+        "search-ticket"
       ]
     },
     {
