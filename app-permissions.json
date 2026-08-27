@@ -1,11 +1,12 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T03:15:26.857Z",
+  "updatedAt": "2026-08-27T03:17:40.530Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
       "allowedMachines": [
-        "EP-DUYDN25"
+        "EP-DUYDN25",
+        "EP-ANHCV11"
       ],
       "description": "Chỉ hiển thị cho máy Admin phát hành"
     },
@@ -53,7 +54,6 @@
       "machineName": "EP-ANHCV11",
       "userName": "Anh CV (Lead)",
       "allowedModules": [
-        "dashboard",
         "search-ticket",
         "batch-search-receipts",
         "deep-scan",
@@ -75,7 +75,7 @@
         "call-log",
         "ai-assistant",
         "aka247",
-        "account-editor"
+        "module-studio"
       ]
     },
     {
