@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T02:37:43.051Z",
+  "updatedAt": "2026-08-27T02:38:11.081Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
@@ -25,7 +25,30 @@
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
       "allowedModules": [
-        "*"
+        "module-studio",
+        "screen-permissions",
+        "batch-delete-enforcement",
+        "license-manager",
+        "account-editor",
+        "search-ticket",
+        "deep-scan",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247"
       ]
     },
     {
