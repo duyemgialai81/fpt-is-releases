@@ -1,13 +1,12 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-08-27T02:38:24.841Z",
+  "updatedAt": "2026-08-27T02:38:51.288Z",
   "moduleRules": {
     "module-studio": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "EP-ANHCV11",
-        "EP-ANHVP8"
+        "EP-ANHCV11"
       ],
       "description": "Chỉ hiển thị cho máy Admin phát hành"
     },
@@ -26,13 +25,24 @@
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
       "allowedModules": [
-        "module-studio",
-        "screen-permissions",
-        "batch-delete-enforcement",
-        "license-manager",
-        "account-editor",
+        "*"
+      ]
+    },
+    {
+      "machineName": "EP-ANHCV11",
+      "userName": "Anh CV (Lead)",
+      "allowedModules": [
+        "*"
+      ]
+    },
+    {
+      "machineName": "EP-ANHVP8",
+      "userName": "Anh VP",
+      "allowedModules": [
         "dashboard",
+        "search-ticket",
         "batch-search-receipts",
+        "deep-scan",
         "contract-receipt-manager",
         "ticket-extender",
         "doc-code-extractor",
@@ -50,21 +60,8 @@
         "auto-login",
         "call-log",
         "ai-assistant",
-        "aka247"
-      ]
-    },
-    {
-      "machineName": "EP-ANHCV11",
-      "userName": "Anh CV (Lead)",
-      "allowedModules": [
-        "*"
-      ]
-    },
-    {
-      "machineName": "EP-ANHVP8",
-      "userName": "Anh VP",
-      "allowedModules": [
-        "*"
+        "aka247",
+        "batch-delete-enforcement"
       ]
     },
     {
