@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-08-27T08:50:00.000Z",
+  "moduleRules": {
+    "module-studio": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "EP-ANHCV11"
+      ],
+      "description": "Chỉ hiển thị cho máy Admin phát hành"
+    },
+    "batch-delete-enforcement": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-ANHVP8",
+        "EP-DUYDN25"
+      ],
+      "description": "Chỉ hiển thị cho máy có thẩm quyền xóa hồ sơ"
+    }
+  },
+  "machineAssignments": [
+    {
+      "machineName": "EP-DUYDN25",
+      "userName": "Duy DN (Admin)",
+      "allowedModules": [
+        "*"
+      ]
+    },
+    {
+      "machineName": "EP-ANHCV11",
+      "userName": "Anh CV (Lead)",
+      "allowedModules": [
+        "*"
+      ]
+    },
+    {
+      "machineName": "EP-ANHVP8",
+      "userName": "Anh VP",
+      "allowedModules": [
+        "*"
+      ]
+    }
+  ]
+}
