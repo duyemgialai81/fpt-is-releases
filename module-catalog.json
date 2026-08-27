@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-08-27T09:50:31.457Z",
+  "updatedAt": "2026-08-27T10:00:45.693Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -202,6 +202,14 @@
       "version": "1.0.0",
       "icon": "₫",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/update-money-1.0.0.zip"
+    },
+    {
+      "moduleId": "eqdtha-sync-tctha-check",
+      "moduleName": "Kiểm tra trạng thái tổ chức QĐTHA",
+      "description": "Tìm kiếm QĐTHA đã đồng bộ sang eTCTHA hay chưa bằng ticketId eQĐ",
+      "version": "1.0.1",
+      "icon": "🔄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip"
     }
   ]
 }
