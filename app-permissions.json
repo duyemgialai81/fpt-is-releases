@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-28T17:23:03.695Z",
+  "updatedAt": "2026-08-28T17:23:18.530Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -36,8 +36,13 @@
       "allowedModules": [
         "module-studio",
         "screen-permissions",
-        "batch-delete-enforcement",
         "license-manager",
+        "account-editor",
+        "dashboard",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
         "contract-receipt-manager",
         "ticket-extender",
         "doc-code-extractor",
@@ -59,12 +64,7 @@
         "eqdtha-sync-tctha-check"
       ],
       "disallowedModules": [
-        "account-editor",
-        "dashboard",
-        "search-ticket",
-        "support-request",
-        "batch-search-receipts",
-        "deep-scan"
+        "batch-delete-enforcement"
       ]
     },
     {
