@@ -1,23 +1,72 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-28T04:23:52.717Z",
+  "updatedAt": "2026-08-28T17:23:03.695Z",
   "moduleRules": {
+    "screen-permissions": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DOJADEROY"
+      ],
+      "description": "Chỉ hiển thị cho máy Admin phân quyền màn hình"
+    },
     "module-studio": {
       "requiredRole": "custom",
       "allowedMachines": [
-        "EP-DUYDN25"
+        "EP-DUYDN25",
+        "DOJADEROY",
+        "EP-ANHCV11"
       ],
-      "description": "Chỉ hiển thị cho máy Admin phát hành"
+      "description": "Chỉ hiển thị cho máy Admin và Lead phát hành module"
     },
     "batch-delete-enforcement": {
       "requiredRole": "custom",
       "allowedMachines": [
-        "EP-DUYDN25"
+        "EP-DUYDN25",
+        "DOJADEROY",
+        "EP-ANHVP8"
       ],
-      "description": "Chỉ hiển thị cho người có thẩm quyền xóa"
+      "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
     }
   },
   "machineAssignments": [
+    {
+      "machineName": "DOJADEROY",
+      "userName": "Đoàn Ngọc Duy",
+      "allowedModules": [
+        "module-studio",
+        "screen-permissions",
+        "batch-delete-enforcement",
+        "license-manager",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "eqdtha-sync-tctha-check"
+      ],
+      "disallowedModules": [
+        "account-editor",
+        "dashboard",
+        "search-ticket",
+        "support-request",
+        "batch-search-receipts",
+        "deep-scan"
+      ]
+    },
     {
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
