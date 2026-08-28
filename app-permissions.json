@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-28T17:23:18.530Z",
+  "updatedAt": "2026-08-28T17:30:07.119Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -30,43 +30,6 @@
     }
   },
   "machineAssignments": [
-    {
-      "machineName": "DOJADEROY",
-      "userName": "Đoàn Ngọc Duy",
-      "allowedModules": [
-        "module-studio",
-        "screen-permissions",
-        "license-manager",
-        "account-editor",
-        "dashboard",
-        "support-request",
-        "search-ticket",
-        "batch-search-receipts",
-        "deep-scan",
-        "contract-receipt-manager",
-        "ticket-extender",
-        "doc-code-extractor",
-        "ticket-extractor",
-        "assignee-extractor",
-        "authority-assign",
-        "ticket-transfer",
-        "change-case-code",
-        "update-money",
-        "quick-ticket-opener",
-        "node-trigger",
-        "recall-node",
-        "regoto-processing",
-        "change-password",
-        "auto-login",
-        "call-log",
-        "ai-assistant",
-        "aka247",
-        "eqdtha-sync-tctha-check"
-      ],
-      "disallowedModules": [
-        "batch-delete-enforcement"
-      ]
-    },
     {
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
