@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-08-28T17:59:17.368Z",
+  "updatedAt": "2026-08-28T18:02:36.766Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -14,9 +14,9 @@
       "moduleId": "ai-assistant",
       "moduleName": "Trợ Lý AI Oracle",
       "description": "Trợ lý AI hỗ trợ nghiệp vụ",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "icon": "🤖",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ai-assistant-1.0.1.zip"
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ai-assistant-1.0.2.zip"
     },
     {
       "moduleId": "aka247",
