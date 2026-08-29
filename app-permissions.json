@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-29T14:13:57.709Z",
+  "updatedAt": "2026-08-29T14:16:38.033Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -58,11 +58,11 @@
         "call-log",
         "ai-assistant",
         "aka247",
-        "eqdtha-sync-tctha-check"
+        "eqdtha-sync-tctha-check",
+        "batch-delete-enforcement"
       ],
       "disallowedModules": [
         "license-manager",
-        "batch-delete-enforcement",
         "account-editor",
         "module-studio"
       ]
