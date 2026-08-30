@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-30T04:23:13.830Z",
+  "updatedAt": "2026-08-30T04:26:45.102Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -59,12 +59,12 @@
         "ai-assistant",
         "aka247",
         "eqdtha-sync-tctha-check",
-        "batch-delete-enforcement",
-        "module-studio"
+        "batch-delete-enforcement"
       ],
       "disallowedModules": [
         "license-manager",
-        "account-editor"
+        "account-editor",
+        "module-studio"
       ]
     },
     {
