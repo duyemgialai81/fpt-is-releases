@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-08-31T03:27:34.391Z",
+  "updatedAt": "2026-08-31T03:27:53.537Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -218,6 +218,15 @@
       "version": "1.0.0",
       "icon": "Users",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip",
+      "requiredRole": "custom"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bao-cao",
+      "moduleName": "Phân quyền biểu đồ báo cáo IOC",
+      "description": "Cấp / gỡ quyền ACL biểu đồ báo cáo eanalysis (có mã khóa)",
+      "version": "1.0.0",
+      "icon": "BarChart3",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bao-cao-1.0.0.zip",
       "requiredRole": "custom"
     }
   ]
