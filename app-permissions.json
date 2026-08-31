@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-31T03:31:29.775Z",
+  "updatedAt": "2026-08-31T03:31:40.124Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -25,8 +25,7 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
-        "EP-ANHVP8",
-        "ADMIN-PC"
+        "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
     }
@@ -59,14 +58,14 @@
         "call-log",
         "ai-assistant",
         "aka247",
-        "eqdtha-sync-tctha-check",
-        "batch-delete-enforcement"
+        "eqdtha-sync-tctha-check"
       ],
       "disallowedModules": [
         "screen-permissions",
         "license-manager",
         "account-editor",
-        "dashboard"
+        "dashboard",
+        "batch-delete-enforcement"
       ]
     },
     {
