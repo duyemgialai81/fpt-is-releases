@@ -1,13 +1,12 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-31T03:25:57.545Z",
+  "updatedAt": "2026-08-31T03:26:29.304Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "DOJADEROY",
-        "ADMIN-PC"
+        "DOJADEROY"
       ],
       "description": "Chỉ hiển thị cho máy Admin phân quyền màn hình"
     },
@@ -26,8 +25,7 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
-        "EP-ANHVP8",
-        "ADMIN-PC"
+        "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
     }
@@ -37,7 +35,37 @@
       "machineName": "ADMIN-PC",
       "userName": "Người Dùng",
       "allowedModules": [
-        "*"
+        "module-studio",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "eqdtha-sync-tctha-check"
+      ],
+      "disallowedModules": [
+        "batch-delete-enforcement",
+        "screen-permissions",
+        "license-manager",
+        "account-editor",
+        "dashboard"
       ]
     },
     {
