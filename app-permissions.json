@@ -1,12 +1,13 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-08-30T04:26:45.102Z",
+  "updatedAt": "2026-08-31T03:25:57.545Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "DOJADEROY"
+        "DOJADEROY",
+        "ADMIN-PC"
       ],
       "description": "Chỉ hiển thị cho máy Admin phân quyền màn hình"
     },
@@ -15,7 +16,8 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
-        "EP-ANHCV11"
+        "EP-ANHCV11",
+        "ADMIN-PC"
       ],
       "description": "Chỉ hiển thị cho máy Admin và Lead phát hành module"
     },
@@ -24,12 +26,20 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
-        "EP-ANHVP8"
+        "EP-ANHVP8",
+        "ADMIN-PC"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
     }
   },
   "machineAssignments": [
+    {
+      "machineName": "ADMIN-PC",
+      "userName": "Người Dùng",
+      "allowedModules": [
+        "*"
+      ]
+    },
     {
       "machineName": "DOJADEROY",
       "userName": "Duy",
