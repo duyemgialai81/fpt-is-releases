@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-03T06:48:12.244Z",
+  "updatedAt": "2026-09-03T06:50:11.337Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -113,14 +113,6 @@
       "version": "1.0.0",
       "icon": "⌕",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/deep-scan-1.0.0.zip"
-    },
-    {
-      "moduleId": "doc-code-extractor",
-      "moduleName": "Trích Xuất Hồ Sơ",
-      "description": "Lấy mã hồ sơ từ dữ liệu đầu vào",
-      "version": "1.0.0",
-      "icon": "▤",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-1.0.0.zip"
     },
     {
       "moduleId": "license-manager",
