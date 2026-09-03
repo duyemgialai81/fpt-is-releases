@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-03T06:50:11.337Z",
+  "updatedAt": "2026-09-03T06:50:13.657Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -229,14 +229,6 @@
       "icon": "FileText",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip",
       "requiredRole": "custom"
-    },
-    {
-      "moduleId": "doc-code-extractor-test",
-      "moduleName": "Trích Xuất Mã Hồ Sơ THADS",
-      "description": "Tự động bóc Token và trích xuất Mã Hồ Sơ",
-      "version": "1.0.0",
-      "icon": "📁",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-test-1.0.0.zip"
     }
   ]
 }
