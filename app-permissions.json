@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T03:21:25.531Z",
+  "updatedAt": "2026-09-04T04:10:06.548Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -57,7 +57,8 @@
         "call-log",
         "ioc-phan-quyen-bieu-mau",
         "ioc-phan-quyen-nguoi-dung",
-        "ioc-phan-quyen-bao-cao"
+        "ioc-phan-quyen-bao-cao",
+        "modules"
       ],
       "disallowedModules": [
         "module-studio",
