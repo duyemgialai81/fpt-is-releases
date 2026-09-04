@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T02:01:18.656Z",
+  "updatedAt": "2026-09-04T03:20:17.031Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -31,6 +31,46 @@
     }
   },
   "machineAssignments": [
+    {
+      "machineName": "EP-ANND33",
+      "userName": "Người Dùng",
+      "allowedModules": [
+        "dashboard",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung",
+        "ioc-phan-quyen-bao-cao"
+      ],
+      "disallowedModules": [
+        "module-studio",
+        "screen-permissions",
+        "license-manager",
+        "batch-delete-enforcement",
+        "account-editor",
+        "authority-assign",
+        "eqdtha-sync-tctha-check",
+        "ai-assistant",
+        "aka247"
+      ]
+    },
     {
       "machineName": "EP-LINHMLD2",
       "userName": "mai lê diệu linh",
