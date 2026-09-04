@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-03T08:04:20.536Z",
+  "updatedAt": "2026-09-04T03:16:05.151Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -202,15 +202,6 @@
       "version": "1.0.1",
       "icon": "🔄",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip"
-    },
-    {
-      "moduleId": "ioc-phan-quyen-nguoi-dung",
-      "moduleName": "Phân quyền người dùng IOC",
-      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
-      "version": "1.0.0",
-      "icon": "Users",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip",
-      "requiredRole": "custom"
     },
     {
       "moduleId": "ioc-phan-quyen-bao-cao",
