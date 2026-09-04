@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T04:11:36.158Z",
+  "updatedAt": "2026-09-04T05:02:12.285Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -28,6 +28,14 @@
         "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
+    },
+    "authority-assign": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DOJADEROY"
+      ],
+      "description": "Chỉ hiển thị khi Admin phân quyền hồ sơ cho máy"
     }
   },
   "machineAssignments": [
@@ -85,7 +93,6 @@
         "doc-code-extractor",
         "ticket-extractor",
         "assignee-extractor",
-        "authority-assign",
         "ticket-transfer",
         "change-case-code",
         "update-money",
@@ -110,7 +117,8 @@
         "ioc-phan-quyen-bieu-mau",
         "ioc-phan-quyen-nguoi-dung",
         "ai-assistant",
-        "aka247"
+        "aka247",
+        "authority-assign"
       ]
     },
     {
@@ -127,7 +135,6 @@
         "doc-code-extractor",
         "ticket-extractor",
         "assignee-extractor",
-        "authority-assign",
         "ticket-transfer",
         "change-case-code",
         "update-money",
@@ -148,7 +155,8 @@
         "license-manager",
         "account-editor",
         "dashboard",
-        "batch-delete-enforcement"
+        "batch-delete-enforcement",
+        "authority-assign"
       ]
     },
     {
@@ -208,7 +216,6 @@
         "doc-code-extractor",
         "ticket-extractor",
         "assignee-extractor",
-        "authority-assign",
         "ticket-transfer",
         "change-case-code",
         "update-money",
@@ -229,7 +236,8 @@
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bieu-mau",
-        "ioc-phan-quyen-bao-cao"
+        "ioc-phan-quyen-bao-cao",
+        "authority-assign"
       ]
     },
     {
@@ -244,7 +252,6 @@
         "doc-code-extractor",
         "ticket-extractor",
         "assignee-extractor",
-        "authority-assign",
         "ticket-transfer",
         "change-case-code",
         "update-money",
@@ -266,7 +273,8 @@
       "disallowedModules": [
         "ioc-phan-quyen-bieu-mau",
         "ioc-phan-quyen-nguoi-dung",
-        "ioc-phan-quyen-bao-cao"
+        "ioc-phan-quyen-bao-cao",
+        "authority-assign"
       ]
     },
     {
@@ -281,7 +289,6 @@
         "doc-code-extractor",
         "ticket-extractor",
         "assignee-extractor",
-        "authority-assign",
         "ticket-transfer",
         "change-case-code",
         "update-money",
@@ -302,7 +309,8 @@
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bao-cao",
-        "ioc-phan-quyen-bieu-mau"
+        "ioc-phan-quyen-bieu-mau",
+        "authority-assign"
       ]
     }
   ]
