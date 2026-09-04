@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-04T03:16:15.809Z",
+  "updatedAt": "2026-09-04T03:16:27.488Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -202,15 +202,6 @@
       "version": "1.0.1",
       "icon": "🔄",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip"
-    },
-    {
-      "moduleId": "ioc-phan-quyen-bieu-mau",
-      "moduleName": "Phân quyền biểu mẫu IOC",
-      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
-      "version": "1.0.0",
-      "icon": "FileText",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip",
-      "requiredRole": "custom"
     },
     {
       "moduleId": "doc-code-extractor",
