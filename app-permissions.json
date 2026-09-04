@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T04:10:06.548Z",
+  "updatedAt": "2026-09-04T04:11:36.158Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -97,7 +97,8 @@
         "auto-login",
         "call-log",
         "eqdtha-sync-tctha-check",
-        "dashboard"
+        "dashboard",
+        "modules"
       ],
       "disallowedModules": [
         "module-studio",
@@ -139,7 +140,8 @@
         "call-log",
         "ai-assistant",
         "aka247",
-        "eqdtha-sync-tctha-check"
+        "eqdtha-sync-tctha-check",
+        "modules"
       ],
       "disallowedModules": [
         "screen-permissions",
@@ -178,7 +180,8 @@
         "ai-assistant",
         "aka247",
         "eqdtha-sync-tctha-check",
-        "batch-delete-enforcement"
+        "batch-delete-enforcement",
+        "modules"
       ],
       "disallowedModules": [
         "license-manager",
@@ -219,7 +222,9 @@
         "ai-assistant",
         "aka247",
         "module-studio",
-        "eqdtha-sync-tctha-check"
+        "eqdtha-sync-tctha-check",
+        "modules",
+        "support-request"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
@@ -231,7 +236,6 @@
       "machineName": "EP-ANHVP8",
       "userName": "Anh VP",
       "allowedModules": [
-        "dashboard",
         "search-ticket",
         "batch-search-receipts",
         "deep-scan",
@@ -254,7 +258,10 @@
         "ai-assistant",
         "aka247",
         "batch-delete-enforcement",
-        "eqdtha-sync-tctha-check"
+        "eqdtha-sync-tctha-check",
+        "support-request",
+        "dashboard",
+        "modules"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-bieu-mau",
@@ -289,7 +296,8 @@
         "auto-login",
         "eqdtha-sync-tctha-check",
         "dashboard",
-        "support-request"
+        "support-request",
+        "modules"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
