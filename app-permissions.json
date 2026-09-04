@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T03:20:34.811Z",
+  "updatedAt": "2026-09-04T03:21:14.005Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -286,7 +286,9 @@
         "ai-assistant",
         "call-log",
         "auto-login",
-        "eqdtha-sync-tctha-check"
+        "eqdtha-sync-tctha-check",
+        "dashboard",
+        "support-request"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
