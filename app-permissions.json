@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T03:20:17.031Z",
+  "updatedAt": "2026-09-04T03:20:34.811Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -219,6 +219,11 @@
         "aka247",
         "module-studio",
         "eqdtha-sync-tctha-check"
+      ],
+      "disallowedModules": [
+        "ioc-phan-quyen-nguoi-dung",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-bao-cao"
       ]
     },
     {
@@ -249,6 +254,11 @@
         "aka247",
         "batch-delete-enforcement",
         "eqdtha-sync-tctha-check"
+      ],
+      "disallowedModules": [
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung",
+        "ioc-phan-quyen-bao-cao"
       ]
     },
     {
@@ -277,6 +287,11 @@
         "call-log",
         "auto-login",
         "eqdtha-sync-tctha-check"
+      ],
+      "disallowedModules": [
+        "ioc-phan-quyen-nguoi-dung",
+        "ioc-phan-quyen-bao-cao",
+        "ioc-phan-quyen-bieu-mau"
       ]
     }
   ]
