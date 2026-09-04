@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-04T03:16:27.488Z",
+  "updatedAt": "2026-09-04T03:17:48.592Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -210,6 +210,63 @@
       "version": "1.0.0",
       "icon": "▤",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-1.0.0.zip"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-mau",
+      "moduleName": "Phân quyền biểu mẫu IOC",
+      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
+      "version": "1.0.0",
+      "icon": "filetext",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-bieu-mau",
+        "moduleName": "Phân quyền biểu mẫu IOC",
+        "action": "list-forms",
+        "submitText": "🚀 Thực Thi [list-forms]",
+        "isAiSupported": false,
+        "fields": [
+          {
+            "id": "dashId",
+            "label": "Dash Id",
+            "type": "text",
+            "placeholder": "Nhập dash id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "resourceId",
+            "label": "Resource Id",
+            "type": "text",
+            "placeholder": "Nhập resource id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "email",
+            "label": "Địa Chỉ Email",
+            "type": "text",
+            "placeholder": "Nhập địa chỉ email...",
+            "defaultValue": "customersuport@gmail.com",
+            "quickChips": [
+              "customersuport@gmail.com",
+              "hotro@gmail.com",
+              "hieult35@fpt.com.vn"
+            ]
+          },
+          {
+            "id": "perm",
+            "label": "Perm",
+            "type": "text",
+            "placeholder": "Nhập perm...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy",
+        "EP-DuyDN25"
+      ]
     }
   ]
 }
