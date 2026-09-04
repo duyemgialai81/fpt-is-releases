@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-04T03:17:48.592Z",
+  "updatedAt": "2026-09-04T03:18:28.962Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -256,6 +256,84 @@
             "label": "Perm",
             "type": "text",
             "placeholder": "Nhập perm...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy",
+        "EP-DuyDN25"
+      ]
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bao-cao",
+      "moduleName": "Phân quyền biểu đồ báo cáo IOC",
+      "description": "Cấp / gỡ quyền ACL biểu đồ báo cáo eanalysis (có mã khóa)",
+      "version": "1.0.0",
+      "icon": "barchart3",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bao-cao-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-bao-cao",
+        "moduleName": "Phân quyền biểu đồ báo cáo IOC",
+        "action": "verify-access-code",
+        "submitText": "🚀 Thực Thi [verify-access-code]",
+        "isAiSupported": false,
+        "fields": [
+          {
+            "id": "reportId",
+            "label": "Report Id",
+            "type": "text",
+            "placeholder": "Nhập report id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "email",
+            "label": "Địa Chỉ Email",
+            "type": "text",
+            "placeholder": "Nhập địa chỉ email...",
+            "defaultValue": "customersuport@gmail.com",
+            "quickChips": [
+              "customersuport@gmail.com",
+              "hotro@gmail.com",
+              "hieult35@fpt.com.vn"
+            ]
+          },
+          {
+            "id": "orgName",
+            "label": "Org Name",
+            "type": "text",
+            "placeholder": "Nhập org name...",
+            "defaultValue": ""
+          },
+          {
+            "id": "resourceId",
+            "label": "Resource Id",
+            "type": "text",
+            "placeholder": "Nhập resource id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "orgIn",
+            "label": "Org In",
+            "type": "text",
+            "placeholder": "Nhập org in...",
+            "defaultValue": ""
+          },
+          {
+            "id": "perm",
+            "label": "Perm",
+            "type": "text",
+            "placeholder": "Nhập perm...",
+            "defaultValue": ""
+          },
+          {
+            "id": "code",
+            "label": "Code",
+            "type": "text",
+            "placeholder": "Nhập code...",
             "defaultValue": ""
           }
         ]
