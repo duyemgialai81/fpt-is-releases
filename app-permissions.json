@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T01:57:49.307Z",
+  "updatedAt": "2026-09-04T02:01:18.656Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -55,14 +55,14 @@
         "change-password",
         "auto-login",
         "call-log",
-        "eqdtha-sync-tctha-check"
+        "eqdtha-sync-tctha-check",
+        "dashboard"
       ],
       "disallowedModules": [
         "module-studio",
         "screen-permissions",
         "license-manager",
         "batch-delete-enforcement",
-        "dashboard",
         "account-editor",
         "ioc-phan-quyen-bao-cao",
         "ioc-phan-quyen-bieu-mau",
