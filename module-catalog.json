@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-04T03:18:28.962Z",
+  "updatedAt": "2026-09-04T03:19:29.097Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -334,6 +334,70 @@
             "label": "Code",
             "type": "text",
             "placeholder": "Nhập code...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy",
+        "EP-DuyDN25"
+      ]
+    },
+    {
+      "moduleId": "ioc-phan-quyen-nguoi-dung",
+      "moduleName": "Phân quyền người dùng IOC",
+      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
+      "version": "1.0.0",
+      "icon": "users",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-nguoi-dung",
+        "moduleName": "Phân quyền người dùng IOC",
+        "action": "grant",
+        "submitText": "🚀 Thực Thi [grant]",
+        "isAiSupported": false,
+        "fields": [
+          {
+            "id": "email",
+            "label": "Địa Chỉ Email",
+            "type": "text",
+            "placeholder": "Nhập địa chỉ email...",
+            "defaultValue": "customersuport@gmail.com",
+            "quickChips": [
+              "customersuport@gmail.com",
+              "hotro@gmail.com",
+              "hieult35@fpt.com.vn"
+            ]
+          },
+          {
+            "id": "orgIn",
+            "label": "Org In",
+            "type": "text",
+            "placeholder": "Nhập org in...",
+            "defaultValue": ""
+          },
+          {
+            "id": "action",
+            "label": "Action",
+            "type": "text",
+            "placeholder": "Nhập action...",
+            "defaultValue": ""
+          },
+          {
+            "id": "policy",
+            "label": "Policy",
+            "type": "text",
+            "placeholder": "Nhập policy...",
+            "defaultValue": ""
+          },
+          {
+            "id": "resourceId",
+            "label": "Resource Id",
+            "type": "text",
+            "placeholder": "Nhập resource id...",
             "defaultValue": ""
           }
         ]
