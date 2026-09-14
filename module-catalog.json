@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-14T03:53:56.769Z",
+  "updatedAt": "2026-09-12T09:17:29.827Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -115,6 +115,14 @@
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/deep-scan-1.0.0.zip"
     },
     {
+      "moduleId": "doc-code-extractor",
+      "moduleName": "Trích Xuất Hồ Sơ",
+      "description": "Lấy mã hồ sơ từ dữ liệu đầu vào",
+      "version": "1.0.0",
+      "icon": "▤",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-1.0.0.zip"
+    },
+    {
       "moduleId": "license-manager",
       "moduleName": "Quản Lý Bản Quyền App",
       "description": "Quản lý bản quyền ứng dụng",
@@ -204,254 +212,12 @@
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip"
     },
     {
-      "moduleId": "doc-code-extractor",
-      "moduleName": "Trích Xuất Hồ Sơ",
-      "description": "Lấy mã hồ sơ từ dữ liệu đầu vào",
+      "moduleId": "change-password-sanbox-toa-an",
+      "moduleName": "Cấp Lại MK Sandbox Tòa Án",
+      "description": "Cấp lại mật khẩu hàng loạt 100 tài khoản cùng lúc (Sandbox Tòa Án)",
       "version": "1.0.0",
-      "icon": "▤",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-1.0.0.zip"
-    },
-    {
-      "moduleId": "ioc-phan-quyen-bieu-mau",
-      "moduleName": "Phân quyền biểu mẫu IOC",
-      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
-      "version": "1.0.0",
-      "icon": "filetext",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "ioc-phan-quyen-bieu-mau",
-        "moduleName": "Phân quyền biểu mẫu IOC",
-        "action": "list-forms",
-        "submitText": "🚀 Thực Thi [list-forms]",
-        "isAiSupported": false,
-        "fields": [
-          {
-            "id": "dashId",
-            "label": "Dash Id",
-            "type": "text",
-            "placeholder": "Nhập dash id...",
-            "defaultValue": ""
-          },
-          {
-            "id": "resourceId",
-            "label": "Resource Id",
-            "type": "text",
-            "placeholder": "Nhập resource id...",
-            "defaultValue": ""
-          },
-          {
-            "id": "email",
-            "label": "Địa Chỉ Email",
-            "type": "text",
-            "placeholder": "Nhập địa chỉ email...",
-            "defaultValue": "customersuport@gmail.com",
-            "quickChips": [
-              "customersuport@gmail.com",
-              "hotro@gmail.com",
-              "hieult35@fpt.com.vn"
-            ]
-          },
-          {
-            "id": "perm",
-            "label": "Perm",
-            "type": "text",
-            "placeholder": "Nhập perm...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "admin",
-      "allowedMachines": [
-        "EP-DUYDN25",
-        "DonJadeRoy",
-        "DoJadeRoy",
-        "EP-DuyDN25"
-      ]
-    },
-    {
-      "moduleId": "ioc-phan-quyen-bao-cao",
-      "moduleName": "Phân quyền biểu đồ báo cáo IOC",
-      "description": "Cấp / gỡ quyền ACL biểu đồ báo cáo eanalysis (có mã khóa)",
-      "version": "1.0.0",
-      "icon": "barchart3",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bao-cao-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "ioc-phan-quyen-bao-cao",
-        "moduleName": "Phân quyền biểu đồ báo cáo IOC",
-        "action": "verify-access-code",
-        "submitText": "🚀 Thực Thi [verify-access-code]",
-        "isAiSupported": false,
-        "fields": [
-          {
-            "id": "reportId",
-            "label": "Report Id",
-            "type": "text",
-            "placeholder": "Nhập report id...",
-            "defaultValue": ""
-          },
-          {
-            "id": "email",
-            "label": "Địa Chỉ Email",
-            "type": "text",
-            "placeholder": "Nhập địa chỉ email...",
-            "defaultValue": "customersuport@gmail.com",
-            "quickChips": [
-              "customersuport@gmail.com",
-              "hotro@gmail.com",
-              "hieult35@fpt.com.vn"
-            ]
-          },
-          {
-            "id": "orgName",
-            "label": "Org Name",
-            "type": "text",
-            "placeholder": "Nhập org name...",
-            "defaultValue": ""
-          },
-          {
-            "id": "resourceId",
-            "label": "Resource Id",
-            "type": "text",
-            "placeholder": "Nhập resource id...",
-            "defaultValue": ""
-          },
-          {
-            "id": "orgIn",
-            "label": "Org In",
-            "type": "text",
-            "placeholder": "Nhập org in...",
-            "defaultValue": ""
-          },
-          {
-            "id": "perm",
-            "label": "Perm",
-            "type": "text",
-            "placeholder": "Nhập perm...",
-            "defaultValue": ""
-          },
-          {
-            "id": "code",
-            "label": "Code",
-            "type": "text",
-            "placeholder": "Nhập code...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "admin",
-      "allowedMachines": [
-        "EP-DUYDN25",
-        "DonJadeRoy",
-        "DoJadeRoy",
-        "EP-DuyDN25"
-      ]
-    },
-    {
-      "moduleId": "ioc-phan-quyen-nguoi-dung",
-      "moduleName": "Phân quyền người dùng IOC",
-      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
-      "version": "1.0.0",
-      "icon": "users",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "ioc-phan-quyen-nguoi-dung",
-        "moduleName": "Phân quyền người dùng IOC",
-        "action": "grant",
-        "submitText": "🚀 Thực Thi [grant]",
-        "isAiSupported": false,
-        "fields": [
-          {
-            "id": "email",
-            "label": "Địa Chỉ Email",
-            "type": "text",
-            "placeholder": "Nhập địa chỉ email...",
-            "defaultValue": "customersuport@gmail.com",
-            "quickChips": [
-              "customersuport@gmail.com",
-              "hotro@gmail.com",
-              "hieult35@fpt.com.vn"
-            ]
-          },
-          {
-            "id": "orgIn",
-            "label": "Org In",
-            "type": "text",
-            "placeholder": "Nhập org in...",
-            "defaultValue": ""
-          },
-          {
-            "id": "action",
-            "label": "Action",
-            "type": "text",
-            "placeholder": "Nhập action...",
-            "defaultValue": ""
-          },
-          {
-            "id": "policy",
-            "label": "Policy",
-            "type": "text",
-            "placeholder": "Nhập policy...",
-            "defaultValue": ""
-          },
-          {
-            "id": "resourceId",
-            "label": "Resource Id",
-            "type": "text",
-            "placeholder": "Nhập resource id...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "admin",
-      "allowedMachines": [
-        "EP-DUYDN25",
-        "DonJadeRoy",
-        "DoJadeRoy",
-        "EP-DuyDN25"
-      ]
-    },
-    {
-      "moduleId": "modules",
-      "moduleName": "Quản Lý Module",
-      "description": "Kho module và quản lý tiện ích mở rộng FPT-IS",
-      "version": "1.0.0",
-      "icon": "package",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/modules-1.0.0.zip"
-    },
-    {
-      "moduleId": "support-request",
-      "moduleName": "Hỗ Trợ & Yêu Cầu",
-      "description": "Gửi yêu cầu hỗ trợ, phản hồi trực tiếp tới Quản trị viên",
-      "version": "1.0.0",
-      "icon": "send",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/support-request-1.0.0.zip"
-    },
-    {
-      "moduleId": "module-studio",
-      "moduleName": "Đẩy Module ZIP",
-      "description": "Module Studio - Kiểm thử Sandbox, đóng gói và xuất bản module ZIP",
-      "version": "1.0.0",
-      "icon": "upload-cloud",
-      "requiredRole": "admin",
-      "allowedMachines": [
-        "EP-DuyDN25",
-        "DoJadeRoy",
-        "EP-AnhCV11"
-      ],
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/module-studio-1.0.0.zip"
-    },
-    {
-      "moduleId": "screen-permissions",
-      "moduleName": "Phân Quyền Màn Hình",
-      "description": "Quản lý phân quyền hiển thị màn hình và chức năng theo máy trạm",
-      "version": "1.0.0",
-      "icon": "shield-check",
-      "requiredRole": "admin",
-      "allowedMachines": [
-        "EP-DuyDN25",
-        "DoJadeRoy"
-      ],
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/screen-permissions-1.0.0.zip"
+      "icon": "key",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-sanbox-toa-an-1.0.0.zip"
     }
   ]
 }
