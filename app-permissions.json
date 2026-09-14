@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-04T05:02:12.285Z",
+  "updatedAt": "2026-09-12T10:21:05.891Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -16,6 +16,7 @@
         "EP-DUYDN25",
         "DOJADEROY",
         "EP-ANHCV11",
+        "EP-LINHMLD2",
         "ADMIN-PC"
       ],
       "description": "Chỉ hiển thị cho máy Admin và Lead phát hành module"
@@ -28,14 +29,6 @@
         "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
-    },
-    "authority-assign": {
-      "requiredRole": "custom",
-      "allowedMachines": [
-        "EP-DUYDN25",
-        "DOJADEROY"
-      ],
-      "description": "Chỉ hiển thị khi Admin phân quyền hồ sơ cho máy"
     }
   },
   "machineAssignments": [
@@ -105,10 +98,10 @@
         "call-log",
         "eqdtha-sync-tctha-check",
         "dashboard",
-        "modules"
+        "modules",
+        "module-studio"
       ],
       "disallowedModules": [
-        "module-studio",
         "screen-permissions",
         "license-manager",
         "batch-delete-enforcement",
