@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-14T03:17:40.531Z",
+  "updatedAt": "2026-09-14T03:53:56.769Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -452,55 +452,6 @@
         "DoJadeRoy"
       ],
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/screen-permissions-1.0.0.zip"
-    },
-    {
-      "moduleId": "my-custom-module",
-      "moduleName": "Module Nghiệp Vụ Mới",
-      "description": "Module tự động hóa được phát triển trên FPT-IS Studio",
-      "version": "1.0.0",
-      "icon": "folder",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/my-custom-module-1.0.0.zip",
-      "uiSchema": {
-        "action": "spin-wheel",
-        "submitText": "Bắt Đầu Quay Ngay",
-        "fields": [
-          {
-            "id": "names",
-            "label": "Danh Sách Mục Quay (Mỗi dòng một tên)",
-            "type": "textarea",
-            "placeholder": "Nhập tên các mục quay thưởng...",
-            "defaultValue": "Ali\nBeatriz\nCharles\nDiya\nEric\nFatima\nGabriel\nHanna",
-            "width": "full"
-          },
-          {
-            "id": "roundType",
-            "label": "Chế Độ Quay",
-            "type": "select",
-            "placeholder": "",
-            "defaultValue": "single",
-            "options": [
-              {
-                "value": "single",
-                "label": "Quay 1 Người Trúng (Single Winner)"
-              },
-              {
-                "value": "top3",
-                "label": "Quay Top 3 Giải Thưởng"
-              }
-            ],
-            "width": "half"
-          },
-          {
-            "id": "sound",
-            "label": "Bật Âm Thanh Khi Quay",
-            "type": "checkbox",
-            "placeholder": "",
-            "defaultValue": true,
-            "width": "half"
-          }
-        ]
-      },
-      "requiredRole": "custom"
     }
   ]
 }
