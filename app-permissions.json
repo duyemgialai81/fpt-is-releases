@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-12T10:21:45.451Z",
+  "updatedAt": "2026-09-15T09:36:11.594Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -29,6 +29,14 @@
         "EP-ANHVP8"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
+    },
+    "authority-assign": {
+      "requiredRole": "custom",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DOJADEROY"
+      ],
+      "description": "Phân quyền hồ sơ VIP - Chỉ hiển thị cho máy được Admin cấp quyền"
     }
   },
   "machineAssignments": [
@@ -194,7 +202,42 @@
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
       "allowedModules": [
-        "*"
+        "screen-permissions",
+        "batch-delete-enforcement",
+        "license-manager",
+        "account-editor",
+        "dashboard",
+        "modules",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "eqdtha-sync-tctha-check",
+        "change-password-sanbox-toa-an",
+        "ioc-phan-quyen-bao-cao",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung"
+      ],
+      "disallowedModules": [
+        "module-studio"
       ]
     },
     {
