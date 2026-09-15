@@ -1,15 +1,7 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-12T11:49:48.053Z",
+  "updatedAt": "2026-09-15T07:45:10.885Z",
   "modules": [
-    {
-      "moduleId": "account-editor",
-      "moduleName": "Cán Bộ (eAccount)",
-      "description": "Chỉnh sửa tài khoản cán bộ",
-      "version": "1.0.0",
-      "icon": "👤",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/account-editor-1.0.0.zip"
-    },
     {
       "moduleId": "ai-assistant",
       "moduleName": "Trợ Lý AI Oracle",
