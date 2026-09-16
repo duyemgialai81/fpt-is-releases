@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-16T02:53:37.626Z",
+  "updatedAt": "2026-09-16T03:14:03.854Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -235,57 +235,6 @@
       "icon": "package",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/modules-1.0.0.zip",
       "hasBackend": true
-    },
-    {
-      "moduleId": "my-auto-module",
-      "moduleName": "Module Tự Động Hóa Mẫu",
-      "description": "Module tự sinh giao diện từ backend Node.js",
-      "version": "1.0.0",
-      "icon": "sparkles",
-      "isAutoUI": true,
-      "actions": {
-        "process-task": {
-          "label": "Xử Lý Tác Vụ Nghiệp Vụ",
-          "description": "Tác vụ backend [process-task] xử lý trên tiến trình Node.js riêng",
-          "input": [
-            {
-              "key": "taskId",
-              "label": "Task Id",
-              "type": "text",
-              "placeholder": "Nhập task id...",
-              "required": false
-            },
-            {
-              "key": "text",
-              "label": "Text",
-              "type": "textarea",
-              "placeholder": "Nhập nội dung dữ liệu...",
-              "required": true
-            },
-            {
-              "key": "priority",
-              "label": "Priority",
-              "type": "text",
-              "placeholder": "Nhập priority...",
-              "required": false
-            }
-          ],
-          "output": [
-            {
-              "key": "status",
-              "label": "Trạng Thái",
-              "type": "string"
-            },
-            {
-              "key": "data",
-              "label": "Dữ Liệu Kết Quả",
-              "type": "json"
-            }
-          ],
-          "submitText": "Thực Thi [process-task]"
-        }
-      },
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/my-auto-module-1.0.0.zip"
     },
     {
       "moduleId": "screen-permissions",
