@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-16T02:01:34.743Z",
+  "updatedAt": "2026-09-16T02:31:47.628Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -9,14 +9,6 @@
       "version": "1.0.0",
       "icon": "👤",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/account-editor-1.0.0.zip"
-    },
-    {
-      "moduleId": "aka247",
-      "moduleName": "AKA247",
-      "description": "Realtime AKA247",
-      "version": "1.0.0",
-      "icon": "⚡",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aka247-1.0.0.zip"
     },
     {
       "moduleId": "assignee-extractor",
