@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-16T02:38:56.297Z",
+  "updatedAt": "2026-09-16T02:53:37.626Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -216,11 +216,16 @@
       "moduleId": "module-studio",
       "moduleName": "Đẩy Module ZIP",
       "description": "Module Studio - Kiểm thử Sandbox, đóng gói và xuất bản module ZIP",
-      "version": "1.0.1",
+      "version": "1.0.0",
       "icon": "upload-cloud",
       "requiredRole": "admin",
       "hasBackend": true,
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/module-studio-1.0.1.zip"
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/module-studio-1.0.0.zip",
+      "allowedMachines": [
+        "EP-DuyDN25",
+        "DoJadeRoy",
+        "EP-AnhCV11"
+      ]
     },
     {
       "moduleId": "modules",
@@ -286,11 +291,15 @@
       "moduleId": "screen-permissions",
       "moduleName": "Phân Quyền Màn Hình",
       "description": "Quản lý phân quyền hiển thị màn hình và chức năng theo máy trạm",
-      "version": "1.0.1",
+      "version": "1.0.0",
       "icon": "shield-check",
       "requiredRole": "admin",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/screen-permissions-1.0.1.zip",
-      "hasBackend": true
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/screen-permissions-1.0.0.zip",
+      "hasBackend": true,
+      "allowedMachines": [
+        "EP-DuyDN25",
+        "DoJadeRoy"
+      ]
     },
     {
       "moduleId": "support-request",
