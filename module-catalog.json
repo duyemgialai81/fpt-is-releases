@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-16T03:27:10.878Z",
+  "updatedAt": "2026-09-16T03:28:04.180Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -258,6 +258,14 @@
       "icon": "send",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/support-request-1.0.0.zip",
       "hasBackend": true
+    },
+    {
+      "moduleId": "change-password-sanbox-toa-an",
+      "moduleName": "Cấp Lại MK Sandbox Tòa Án",
+      "description": "Cấp lại mật khẩu hàng loạt 100 tài khoản cùng lúc (Sandbox Tòa Án)",
+      "version": "1.0.6",
+      "icon": "key",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-sanbox-toa-an-1.0.6.zip"
     }
   ]
 }
