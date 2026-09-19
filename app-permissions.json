@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-16T08:00:47.501Z",
+  "updatedAt": "2026-09-17T06:02:11.954Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -69,7 +69,8 @@
         "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bao-cao",
         "modules",
-        "module-studio"
+        "module-studio",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "screen-permissions",
@@ -108,7 +109,8 @@
         "eqdtha-sync-tctha-check",
         "dashboard",
         "modules",
-        "module-studio"
+        "module-studio",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "screen-permissions",
@@ -150,7 +152,8 @@
         "ai-assistant",
         "aka247",
         "eqdtha-sync-tctha-check",
-        "modules"
+        "modules",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "screen-permissions",
@@ -192,7 +195,8 @@
         "eqdtha-sync-tctha-check",
         "batch-delete-enforcement",
         "modules",
-        "module-studio"
+        "module-studio",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "license-manager",
@@ -234,7 +238,8 @@
         "module-studio",
         "eqdtha-sync-tctha-check",
         "modules",
-        "support-request"
+        "support-request",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
@@ -271,7 +276,8 @@
         "eqdtha-sync-tctha-check",
         "support-request",
         "dashboard",
-        "modules"
+        "modules",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-bieu-mau",
@@ -307,7 +313,8 @@
         "eqdtha-sync-tctha-check",
         "dashboard",
         "support-request",
-        "modules"
+        "modules",
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
