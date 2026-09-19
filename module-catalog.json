@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-17T05:42:46.834Z",
+  "updatedAt": "2026-09-17T06:03:16.820Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -260,58 +260,6 @@
       "main": "main.js"
     },
     {
-      "moduleId": "my-auto-module",
-      "moduleName": "Module Tự Động Hóa Mẫu",
-      "description": "Module tự sinh giao diện từ backend Node.js",
-      "version": "1.0.2",
-      "icon": "sparkles",
-      "isAutoUI": true,
-      "actions": {
-        "process-task": {
-          "label": "Xử Lý Tác Vụ Nghiệp Vụ",
-          "description": "Tác vụ backend [process-task] xử lý trên tiến trình Node.js riêng",
-          "input": [
-            {
-              "key": "taskId",
-              "label": "Task Id",
-              "type": "text",
-              "placeholder": "Nhập task id...",
-              "required": false
-            },
-            {
-              "key": "text",
-              "label": "Text",
-              "type": "textarea",
-              "placeholder": "Nhập nội dung dữ liệu...",
-              "required": true
-            },
-            {
-              "key": "priority",
-              "label": "Priority",
-              "type": "text",
-              "placeholder": "Nhập priority...",
-              "required": false
-            }
-          ],
-          "output": [
-            {
-              "key": "status",
-              "label": "Trạng Thái",
-              "type": "string"
-            },
-            {
-              "key": "data",
-              "label": "Dữ Liệu Kết Quả",
-              "type": "json"
-            }
-          ],
-          "submitText": "Thực Thi [process-task]"
-        }
-      },
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/my-auto-module-1.0.2.zip",
-      "main": "main.js"
-    },
-    {
       "moduleId": "screen-permissions",
       "moduleName": "Phân Quyền Màn Hình",
       "description": "Quản lý phân quyền hiển thị màn hình và chức năng theo máy trạm",
@@ -330,15 +278,6 @@
       "icon": "send",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/support-request-1.0.1.zip",
       "hasBackend": true,
-      "main": "main.js"
-    },
-    {
-      "moduleId": "change-password-sanbox-toa-an",
-      "moduleName": "Cấp Lại MK Sandbox Tòa Án",
-      "description": "Cấp lại mật khẩu hàng loạt 100 tài khoản cùng lúc (Sandbox Tòa Án). Hỗ trợ xuất và sao chép bảng dữ liệu Excel siêu tốc.",
-      "version": "1.0.6",
-      "icon": "key",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-sanbox-toa-an-1.0.6.zip",
       "main": "main.js"
     }
   ]
