@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-21T02:49:31.295Z",
+  "updatedAt": "2026-09-17T06:10:36.923Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -253,9 +253,19 @@
       "moduleId": "modules",
       "moduleName": "Quản Lý Module",
       "description": "Kho module và quản lý tiện ích mở rộng FPT-IS",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "icon": "package",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/modules-1.0.1.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/modules-1.0.2.zip",
+      "hasBackend": true,
+      "main": "main.js"
+    },
+    {
+      "moduleId": "page-mascot",
+      "moduleName": "Linh Vật App",
+      "description": "Bộ sưu tập 58 linh vật tương tác động trên toàn ứng dụng",
+      "version": "1.0.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.0.zip",
       "hasBackend": true,
       "main": "main.js"
     },
