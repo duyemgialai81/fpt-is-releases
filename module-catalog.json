@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-21T07:28:32.518Z",
+  "updatedAt": "2026-09-21T07:47:49.242Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -124,9 +124,9 @@
       "moduleId": "deep-scan",
       "moduleName": "Lấy Ticket eQD",
       "description": "Quét sâu và lấy ticket eQD",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "icon": "⌕",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/deep-scan-1.0.3.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/deep-scan-1.0.4.zip",
       "main": "main.js"
     },
     {
