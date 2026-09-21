@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-21T09:20:22.286Z",
+  "updatedAt": "2026-09-21T09:20:57.320Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -263,9 +263,9 @@
       "moduleId": "page-mascot",
       "moduleName": "Linh Vật App",
       "description": "Bộ sưu tập 58 linh vật tương tác động trên toàn ứng dụng",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "icon": "Sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.2.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.3.zip",
       "hasBackend": true,
       "main": "main.js"
     },
