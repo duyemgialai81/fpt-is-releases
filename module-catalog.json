@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-21T07:47:49.242Z",
+  "updatedAt": "2026-09-21T07:48:49.967Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -253,9 +253,9 @@
       "moduleId": "modules",
       "moduleName": "Quản Lý Module",
       "description": "Kho module và quản lý tiện ích mở rộng FPT-IS",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "icon": "package",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/modules-1.0.2.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/modules-1.0.3.zip",
       "hasBackend": true,
       "main": "main.js"
     },
