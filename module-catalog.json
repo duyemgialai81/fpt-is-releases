@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-17T06:10:36.923Z",
+  "updatedAt": "2026-09-21T07:27:53.315Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -188,9 +188,9 @@
       "moduleId": "search-ticket",
       "moduleName": "Search Ticket",
       "description": "Tra cứu siêu tốc ID gốc và trạng thái hồ sơ nhiều mã cùng lúc",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "icon": "🔎",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/search-ticket-2.0.3.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/search-ticket-2.0.4.zip",
       "main": "main.js"
     },
     {
