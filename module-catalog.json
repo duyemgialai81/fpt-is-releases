@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-17T06:10:36.923Z",
+  "updatedAt": "2026-09-21T03:46:58.316Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -264,7 +264,7 @@
       "moduleName": "Linh Vật App",
       "description": "Bộ sưu tập 58 linh vật tương tác động trên toàn ứng dụng",
       "version": "1.0.0",
-      "icon": "sparkles",
+      "icon": "Sparkles",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.0.zip",
       "hasBackend": true,
       "main": "main.js"
@@ -293,7 +293,7 @@
     {
       "moduleId": "change-password-sanbox-toa-an",
       "moduleName": "Cấp Lại MK Sandbox Tòa Án",
-      "description": "Cấp lại mật khẩu hàng loạt 100 tài khoản cùng lúc (Sandbox Tòa Án). Hỗ trợ xuất và sao chép bảng dữ liệu Excel siêu tốc.",
+      "description": "Cấp lại mật khẩu hàng loạt cho một 100 tài khoản cùng lúc (Sandbox Tòa Án)",
       "version": "1.0.6",
       "icon": "key",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-sanbox-toa-an-1.0.6.zip",
