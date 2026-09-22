@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-22T07:10:59.879Z",
+  "updatedAt": "2026-09-22T07:13:11.510Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -51,9 +51,9 @@
       "moduleId": "auto-login",
       "moduleName": "Auto Login",
       "description": "Tự động đăng nhập vào hệ thống",
-      "version": "1.0.15",
+      "version": "1.0.16",
       "icon": "🔐",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.15.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.16.zip",
       "main": "main.js"
     },
     {
