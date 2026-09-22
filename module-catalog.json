@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-22T05:12:49.703Z",
+  "updatedAt": "2026-09-22T05:23:01.654Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -51,10 +51,31 @@
       "moduleId": "auto-login",
       "moduleName": "Auto Login",
       "description": "Tự động đăng nhập vào hệ thống",
-      "version": "1.0.6",
-      "icon": "🔐",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.6.zip",
-      "main": "main.js"
+      "version": "1.0.3",
+      "icon": "cpu",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.3.zip",
+      "main": "main.js",
+      "uiSchema": {
+        "moduleId": "auto-login",
+        "moduleName": "Auto Login",
+        "description": "Tự động đăng nhập vào hệ thống",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      }
     },
     {
       "moduleId": "batch-delete-enforcement",
