@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-23T07:02:30.914Z",
+  "updatedAt": "2026-09-23T07:02:52.465Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -161,9 +161,9 @@
       "moduleId": "quick-ticket-opener",
       "moduleName": "Quick Ticket Opener",
       "description": "Mở nhanh nhiều ticket cùng lúc",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "icon": "🚀",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/quick-ticket-opener-1.0.4.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/quick-ticket-opener-1.0.5.zip",
       "main": "main.js"
     },
     {
