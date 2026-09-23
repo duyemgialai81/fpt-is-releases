@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-23T04:11:35.055Z",
+  "updatedAt": "2026-09-23T06:54:33.777Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -51,9 +51,9 @@
       "moduleId": "auto-login",
       "moduleName": "Auto Login",
       "description": "Tự động đăng nhập vào hệ thống",
-      "version": "1.0.16",
+      "version": "1.0.17",
       "icon": "🔐",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.16.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.17.zip",
       "main": "main.js"
     },
     {
@@ -227,6 +227,15 @@
       "version": "1.0.3",
       "icon": "₫",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/update-money-1.0.3.zip",
+      "main": "main.js"
+    },
+    {
+      "moduleId": "eqdtha-sync-tctha-check",
+      "moduleName": "Kiểm tra trạng thái tổ chức QĐTHA",
+      "description": "Tìm kiếm QĐTHA đã đồng bộ sang eTCTHA hay chưa bằng ticketId eQĐ",
+      "version": "1.0.1",
+      "icon": "🔄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip",
       "main": "main.js"
     },
     {
