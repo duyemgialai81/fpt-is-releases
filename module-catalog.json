@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-23T11:01:19.493Z",
+  "updatedAt": "2026-09-23T11:21:02.095Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -294,9 +294,9 @@
       "moduleId": "tra-cuu-qdtha",
       "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
       "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
-      "version": "1.0.0",
-      "icon": "zap",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.0.zip",
+      "version": "1.0.1",
+      "icon": "radar",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.1.zip",
       "uiSchema": {
         "moduleId": "tra-cuu-qdtha",
         "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
