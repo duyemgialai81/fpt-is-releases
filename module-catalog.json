@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-24T08:38:01.613Z",
+  "updatedAt": "2026-09-24T08:39:21.347Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -230,6 +230,15 @@
       "main": "main.js"
     },
     {
+      "moduleId": "eqdtha-sync-tctha-check",
+      "moduleName": "Kiểm tra trạng thái tổ chức QĐTHA",
+      "description": "Tìm kiếm QĐTHA đã đồng bộ sang eTCTHA hay chưa bằng ticketId eQĐ",
+      "version": "1.0.1",
+      "icon": "🔄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip",
+      "main": "main.js"
+    },
+    {
       "moduleId": "module-studio",
       "moduleName": "Đẩy Module ZIP",
       "description": "Module Studio - Kiểm thử Sandbox, đóng gói và xuất bản module ZIP",
@@ -294,26 +303,36 @@
       "moduleId": "tra-cuu-qdtha",
       "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
       "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
+      "version": "1.0.1",
+      "icon": "Search",
+      "category": "Nghiệp Vụ",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "hasBackend": true,
+      "main": "main.js",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.1.zip"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-mau",
+      "moduleName": "Phân quyền biểu mẫu IOC",
+      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
       "version": "1.0.0",
-      "icon": "search",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "tra-cuu-qdtha",
-        "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
-        "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
-        "action": "lookup-tickets",
-        "submitText": "🚀 Bắt Đầu Thực Thi [lookup-tickets]",
-        "fields": [
-          {
-            "id": "ticketIds",
-            "label": "Danh Sách Ticket ID",
-            "type": "text",
-            "placeholder": "Nhập danh sách ticket id...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "custom"
+      "icon": "FileText",
+      "category": "IOC Phân quyền",
+      "author": "IOC",
+      "requiredRole": "custom",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-nguoi-dung",
+      "moduleName": "Phân quyền người dùng IOC",
+      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
+      "version": "1.0.0",
+      "icon": "Users",
+      "category": "IOC Phân quyền",
+      "author": "IOC",
+      "requiredRole": "custom",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip"
     }
   ]
 }
