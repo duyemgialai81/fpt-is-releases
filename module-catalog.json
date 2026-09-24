@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-24T08:39:21.347Z",
+  "updatedAt": "2026-09-24T08:39:56.290Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -304,13 +304,29 @@
       "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
       "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
       "version": "1.0.1",
-      "icon": "Search",
+      "icon": "search",
       "category": "Nghiệp Vụ",
       "author": "FPT IS Developer",
       "requiredRole": "custom",
       "hasBackend": true,
       "main": "main.js",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.1.zip"
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.1.zip",
+      "uiSchema": {
+        "moduleId": "tra-cuu-qdtha",
+        "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
+        "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
+        "action": "lookup-tickets",
+        "submitText": "🚀 Bắt Đầu Thực Thi [lookup-tickets]",
+        "fields": [
+          {
+            "id": "ticketIds",
+            "label": "Danh Sách Ticket ID",
+            "type": "text",
+            "placeholder": "Nhập danh sách ticket id...",
+            "defaultValue": ""
+          }
+        ]
+      }
     },
     {
       "moduleId": "ioc-phan-quyen-bieu-mau",
