@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-24T03:45:21.248Z",
+  "updatedAt": "2026-09-24T07:29:31.927Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -230,6 +230,15 @@
       "main": "main.js"
     },
     {
+      "moduleId": "eqdtha-sync-tctha-check",
+      "moduleName": "Kiểm tra trạng thái tổ chức QĐTHA",
+      "description": "Tìm kiếm QĐTHA đã đồng bộ sang eTCTHA hay chưa bằng ticketId eQĐ",
+      "version": "1.0.1",
+      "icon": "🔄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip",
+      "main": "main.js"
+    },
+    {
       "moduleId": "module-studio",
       "moduleName": "Đẩy Module ZIP",
       "description": "Module Studio - Kiểm thử Sandbox, đóng gói và xuất bản module ZIP",
@@ -264,10 +273,10 @@
       "moduleId": "screen-permissions",
       "moduleName": "Phân Quyền Màn Hình",
       "description": "Quản lý phân quyền hiển thị màn hình và chức năng theo máy trạm",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "icon": "shield-check",
       "requiredRole": "admin",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/screen-permissions-1.0.2.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/screen-permissions-1.0.3.zip",
       "hasBackend": true,
       "main": "main.js"
     },
@@ -289,77 +298,6 @@
       "icon": "key",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-sanbox-toa-an-1.0.6.zip",
       "main": "main.js"
-    },
-    {
-      "moduleId": "tra-cuu-qdtha",
-      "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
-      "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
-      "version": "1.0.1",
-      "icon": "radar",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.0.1.zip",
-      "uiSchema": {
-        "moduleId": "tra-cuu-qdtha",
-        "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
-        "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
-        "action": "lookup-tickets",
-        "submitText": "🚀 Bắt Đầu Thực Thi [lookup-tickets]",
-        "fields": [
-          {
-            "id": "ticketIds",
-            "label": "Danh Sách Ticket ID",
-            "type": "text",
-            "placeholder": "Nhập danh sách ticket id...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "custom"
-    },
-    {
-      "moduleId": "ioc-phan-quyen-bieu-mau",
-      "moduleName": "Phân quyền biểu mẫu IOC",
-      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
-      "version": "1.0.0",
-      "icon": "filetext",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "ioc-phan-quyen-bieu-mau",
-        "moduleName": "Phân quyền biểu mẫu IOC",
-        "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
-        "action": "list-forms",
-        "submitText": "🚀 Bắt Đầu Thực Thi [list-forms]",
-        "fields": [
-          {
-            "id": "dashId",
-            "label": "Dash Id",
-            "type": "text",
-            "placeholder": "Nhập dash id...",
-            "defaultValue": ""
-          },
-          {
-            "id": "resourceId",
-            "label": "Resource Id",
-            "type": "text",
-            "placeholder": "Nhập resource id...",
-            "defaultValue": ""
-          },
-          {
-            "id": "email",
-            "label": "Địa Chỉ Email",
-            "type": "text",
-            "placeholder": "Nhập địa chỉ email...",
-            "defaultValue": ""
-          },
-          {
-            "id": "perm",
-            "label": "Perm",
-            "type": "text",
-            "placeholder": "Nhập perm...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "custom"
     }
   ]
 }
