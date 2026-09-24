@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-24T05:07:50.394Z",
+  "updatedAt": "2026-09-24T05:09:32.816Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -35,7 +35,8 @@
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "DOJADEROY"
+        "DOJADEROY",
+        "EP-ANHCV11"
       ],
       "description": "Phân quyền hồ sơ VIP - Chỉ hiển thị cho máy được Admin cấp quyền"
     }
@@ -207,9 +208,42 @@
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
       "allowedModules": [
-        "*"
+        "module-studio",
+        "screen-permissions",
+        "batch-delete-enforcement",
+        "license-manager",
+        "account-editor",
+        "dashboard",
+        "modules",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "page-mascot",
+        "change-password-sanbox-toa-an",
+        "tra-cuu-qdtha",
+        "ioc-phan-quyen-bieu-mau"
       ],
-      "disallowedModules": []
+      "disallowedModules": [
+        "authority-assign"
+      ]
     },
     {
       "machineName": "EP-ANHCV11",
@@ -239,13 +273,13 @@
         "eqdtha-sync-tctha-check",
         "modules",
         "support-request",
-        "change-password-sanbox-toa-an"
+        "change-password-sanbox-toa-an",
+        "authority-assign"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bieu-mau",
-        "ioc-phan-quyen-bao-cao",
-        "authority-assign"
+        "ioc-phan-quyen-bao-cao"
       ]
     },
     {
