@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-24T05:01:04.695Z",
+  "updatedAt": "2026-09-24T05:02:52.899Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -35,8 +35,7 @@
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "DOJADEROY",
-        "EP-ANHCV11"
+        "DOJADEROY"
       ],
       "description": "Phân quyền hồ sơ VIP - Chỉ hiển thị cho máy được Admin cấp quyền"
     }
@@ -273,13 +272,13 @@
         "eqdtha-sync-tctha-check",
         "modules",
         "support-request",
-        "change-password-sanbox-toa-an",
-        "authority-assign"
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
+        "ioc-phan-quyen-bieu-mau",
         "ioc-phan-quyen-bao-cao",
-        "ioc-phan-quyen-bieu-mau"
+        "authority-assign"
       ]
     },
     {
