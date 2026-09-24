@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-23T11:21:12.903Z",
+  "updatedAt": "2026-09-24T03:45:21.248Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -309,6 +309,52 @@
             "label": "Danh Sách Ticket ID",
             "type": "text",
             "placeholder": "Nhập danh sách ticket id...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-mau",
+      "moduleName": "Phân quyền biểu mẫu IOC",
+      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
+      "version": "1.0.0",
+      "icon": "filetext",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-bieu-mau",
+        "moduleName": "Phân quyền biểu mẫu IOC",
+        "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
+        "action": "list-forms",
+        "submitText": "🚀 Bắt Đầu Thực Thi [list-forms]",
+        "fields": [
+          {
+            "id": "dashId",
+            "label": "Dash Id",
+            "type": "text",
+            "placeholder": "Nhập dash id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "resourceId",
+            "label": "Resource Id",
+            "type": "text",
+            "placeholder": "Nhập resource id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "email",
+            "label": "Địa Chỉ Email",
+            "type": "text",
+            "placeholder": "Nhập địa chỉ email...",
+            "defaultValue": ""
+          },
+          {
+            "id": "perm",
+            "label": "Perm",
+            "type": "text",
+            "placeholder": "Nhập perm...",
             "defaultValue": ""
           }
         ]
