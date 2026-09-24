@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-24T06:58:48.988Z",
+  "updatedAt": "2026-09-24T07:00:10.880Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
