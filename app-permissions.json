@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-24T05:00:30.505Z",
+  "updatedAt": "2026-09-24T05:01:04.695Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -208,9 +208,42 @@
       "machineName": "EP-DUYDN25",
       "userName": "Duy DN (Admin)",
       "allowedModules": [
-        "*"
+        "module-studio",
+        "screen-permissions",
+        "batch-delete-enforcement",
+        "license-manager",
+        "account-editor",
+        "dashboard",
+        "modules",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "page-mascot",
+        "change-password-sanbox-toa-an",
+        "tra-cuu-qdtha",
+        "ioc-phan-quyen-bieu-mau"
       ],
-      "disallowedModules": []
+      "disallowedModules": [
+        "authority-assign"
+      ]
     },
     {
       "machineName": "EP-ANHCV11",
