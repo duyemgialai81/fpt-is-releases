@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T10:08:54.251Z",
+  "updatedAt": "2026-09-25T10:43:16.955Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -375,6 +375,25 @@
       "icon": "sparkles",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-1.0.0.zip",
       "requiredRole": "custom"
+    },
+    {
+      "moduleId": "ghi-chu",
+      "moduleName": "Ghi Chú",
+      "description": "Ghi chú nhanh - tạo, sửa, tìm kiếm và quản lý các ghi chú cá nhân, tự động lưu",
+      "version": "1.0.0",
+      "icon": "stickynote",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ghi-chu-1.0.0.zip",
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-09-25T10:43:16.955Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-09-25T10:43:16.955Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        }
+      ]
     }
   ]
 }
