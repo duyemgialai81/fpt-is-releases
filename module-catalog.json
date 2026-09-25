@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T11:07:52.783Z",
+  "updatedAt": "2026-09-25T11:24:28.166Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -395,11 +395,58 @@
     {
       "moduleId": "co-caro",
       "moduleName": "Cờ Caro",
-      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy hoặc 2 người chơi cùng máy, đủ 5 quân liên tiếp để thắng",
-      "version": "1.0.0",
-      "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-1.0.0.zip",
-      "requiredRole": "custom"
+      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online qua mạng LAN/Internet (host tự làm server, không cần thuê server riêng), đủ 5 quân liên tiếp để thắng",
+      "version": "1.2.0",
+      "icon": "grid3x3",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-1.2.0.zip",
+      "requiredRole": "custom",
+      "uiSchema": {
+        "moduleId": "co-caro",
+        "moduleName": "Cờ Caro",
+        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online qua mạng LAN/Internet (host tự làm server, không cần thuê server riêng), đủ 5 quân liên tiếp để thắng",
+        "action": "host-room",
+        "submitText": "🚀 Bắt Đầu Thực Thi [host-room]",
+        "fields": [
+          {
+            "id": "port",
+            "label": "Port",
+            "type": "text",
+            "placeholder": "Nhập port...",
+            "defaultValue": ""
+          },
+          {
+            "id": "ip",
+            "label": "Ip",
+            "type": "text",
+            "placeholder": "Nhập ip...",
+            "defaultValue": ""
+          },
+          {
+            "id": "r",
+            "label": "R",
+            "type": "text",
+            "placeholder": "Nhập r...",
+            "defaultValue": ""
+          },
+          {
+            "id": "c",
+            "label": "C",
+            "type": "text",
+            "placeholder": "Nhập c...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-09-25T11:24:28.166Z",
+      "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-09-25T11:24:28.166Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        }
+      ]
     },
     {
       "moduleId": "ghi-chu",
