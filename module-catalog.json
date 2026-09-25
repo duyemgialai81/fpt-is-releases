@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T07:30:33.519Z",
+  "updatedAt": "2026-09-25T08:16:27.305Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -352,6 +352,14 @@
           "author": "FPT IS Developer"
         }
       ]
+    },
+    {
+      "moduleId": "do-min",
+      "moduleName": "Dò Mìn",
+      "description": "Game dò mìn kinh điển - lật ô, cắm cờ, tránh trúng mìn với 3 độ khó",
+      "version": "1.0.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/do-min-1.0.0.zip"
     }
   ]
 }
