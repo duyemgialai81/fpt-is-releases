@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T08:16:27.305Z",
+  "updatedAt": "2026-09-25T08:22:52.696Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -360,6 +360,15 @@
       "version": "1.0.0",
       "icon": "sparkles",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/do-min-1.0.0.zip"
+    },
+    {
+      "moduleId": "co-caro",
+      "moduleName": "Cờ Caro",
+      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy hoặc 2 người chơi cùng máy, đủ 5 quân liên tiếp để thắng",
+      "version": "1.0.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-1.0.0.zip",
+      "requiredRole": "custom"
     }
   ]
 }
