@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T02:12:27.195Z",
+  "updatedAt": "2026-09-25T02:44:04.909Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -324,6 +324,21 @@
       "author": "IOC",
       "requiredRole": "custom",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip"
+    },
+    {
+      "moduleId": "game-2048",
+      "moduleName": "Game 2048",
+      "description": "Trò chơi giải trí 2048 kinh điển - dùng phím mũi tên gộp các ô số giống nhau để đạt 2048",
+      "version": "1.0.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/game-2048-1.0.0.zip",
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy",
+        "EP-AnhCV11"
+      ]
     }
   ]
 }
