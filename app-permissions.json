@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-24T08:45:50.638Z",
+  "updatedAt": "2026-09-25T10:41:04.735Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -27,7 +27,8 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
-        "EP-ANHVP8"
+        "EP-ANHVP8",
+        "EP-ANHCV11"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
     },
@@ -276,7 +277,8 @@
         "modules",
         "support-request",
         "change-password-sanbox-toa-an",
-        "authority-assign"
+        "authority-assign",
+        "batch-delete-enforcement"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-nguoi-dung",
