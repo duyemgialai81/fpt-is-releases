@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T02:44:18.789Z",
+  "updatedAt": "2026-09-25T03:00:51.947Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -339,6 +339,14 @@
         "DoJadeRoy",
         "EP-AnhCV11"
       ]
+    },
+    {
+      "moduleId": "eqdtha-sync-tctha-check",
+      "moduleName": "Kiểm tra trạng thái tổ chức QĐTHA",
+      "description": "Tìm kiếm QĐTHA đã đồng bộ sang eTCTHA hay chưa bằng ticketId eQĐ",
+      "version": "1.0.0",
+      "icon": "scan",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.0.zip"
     }
   ]
 }
