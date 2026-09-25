@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T03:42:43.486Z",
+  "updatedAt": "2026-09-25T06:37:33.043Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -230,6 +230,15 @@
       "main": "main.js"
     },
     {
+      "moduleId": "eqdtha-sync-tctha-check",
+      "moduleName": "Kiểm tra trạng thái tổ chức QĐTHA",
+      "description": "Tìm kiếm QĐTHA đã đồng bộ sang eTCTHA hay chưa bằng ticketId eQĐ",
+      "version": "1.0.1",
+      "icon": "🔄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eqdtha-sync-tctha-check-1.0.1.zip",
+      "main": "main.js"
+    },
+    {
       "moduleId": "module-studio",
       "moduleName": "Đẩy Module ZIP",
       "description": "Module Studio - Kiểm thử Sandbox, đóng gói và xuất bản module ZIP",
@@ -254,9 +263,9 @@
       "moduleId": "page-mascot",
       "moduleName": "Linh Vật App",
       "description": "Bộ sưu tập 58 linh vật tương tác động trên toàn ứng dụng",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "icon": "Sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.4.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.5.zip",
       "hasBackend": true,
       "main": "main.js"
     },
@@ -319,79 +328,11 @@
       "moduleName": "Phân quyền người dùng IOC",
       "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
       "version": "1.0.0",
-      "icon": "shield-check",
+      "icon": "Users",
       "category": "IOC Phân quyền",
-      "author": "duydn25",
+      "author": "IOC",
       "requiredRole": "custom",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "ioc-phan-quyen-nguoi-dung",
-        "moduleName": "Phân quyền người dùng IOC",
-        "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
-        "action": "grant",
-        "submitText": "🚀 Bắt Đầu Thực Thi [grant]",
-        "fields": [
-          {
-            "id": "email",
-            "label": "Địa Chỉ Email",
-            "type": "text",
-            "placeholder": "Nhập địa chỉ email...",
-            "defaultValue": ""
-          },
-          {
-            "id": "orgIn",
-            "label": "Org In",
-            "type": "text",
-            "placeholder": "Nhập org in...",
-            "defaultValue": ""
-          },
-          {
-            "id": "action",
-            "label": "Action",
-            "type": "text",
-            "placeholder": "Nhập action...",
-            "defaultValue": ""
-          },
-          {
-            "id": "policy",
-            "label": "Policy",
-            "type": "text",
-            "placeholder": "Nhập policy...",
-            "defaultValue": ""
-          },
-          {
-            "id": "resourceId",
-            "label": "Resource Id",
-            "type": "text",
-            "placeholder": "Nhập resource id...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "lastPublishedAt": "2026-09-25T03:42:43.486Z",
-      "publishHistory": [
-        {
-          "version": "1.0.0",
-          "publishedAt": "2026-09-25T03:42:43.486Z",
-          "source": "zip",
-          "author": "duydn25"
-        }
-      ]
-    },
-    {
-      "moduleId": "game-2048",
-      "moduleName": "Game 2048",
-      "description": "Trò chơi giải trí 2048 kinh điển - dùng phím mũi tên gộp các ô số giống nhau để đạt 2048",
-      "version": "1.0.0",
-      "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/game-2048-1.0.0.zip",
-      "requiredRole": "admin",
-      "allowedMachines": [
-        "EP-DUYDN25",
-        "DonJadeRoy",
-        "DoJadeRoy",
-        "EP-AnhCV11"
-      ]
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip"
     }
   ]
 }
