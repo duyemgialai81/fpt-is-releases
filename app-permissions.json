@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-25T10:41:49.843Z",
+  "updatedAt": "2026-09-25T10:42:52.952Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -28,7 +28,6 @@
         "EP-DUYDN25",
         "DOJADEROY",
         "EP-ANHVP8",
-        "EP-ANND33",
         "EP-ANHCV11"
       ],
       "description": "Chỉ hiển thị cho người có thẩm quyền xóa hồ sơ hàng loạt"
@@ -73,12 +72,12 @@
         "ioc-phan-quyen-bao-cao",
         "modules",
         "module-studio",
-        "change-password-sanbox-toa-an",
-        "batch-delete-enforcement"
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
         "screen-permissions",
         "license-manager",
+        "batch-delete-enforcement",
         "account-editor",
         "authority-assign",
         "eqdtha-sync-tctha-check",
