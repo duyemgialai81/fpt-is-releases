@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-26T10:05:28.149Z",
+  "updatedAt": "2026-09-26T17:35:42.913Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -386,58 +386,44 @@
     {
       "moduleId": "co-caro",
       "moduleName": "Cờ Caro",
-      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC) - kết nối qua Internet không cần server, không cần cùng mạng, hỗ trợ tới 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
-      "version": "2.0.0",
+      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
+      "version": "2.1.1",
       "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.1.1.zip",
       "requiredRole": "custom",
       "uiSchema": {
         "moduleId": "co-caro",
         "moduleName": "Cờ Caro",
-        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC) - kết nối qua Internet không cần server, không cần cùng mạng, hỗ trợ tới 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
-        "action": "open-firewall-port",
-        "submitText": "🚀 Bắt Đầu Thực Thi [open-firewall-port]",
+        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
+        "action": "get-hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [get-hostname]",
         "fields": [
           {
-            "id": "port",
-            "label": "Port",
+            "id": "code",
+            "label": "Code",
             "type": "text",
-            "placeholder": "Nhập port...",
+            "placeholder": "Nhập code...",
             "defaultValue": ""
           },
           {
-            "id": "ip",
-            "label": "Ip",
+            "id": "reqId",
+            "label": "Req Id",
             "type": "text",
-            "placeholder": "Nhập ip...",
+            "placeholder": "Nhập req id...",
             "defaultValue": ""
           },
           {
-            "id": "roomId",
-            "label": "Room Id",
+            "id": "sdp",
+            "label": "Sdp",
             "type": "text",
-            "placeholder": "Nhập room id...",
+            "placeholder": "Nhập sdp...",
             "defaultValue": ""
           },
           {
-            "id": "r",
-            "label": "R",
+            "id": "error",
+            "label": "Error",
             "type": "text",
-            "placeholder": "Nhập r...",
-            "defaultValue": ""
-          },
-          {
-            "id": "c",
-            "label": "C",
-            "type": "text",
-            "placeholder": "Nhập c...",
-            "defaultValue": ""
-          },
-          {
-            "id": "text",
-            "label": "Nội Dung",
-            "type": "textarea",
-            "placeholder": "Nhập nội dung...",
+            "placeholder": "Nhập error...",
             "defaultValue": ""
           },
           {
@@ -450,8 +436,14 @@
         ]
       },
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-09-26T10:05:28.149Z",
+      "lastPublishedAt": "2026-09-26T17:35:42.913Z",
       "publishHistory": [
+        {
+          "version": "2.1.1",
+          "publishedAt": "2026-09-26T17:35:42.913Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "2.0.0",
           "publishedAt": "2026-09-26T10:05:28.149Z",
