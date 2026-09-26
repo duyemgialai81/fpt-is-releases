@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-26T17:27:59.445Z",
+  "updatedAt": "2026-09-26T17:32:09.312Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -16,6 +16,7 @@
         "EP-DUYDN25",
         "DOJADEROY",
         "EP-ANHCV11",
+        "KEONGOTCUTIE",
         "EP-ANND33",
         "EP-LINHMLD2",
         "ADMIN-PC"
@@ -28,6 +29,7 @@
         "EP-DUYDN25",
         "DOJADEROY",
         "EP-ANHVP8",
+        "KEONGOTCUTIE",
         "EP-ANND33",
         "EP-ANHCV11"
       ],
@@ -38,12 +40,59 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
+        "KEONGOTCUTIE",
         "EP-ANHCV11"
       ],
       "description": "Phân quyền hồ sơ VIP - Chỉ hiển thị cho máy được Admin cấp quyền"
     }
   },
   "machineAssignments": [
+    {
+      "machineName": "KEONGOTCUTIE",
+      "userName": "Người Dùng",
+      "allowedModules": [
+        "module-studio",
+        "batch-delete-enforcement",
+        "modules",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "page-mascot",
+        "change-password-sanbox-toa-an",
+        "tra-cuu-qdtha",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung",
+        "game-2048",
+        "do-min",
+        "co-caro",
+        "ghi-chu"
+      ],
+      "disallowedModules": [
+        "screen-permissions",
+        "license-manager",
+        "account-editor",
+        "dashboard"
+      ]
+    },
     {
       "machineName": "EP-ANND33",
       "userName": "Người Dùng",
