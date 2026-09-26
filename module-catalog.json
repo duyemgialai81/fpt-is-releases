@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-25T13:45:09.080Z",
+  "updatedAt": "2026-09-26T10:05:28.149Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -386,15 +386,15 @@
     {
       "moduleId": "co-caro",
       "moduleName": "Cờ Caro",
-      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online qua mạng LAN/Internet (host tự làm server, không cần thuê server riêng), đủ 5 quân liên tiếp để thắng",
-      "version": "1.5.0",
-      "icon": "grid3x3",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-1.5.0.zip",
+      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC) - kết nối qua Internet không cần server, không cần cùng mạng, hỗ trợ tới 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
+      "version": "2.0.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.0.0.zip",
       "requiredRole": "custom",
       "uiSchema": {
         "moduleId": "co-caro",
         "moduleName": "Cờ Caro",
-        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online qua mạng LAN/Internet (host tự làm server, không cần thuê server riêng), đủ 5 quân liên tiếp để thắng",
+        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC) - kết nối qua Internet không cần server, không cần cùng mạng, hỗ trợ tới 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
         "action": "open-firewall-port",
         "submitText": "🚀 Bắt Đầu Thực Thi [open-firewall-port]",
         "fields": [
@@ -450,8 +450,14 @@
         ]
       },
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-09-25T13:45:09.080Z",
+      "lastPublishedAt": "2026-09-26T10:05:28.149Z",
       "publishHistory": [
+        {
+          "version": "2.0.0",
+          "publishedAt": "2026-09-26T10:05:28.149Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.5.0",
           "publishedAt": "2026-09-25T13:45:09.080Z",
