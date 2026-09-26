@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-09-26T17:21:44.013Z",
+  "updatedAt": "2026-09-26T17:25:14.423Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -16,6 +16,7 @@
         "EP-DUYDN25",
         "DOJADEROY",
         "EP-ANHCV11",
+        "KEONGOTCUTIE",
         "KEONGOTCUITE",
         "EP-ANND33",
         "EP-LINHMLD2",
@@ -29,6 +30,7 @@
         "EP-DUYDN25",
         "DOJADEROY",
         "EP-ANHVP8",
+        "KEONGOTCUTIE",
         "KEONGOTCUITE",
         "EP-ANND33",
         "EP-ANHCV11"
@@ -40,6 +42,7 @@
       "allowedMachines": [
         "EP-DUYDN25",
         "DOJADEROY",
+        "KEONGOTCUTIE",
         "KEONGOTCUITE",
         "EP-ANHCV11"
       ],
@@ -47,6 +50,52 @@
     }
   },
   "machineAssignments": [
+    {
+      "machineName": "KEONGOTCUTIE",
+      "userName": "Người Dùng",
+      "allowedModules": [
+        "module-studio",
+        "batch-delete-enforcement",
+        "account-editor",
+        "dashboard",
+        "modules",
+        "support-request",
+        "search-ticket",
+        "batch-search-receipts",
+        "deep-scan",
+        "contract-receipt-manager",
+        "ticket-extender",
+        "doc-code-extractor",
+        "ticket-extractor",
+        "assignee-extractor",
+        "authority-assign",
+        "ticket-transfer",
+        "change-case-code",
+        "update-money",
+        "quick-ticket-opener",
+        "node-trigger",
+        "recall-node",
+        "regoto-processing",
+        "change-password",
+        "auto-login",
+        "call-log",
+        "ai-assistant",
+        "aka247",
+        "page-mascot",
+        "change-password-sanbox-toa-an",
+        "tra-cuu-qdtha",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung",
+        "game-2048",
+        "do-min",
+        "co-caro",
+        "ghi-chu"
+      ],
+      "disallowedModules": [
+        "screen-permissions",
+        "license-manager"
+      ]
+    },
     {
       "machineName": "KEONGOTCUITE",
       "userName": "Người Dùng",
