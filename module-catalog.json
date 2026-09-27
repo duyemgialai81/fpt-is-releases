@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-27T03:11:32.575Z",
+  "updatedAt": "2026-09-27T07:45:30.415Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -387,9 +387,9 @@
       "moduleId": "co-caro",
       "moduleName": "Cờ Caro",
       "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
-      "version": "2.6.0",
+      "version": "2.6.1",
       "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.6.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.6.1.zip",
       "requiredRole": "custom",
       "uiSchema": {
         "moduleId": "co-caro",
@@ -435,9 +435,15 @@
           }
         ]
       },
-      "author": "anhcv11 Developer",
-      "lastPublishedAt": "2026-09-27T03:11:32.575Z",
+      "author": "AnhCv11 Developer",
+      "lastPublishedAt": "2026-09-27T07:45:30.414Z",
       "publishHistory": [
+        {
+          "version": "2.6.1",
+          "publishedAt": "2026-09-27T07:45:30.415Z",
+          "source": "zip",
+          "author": "AnhCv11 Developer"
+        },
         {
           "version": "2.6.0",
           "publishedAt": "2026-09-27T03:11:32.575Z",
