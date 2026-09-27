@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-27T07:48:02.853Z",
+  "updatedAt": "2026-09-27T13:37:26.197Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -594,6 +594,69 @@
           "publishedAt": "2026-09-27T07:48:02.853Z",
           "source": "zip",
           "author": "Anhcv11 Developer"
+        }
+      ]
+    },
+    {
+      "moduleId": "hai-chien",
+      "moduleName": "Hải Chiến",
+      "description": "Game Hải Chiến (Battleship) 10x10 - xếp 5 tàu rồi bắn đoán vị trí tàu địch. Đấu với máy (3 mức) hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đấu Rank tính điểm, chống gian lận bằng cam kết bố cục tàu (commit-reveal)",
+      "version": "1.0.0",
+      "icon": "ship",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/hai-chien-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "hai-chien",
+        "moduleName": "Hải Chiến",
+        "description": "Game Hải Chiến (Battleship) 10x10 - xếp 5 tàu rồi bắn đoán vị trí tàu địch. Đấu với máy (3 mức) hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đấu Rank tính điểm, chống gian lận bằng cam kết bố cục tàu (commit-reveal)",
+        "action": "get-hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [get-hostname]",
+        "fields": [
+          {
+            "id": "code",
+            "label": "Code",
+            "type": "text",
+            "placeholder": "Nhập code...",
+            "defaultValue": ""
+          },
+          {
+            "id": "reqId",
+            "label": "Req Id",
+            "type": "text",
+            "placeholder": "Nhập req id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "sdp",
+            "label": "Sdp",
+            "type": "text",
+            "placeholder": "Nhập sdp...",
+            "defaultValue": ""
+          },
+          {
+            "id": "error",
+            "label": "Error",
+            "type": "text",
+            "placeholder": "Nhập error...",
+            "defaultValue": ""
+          },
+          {
+            "id": "timeoutMs",
+            "label": "Timeout Ms",
+            "type": "text",
+            "placeholder": "Nhập timeout ms...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-09-27T13:37:26.196Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-09-27T13:37:26.197Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
         }
       ]
     }
