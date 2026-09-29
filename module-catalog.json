@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-29T04:39:00.077Z",
+  "updatedAt": "2026-09-29T10:13:14.219Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -719,6 +719,15 @@
           "author": "FPT IS Developer"
         }
       ]
+    },
+    {
+      "moduleId": "co-vua",
+      "version": "1.0.0",
+      "moduleName": "Cờ Vua AI",
+      "description": "Đấu cờ vua với AI 5 cấp độ, xem lại ván đấu có bình luận",
+      "icon": "♟️",
+      "main": "main.js",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-vua-1.0.0.zip"
     }
   ]
 }
