@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-29T10:40:09.922Z",
+  "updatedAt": "2026-09-30T03:46:52.593Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -717,6 +717,50 @@
           "publishedAt": "2026-09-27T13:37:26.197Z",
           "source": "zip",
           "author": "FPT IS Developer"
+        }
+      ]
+    },
+    {
+      "moduleId": "pikachu",
+      "moduleName": "Nối Hình Pikachu",
+      "description": "Game nối 2 ô giống nhau (kiểu Pikachu/Onet), tính giờ, tính điểm, gợi ý và xáo bài",
+      "version": "1.0.0",
+      "icon": "🐣",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/pikachu-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "pikachu",
+        "moduleName": "Nối Hình Pikachu",
+        "description": "Game nối 2 ô giống nhau (kiểu Pikachu/Onet), tính giờ, tính điểm, gợi ý và xáo bài",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy",
+        "EP-DuyDN25"
+      ],
+      "lastPublishedAt": "2026-09-30T03:46:52.593Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-09-30T03:46:52.593Z",
+          "source": "zip"
         }
       ]
     }
