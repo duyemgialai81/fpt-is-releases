@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:46:56.099Z",
+  "updatedAt": "2026-10-01T01:47:25.110Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -818,6 +818,41 @@
         {
           "version": "1.0.7",
           "publishedAt": "2026-10-01T01:46:56.099Z",
+          "source": "zip",
+          "author": "IOC"
+        }
+      ]
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-do-bao-cao",
+      "moduleName": "Phân quyền biểu đồ báo cáo",
+      "description": "Cấp / gỡ quyền xem, sửa biểu đồ báo cáo và đặt trang chủ cho tài khoản",
+      "version": "1.0.7",
+      "icon": "barchart3",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-do-bao-cao-1.0.7.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-bieu-do-bao-cao",
+        "moduleName": "Phân quyền biểu đồ báo cáo",
+        "description": "Cấp / gỡ quyền xem, sửa biểu đồ báo cáo và đặt trang chủ cho tài khoản",
+        "action": "hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [hostname]",
+        "fields": [
+          {
+            "id": "url",
+            "label": "Url",
+            "type": "text",
+            "placeholder": "Nhập url...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "IOC",
+      "lastPublishedAt": "2026-10-01T01:47:25.110Z",
+      "publishHistory": [
+        {
+          "version": "1.0.7",
+          "publishedAt": "2026-10-01T01:47:25.110Z",
           "source": "zip",
           "author": "IOC"
         }
