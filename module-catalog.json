@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T03:00:45.691Z",
+  "updatedAt": "2026-10-01T03:02:37.471Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -928,8 +928,13 @@
         "DoJadeRoy",
         "EP-DuyDN25"
       ],
-      "lastPublishedAt": "2026-10-01T03:00:45.691Z",
+      "lastPublishedAt": "2026-10-01T03:02:37.471Z",
       "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-01T03:02:37.471Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-01T03:00:45.691Z",
