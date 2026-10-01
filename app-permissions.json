@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-01T06:58:41.393Z",
+  "updatedAt": "2026-10-01T09:01:54.923Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -162,7 +162,8 @@
         "dashboard",
         "modules",
         "module-studio",
-        "change-password-sanbox-toa-an"
+        "change-password-sanbox-toa-an",
+        "ioc-phan-quyen-bieu-mau"
       ],
       "disallowedModules": [
         "screen-permissions",
@@ -170,7 +171,6 @@
         "batch-delete-enforcement",
         "account-editor",
         "ioc-phan-quyen-bao-cao",
-        "ioc-phan-quyen-bieu-mau",
         "ioc-phan-quyen-nguoi-dung",
         "ai-assistant",
         "aka247",
