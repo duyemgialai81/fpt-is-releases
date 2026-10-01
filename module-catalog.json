@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:44:57.449Z",
+  "updatedAt": "2026-10-01T01:46:56.099Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -783,6 +783,41 @@
         {
           "version": "1.0.4",
           "publishedAt": "2026-10-01T01:44:22.048Z",
+          "source": "zip",
+          "author": "IOC"
+        }
+      ]
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-mau",
+      "moduleName": "Phân quyền biểu mẫu",
+      "description": "Cấp / gỡ quyền biểu mẫu cho nhiều tài khoản và kiểm tra quyền biểu mẫu",
+      "version": "1.0.7",
+      "icon": "filetext",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.7.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-bieu-mau",
+        "moduleName": "Phân quyền biểu mẫu",
+        "description": "Cấp / gỡ quyền biểu mẫu cho nhiều tài khoản và kiểm tra quyền biểu mẫu",
+        "action": "hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [hostname]",
+        "fields": [
+          {
+            "id": "url",
+            "label": "Url",
+            "type": "text",
+            "placeholder": "Nhập url...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "IOC",
+      "lastPublishedAt": "2026-10-01T01:46:56.099Z",
+      "publishHistory": [
+        {
+          "version": "1.0.7",
+          "publishedAt": "2026-10-01T01:46:56.099Z",
           "source": "zip",
           "author": "IOC"
         }
