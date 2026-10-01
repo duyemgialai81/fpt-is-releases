@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-09-30T07:36:13.955Z",
+  "updatedAt": "2026-10-01T01:39:11.161Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -327,17 +327,6 @@
           "author": "FPT IS Developer"
         }
       ]
-    },
-    {
-      "moduleId": "ioc-phan-quyen-bieu-mau",
-      "moduleName": "Phân quyền biểu mẫu IOC",
-      "description": "Cấp / gỡ quyền biểu mẫu IOC theo email và vai trò",
-      "version": "1.0.0",
-      "icon": "FileText",
-      "category": "IOC Phân quyền",
-      "author": "IOC",
-      "requiredRole": "custom",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.0.zip"
     },
     {
       "moduleId": "ioc-phan-quyen-nguoi-dung",
