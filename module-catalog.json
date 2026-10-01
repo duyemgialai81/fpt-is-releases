@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:44:22.048Z",
+  "updatedAt": "2026-10-01T01:44:57.449Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -772,8 +772,14 @@
       },
       "requiredRole": "custom",
       "author": "IOC",
-      "lastPublishedAt": "2026-10-01T01:44:22.048Z",
+      "lastPublishedAt": "2026-10-01T01:44:57.449Z",
       "publishHistory": [
+        {
+          "version": "1.0.4",
+          "publishedAt": "2026-10-01T01:44:57.449Z",
+          "source": "zip",
+          "author": "IOC"
+        },
         {
           "version": "1.0.4",
           "publishedAt": "2026-10-01T01:44:22.048Z",
