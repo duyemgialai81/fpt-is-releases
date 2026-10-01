@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T12:23:42.299Z",
+  "updatedAt": "2026-10-01T12:24:58.754Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -164,15 +164,6 @@
       "version": "1.0.3",
       "icon": "↶",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/recall-node-1.0.3.zip",
-      "main": "main.js"
-    },
-    {
-      "moduleId": "regoto-processing",
-      "moduleName": "Ép Trạng Thái Xử Lý",
-      "description": "Đưa hồ sơ về trạng thái xử lý",
-      "version": "1.0.3",
-      "icon": "↻",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/regoto-processing-1.0.3.zip",
       "main": "main.js"
     },
     {
