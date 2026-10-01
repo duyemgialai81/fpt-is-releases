@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:47:47.187Z",
+  "updatedAt": "2026-10-01T03:00:45.691Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -890,6 +890,50 @@
           "publishedAt": "2026-10-01T01:47:47.187Z",
           "source": "zip",
           "author": "IOC"
+        }
+      ]
+    },
+    {
+      "moduleId": "dao-vang",
+      "moduleName": "Đào Vàng Cổ Điển",
+      "description": "Game Đào Vàng (Gold Miner) kinh điển 10 Map: quăng dây, kéo vàng, thùng nổ TNT, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
+      "version": "1.0.0",
+      "icon": "⛏️",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "dao-vang",
+        "moduleName": "Đào Vàng Cổ Điển",
+        "description": "Game Đào Vàng (Gold Miner) kinh điển 10 Map: quăng dây, kéo vàng, thùng nổ TNT, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy",
+        "EP-DuyDN25"
+      ],
+      "lastPublishedAt": "2026-10-01T03:00:45.691Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-01T03:00:45.691Z",
+          "source": "zip"
         }
       ]
     }
