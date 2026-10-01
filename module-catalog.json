@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:39:11.161Z",
+  "updatedAt": "2026-10-01T01:39:18.300Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -327,17 +327,6 @@
           "author": "FPT IS Developer"
         }
       ]
-    },
-    {
-      "moduleId": "ioc-phan-quyen-nguoi-dung",
-      "moduleName": "Phân quyền người dùng IOC",
-      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị và kiểm tra tài khoản",
-      "version": "1.0.0",
-      "icon": "Users",
-      "category": "IOC Phân quyền",
-      "author": "IOC",
-      "requiredRole": "custom",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.0.zip"
     },
     {
       "moduleId": "game-2048",
