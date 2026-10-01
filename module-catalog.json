@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T07:05:48.834Z",
+  "updatedAt": "2026-10-01T07:14:41.794Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -42,9 +42,9 @@
       "moduleId": "authority-assign",
       "moduleName": "Phân Quyền Hồ Sơ",
       "description": "Phân quyền xử lý hồ sơ",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "icon": "♢",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/authority-assign-1.0.4.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/authority-assign-1.0.5.zip",
       "main": "main.js"
     },
     {
