@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T12:23:00.907Z",
+  "updatedAt": "2026-10-01T12:23:42.299Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -209,15 +209,6 @@
       "version": "1.0.3",
       "icon": "⇄",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-transfer-1.0.3.zip",
-      "main": "main.js"
-    },
-    {
-      "moduleId": "update-money",
-      "moduleName": "Update Lại Tiền",
-      "description": "Cập nhật lại số tiền",
-      "version": "1.0.3",
-      "icon": "₫",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/update-money-1.0.3.zip",
       "main": "main.js"
     },
     {
