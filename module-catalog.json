@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T12:24:58.754Z",
+  "updatedAt": "2026-10-01T12:28:05.523Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -9,15 +9,6 @@
       "version": "1.0.2",
       "icon": "👤",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/account-editor-1.0.2.zip",
-      "main": "main.js"
-    },
-    {
-      "moduleId": "aka247",
-      "moduleName": "AKA247",
-      "description": "Realtime AKA247",
-      "version": "1.0.3",
-      "icon": "⚡",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aka247-1.0.3.zip",
       "main": "main.js"
     },
     {
