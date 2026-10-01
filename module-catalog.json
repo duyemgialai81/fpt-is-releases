@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:47:25.110Z",
+  "updatedAt": "2026-10-01T01:47:47.187Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -853,6 +853,41 @@
         {
           "version": "1.0.7",
           "publishedAt": "2026-10-01T01:47:25.110Z",
+          "source": "zip",
+          "author": "IOC"
+        }
+      ]
+    },
+    {
+      "moduleId": "ioc-phan-quyen-nguoi-dung",
+      "moduleName": "Phân quyền người dùng IOC",
+      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị (khu vực, tỉnh, cấp cục) và kiểm tra tài khoản",
+      "version": "1.0.4",
+      "icon": "users",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.4.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-nguoi-dung",
+        "moduleName": "Phân quyền người dùng IOC",
+        "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị (khu vực, tỉnh, cấp cục) và kiểm tra tài khoản",
+        "action": "hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [hostname]",
+        "fields": [
+          {
+            "id": "url",
+            "label": "Url",
+            "type": "text",
+            "placeholder": "Nhập url...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "IOC",
+      "lastPublishedAt": "2026-10-01T01:47:47.187Z",
+      "publishHistory": [
+        {
+          "version": "1.0.4",
+          "publishedAt": "2026-10-01T01:47:47.187Z",
           "source": "zip",
           "author": "IOC"
         }
