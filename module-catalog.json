@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T12:28:05.523Z",
+  "updatedAt": "2026-10-01T12:33:02.375Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -921,6 +921,25 @@
           "version": "1.0.0",
           "publishedAt": "2026-10-01T03:00:45.691Z",
           "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "aim-bot",
+      "moduleName": "Aim Bot",
+      "description": "Game luyện ngắm - đấu tốc độ bắn mục tiêu với Bot AI qua 5 mức độ (Dễ, Trung Bình, Khó, Chuyên Gia, Địa Ngục) hoặc luyện tập một mình, thống kê độ chính xác và thời gian phản xạ",
+      "version": "1.0.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aim-bot-1.0.0.zip",
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-10-01T12:33:02.375Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-01T12:33:02.375Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
         }
       ]
     }
