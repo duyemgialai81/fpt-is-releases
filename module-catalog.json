@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T01:39:18.300Z",
+  "updatedAt": "2026-10-01T01:44:22.048Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -744,6 +744,41 @@
           "version": "1.0.0",
           "publishedAt": "2026-09-30T07:36:13.955Z",
           "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "ioc-phan-quyen-chi-so",
+      "moduleName": "Phân quyền chỉ số",
+      "description": "Cấp quyền chỉ số (mẹ / con) cho nhiều tài khoản cùng lúc",
+      "version": "1.0.4",
+      "icon": "gauge",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-chi-so-1.0.4.zip",
+      "uiSchema": {
+        "moduleId": "ioc-phan-quyen-chi-so",
+        "moduleName": "Phân quyền chỉ số",
+        "description": "Cấp quyền chỉ số (mẹ / con) cho nhiều tài khoản cùng lúc",
+        "action": "hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [hostname]",
+        "fields": [
+          {
+            "id": "url",
+            "label": "Url",
+            "type": "text",
+            "placeholder": "Nhập url...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "IOC",
+      "lastPublishedAt": "2026-10-01T01:44:22.048Z",
+      "publishHistory": [
+        {
+          "version": "1.0.4",
+          "publishedAt": "2026-10-01T01:44:22.048Z",
+          "source": "zip",
+          "author": "IOC"
         }
       ]
     }
