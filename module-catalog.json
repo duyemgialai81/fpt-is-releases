@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-02T08:27:00.552Z",
+  "updatedAt": "2026-10-02T09:15:21.263Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -885,10 +885,10 @@
     {
       "moduleId": "dao-vang",
       "moduleName": "Đào Vàng Cổ Điển",
-      "description": "Game Đào Vàng (Gold Miner) kinh điển 10 Map: quăng dây, kéo vàng, thùng nổ TNT, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
-      "version": "1.0.0",
+      "description": "Game Đào Vàng ",
+      "version": "1.0.5",
       "icon": "⛏️",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-1.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-1.0.5.zip",
       "uiSchema": {
         "moduleId": "dao-vang",
         "moduleName": "Đào Vàng Cổ Điển",
@@ -917,8 +917,14 @@
         "DoJadeRoy",
         "EP-DuyDN25"
       ],
-      "lastPublishedAt": "2026-10-01T03:02:37.471Z",
+      "lastPublishedAt": "2026-10-02T09:15:21.263Z",
       "publishHistory": [
+        {
+          "version": "1.0.5",
+          "publishedAt": "2026-10-02T09:15:21.263Z",
+          "source": "zip",
+          "author": "Gia Lai"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-01T03:02:37.471Z",
@@ -929,7 +935,8 @@
           "publishedAt": "2026-10-01T03:00:45.691Z",
           "source": "zip"
         }
-      ]
+      ],
+      "author": "Gia Lai"
     },
     {
       "moduleId": "aim-bot",
