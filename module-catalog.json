@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-01T13:26:13.240Z",
+  "updatedAt": "2026-10-02T08:27:00.552Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -683,10 +683,10 @@
     {
       "moduleId": "pikachu",
       "moduleName": "Pikachu",
-      "description": "Nối 2 ô giống nhau ",
-      "version": "1.0.0",
+      "description": "Game nối 2 ô giống nhau",
+      "version": "1.0.3",
       "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/pikachu-1.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/pikachu-1.0.3.zip",
       "uiSchema": {
         "moduleId": "pikachu",
         "moduleName": "Nối Hình Pikachu",
@@ -708,14 +708,21 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-09-30T07:36:13.955Z",
+      "lastPublishedAt": "2026-10-02T08:27:00.552Z",
       "publishHistory": [
+        {
+          "version": "1.0.3",
+          "publishedAt": "2026-10-02T08:27:00.552Z",
+          "source": "zip",
+          "author": "Gia Lai"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-09-30T07:36:13.955Z",
           "source": "zip"
         }
-      ]
+      ],
+      "author": "Gia Lai"
     },
     {
       "moduleId": "ioc-phan-quyen-chi-so",
