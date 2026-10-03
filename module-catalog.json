@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-02T09:15:21.263Z",
+  "updatedAt": "2026-10-03T05:13:45.963Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -976,6 +976,69 @@
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-01T12:33:02.375Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        }
+      ]
+    },
+    {
+      "moduleId": "co-vua",
+      "moduleName": "Cờ Vua",
+      "description": "Game cờ vua đầy đủ luật (nhập thành, bắt tốt qua đường, phong cấp, chiếu hết, hòa) - đấu với máy 7 mức độ, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC) qua Internet / mạng LAN, có điểm danh vọng, đấu rank và bảng xếp hạng",
+      "version": "1.0.0",
+      "icon": "crown",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-vua-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "co-vua",
+        "moduleName": "Cờ Vua",
+        "description": "Game cờ vua đầy đủ luật (nhập thành, bắt tốt qua đường, phong cấp, chiếu hết, hòa) - đấu với máy 7 mức độ, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC) qua Internet / mạng LAN, có điểm danh vọng, đấu rank và bảng xếp hạng",
+        "action": "get-hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [get-hostname]",
+        "fields": [
+          {
+            "id": "code",
+            "label": "Code",
+            "type": "text",
+            "placeholder": "Nhập code...",
+            "defaultValue": ""
+          },
+          {
+            "id": "reqId",
+            "label": "Req Id",
+            "type": "text",
+            "placeholder": "Nhập req id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "sdp",
+            "label": "Sdp",
+            "type": "text",
+            "placeholder": "Nhập sdp...",
+            "defaultValue": ""
+          },
+          {
+            "id": "error",
+            "label": "Error",
+            "type": "text",
+            "placeholder": "Nhập error...",
+            "defaultValue": ""
+          },
+          {
+            "id": "timeoutMs",
+            "label": "Timeout Ms",
+            "type": "text",
+            "placeholder": "Nhập timeout ms...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-10-03T05:13:45.963Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-03T05:13:45.963Z",
           "source": "zip",
           "author": "FPT IS Developer"
         }
