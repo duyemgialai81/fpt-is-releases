@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-05T01:44:09.759Z",
+  "updatedAt": "2026-10-05T06:52:39.736Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1022,6 +1022,45 @@
         {
           "version": "1.0.5",
           "publishedAt": "2026-10-05T01:44:09.759Z",
+          "source": "zip",
+          "author": "Gia Lai"
+        }
+      ]
+    },
+    {
+      "moduleId": "ui-themes",
+      "moduleName": "Quản Lý Giao Diện",
+      "description": "Kho giao diện của hệ thống: chọn, xem trước và thêm kiểu UI mới ",
+      "version": "1.0.4",
+      "icon": "layers",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ui-themes-1.0.4.zip",
+      "uiSchema": {
+        "moduleId": "ui-themes",
+        "moduleName": "Quản Lý Giao Diện",
+        "description": "Kho giao diện của hệ thống: chọn, xem trước và thêm kiểu UI mới (Classic, Pro, Neo...) mà không cần cập nhật app",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "author": "Gia Lai",
+      "lastPublishedAt": "2026-10-05T06:52:39.735Z",
+      "publishHistory": [
+        {
+          "version": "1.0.4",
+          "publishedAt": "2026-10-05T06:52:39.736Z",
           "source": "zip",
           "author": "Gia Lai"
         }
