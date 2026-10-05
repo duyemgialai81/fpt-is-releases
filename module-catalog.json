@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-05T12:30:15.041Z",
+  "updatedAt": "2026-10-05T12:30:43.510Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -327,9 +327,20 @@
       "moduleId": "do-min",
       "moduleName": "Dò Mìn",
       "description": "Game dò mìn kinh điển - lật ô, cắm cờ, tránh trúng mìn với 3 độ khó",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/do-min-1.0.0.zip"
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/do-min-1.2.0.zip",
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-10-05T12:30:43.509Z",
+      "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-10-05T12:30:43.510Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        }
+      ]
     },
     {
       "moduleId": "co-caro",
