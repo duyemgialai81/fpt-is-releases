@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-05T11:51:52.929Z",
+  "updatedAt": "2026-10-05T12:20:21.235Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -555,15 +555,15 @@
       "moduleId": "ekoland-tarot-reader",
       "moduleName": "Ekoland Tarot Reader",
       "description": "Trải bài Tarot Ekoland 1 hoặc 3 lá (79 lá, chiều Xuôi/Ngược) và nhận luận giải — chế độ demo cục bộ hoặc LLM OpenAI-compatible",
-      "version": "1.1.0",
-      "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ekoland-tarot-reader-1.1.0.zip",
+      "version": "1.2.0",
+      "icon": "moonstar",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ekoland-tarot-reader-1.2.0.zip",
       "uiSchema": {
         "moduleId": "ekoland-tarot-reader",
         "moduleName": "Ekoland Tarot Reader",
         "description": "Trải bài Tarot Ekoland 1 hoặc 3 lá (79 lá, chiều Xuôi/Ngược) và nhận luận giải — chế độ demo cục bộ hoặc LLM OpenAI-compatible",
-        "action": "status",
-        "submitText": "🚀 Bắt Đầu Thực Thi [status]",
+        "action": "yesno",
+        "submitText": "🚀 Bắt Đầu Thực Thi [yesno]",
         "fields": [
           {
             "id": "question",
@@ -590,8 +590,14 @@
       },
       "requiredRole": "custom",
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-05T11:51:52.928Z",
+      "lastPublishedAt": "2026-10-05T12:20:21.235Z",
       "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-10-05T12:20:21.235Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.1.0",
           "publishedAt": "2026-10-05T11:51:52.929Z",
