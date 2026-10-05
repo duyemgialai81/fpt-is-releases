@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-05T12:20:21.235Z",
+  "updatedAt": "2026-10-05T12:30:15.041Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -296,13 +296,19 @@
       "moduleId": "game-2048",
       "moduleName": "Game 2048",
       "description": "Trò chơi giải trí 2048 kinh điển - dùng phím mũi tên gộp các ô số giống nhau để đạt 2048",
-      "version": "1.1.0",
-      "icon": "gamepad2",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/game-2048-1.1.0.zip",
+      "version": "1.2.0",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/game-2048-1.2.0.zip",
       "requiredRole": "custom",
-      "author": "Anhcv11 Developer",
-      "lastPublishedAt": "2026-09-25T10:08:54.250Z",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-10-05T12:30:15.041Z",
       "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-10-05T12:30:15.041Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.1.0",
           "publishedAt": "2026-09-25T10:08:54.251Z",
