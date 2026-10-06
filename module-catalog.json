@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T09:38:49.906Z",
+  "updatedAt": "2026-10-06T09:59:11.774Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -78,9 +78,9 @@
       "moduleId": "change-password",
       "moduleName": "Cấp Lại Mật Khẩu",
       "description": "Cấp lại mật khẩu tài khoản",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "icon": "⌁",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-1.0.2.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-1.0.3.zip",
       "main": "main.js"
     },
     {
