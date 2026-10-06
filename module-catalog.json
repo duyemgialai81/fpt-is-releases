@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T10:32:47.155Z",
+  "updatedAt": "2026-10-06T10:33:15.350Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -651,9 +651,9 @@
       "moduleId": "hai-chien",
       "moduleName": "Hải Chiến",
       "description": "Game Hải Chiến (Battleship) 10x10 - xếp 5 tàu rồi bắn đoán vị trí tàu địch (trúng được bắn tiếp). Đấu với máy (3 mức) hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đấu Rank tính điểm, chống gian lận bằng cam kết bố cục tàu (commit-reveal)",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "icon": "ship",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/hai-chien-1.3.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/hai-chien-1.4.0.zip",
       "uiSchema": {
         "moduleId": "hai-chien",
         "moduleName": "Hải Chiến",
@@ -700,8 +700,14 @@
       },
       "requiredRole": "custom",
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-09-27T20:18:03.702Z",
+      "lastPublishedAt": "2026-10-06T10:33:15.350Z",
       "publishHistory": [
+        {
+          "version": "1.4.0",
+          "publishedAt": "2026-10-06T10:33:15.350Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.3.0",
           "publishedAt": "2026-09-27T20:18:03.702Z",
