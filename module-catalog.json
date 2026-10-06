@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T10:33:15.350Z",
+  "updatedAt": "2026-10-06T12:12:39.871Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -625,8 +625,14 @@
       },
       "requiredRole": "custom",
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-05T12:20:21.235Z",
+      "lastPublishedAt": "2026-10-06T12:12:39.871Z",
       "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-10-06T12:12:39.871Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.2.0",
           "publishedAt": "2026-10-05T12:20:21.235Z",
