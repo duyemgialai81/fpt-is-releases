@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T10:30:35.442Z",
+  "updatedAt": "2026-10-06T10:31:03.187Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -345,15 +345,15 @@
     {
       "moduleId": "co-caro",
       "moduleName": "Cờ Caro",
-      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
-      "version": "2.8.4",
+      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
+      "version": "2.9.0",
       "icon": "grid3x3",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.8.4.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.9.0.zip",
       "requiredRole": "custom",
       "uiSchema": {
         "moduleId": "co-caro",
         "moduleName": "Cờ Caro",
-        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy, 2 người chơi cùng máy, hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
+        "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
         "action": "get-hostname",
         "submitText": "🚀 Bắt Đầu Thực Thi [get-hostname]",
         "fields": [
@@ -395,8 +395,14 @@
         ]
       },
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-01T05:38:02.606Z",
+      "lastPublishedAt": "2026-10-06T10:31:03.187Z",
       "publishHistory": [
+        {
+          "version": "2.9.0",
+          "publishedAt": "2026-10-06T10:31:03.187Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "2.8.4",
           "publishedAt": "2026-10-01T05:38:02.607Z",
