@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T09:59:11.774Z",
+  "updatedAt": "2026-10-06T10:30:35.442Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -927,13 +927,19 @@
       "moduleId": "aim-bot",
       "moduleName": "Aim Bot",
       "description": "Game luyện ngắm - đấu tốc độ bắn bia (tâm +3, vòng giữa +2, vòng ngoài +1, bắn trượt bị trừ điểm nhân đôi) với Bot AI qua 5 mức độ (Dễ, Trung Bình, Khó, Chuyên Gia, Địa Ngục) hoặc luyện tập một mình, thống kê độ chính xác, thời gian phản xạ, tổng kết điểm mỗi ván lên bảng xếp hạng online",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "icon": "crosshair",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aim-bot-1.4.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aim-bot-1.5.0.zip",
       "requiredRole": "custom",
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-01T13:26:13.240Z",
+      "lastPublishedAt": "2026-10-06T10:30:35.442Z",
       "publishHistory": [
+        {
+          "version": "1.5.0",
+          "publishedAt": "2026-10-06T10:30:35.442Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.4.0",
           "publishedAt": "2026-10-01T13:26:13.240Z",
