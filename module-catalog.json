@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T09:33:27.655Z",
+  "updatedAt": "2026-10-06T09:38:49.906Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -718,11 +718,11 @@
     },
     {
       "moduleId": "pikachu",
-      "moduleName": "Pikachu",
-      "description": "Game nối 2 ô giống nhau",
-      "version": "1.0.3",
+      "moduleName": "Nối Hình Pikachu",
+      "description": "Game nối 2 ô giống nhau (kiểu Pikachu/Onet), tính giờ, tính điểm, gợi ý và xáo bài",
+      "version": "1.1.0",
       "icon": "sparkles",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/pikachu-1.0.3.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/pikachu-1.1.0.zip",
       "uiSchema": {
         "moduleId": "pikachu",
         "moduleName": "Nối Hình Pikachu",
@@ -744,8 +744,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-10-02T08:27:00.552Z",
+      "lastPublishedAt": "2026-10-06T09:38:49.906Z",
       "publishHistory": [
+        {
+          "version": "1.1.0",
+          "publishedAt": "2026-10-06T09:38:49.906Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.3",
           "publishedAt": "2026-10-02T08:27:00.552Z",
