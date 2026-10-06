@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T12:12:39.871Z",
+  "updatedAt": "2026-10-06T13:09:39.340Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1212,6 +1212,69 @@
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-06T10:31:31.686Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        }
+      ]
+    },
+    {
+      "moduleId": "tien-len",
+      "moduleName": "Tiến Lên Miền Nam",
+      "description": "Game bài Tiến Lên Miền Nam 4 người đầy đủ luật (sảnh, đôi thông, tứ quý, chặt heo, tới trắng) - đánh với 3 máy 4 mức độ hoặc chơi online P2P (WebRTC) qua Internet / mạng LAN, ghế trống có máy ngồi, có điểm danh vọng, đấu rank và bảng xếp hạng (thắng/thua)",
+      "version": "1.0.0",
+      "icon": "spade",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tien-len-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "tien-len",
+        "moduleName": "Tiến Lên Miền Nam",
+        "description": "Game bài Tiến Lên Miền Nam 4 người đầy đủ luật (sảnh, đôi thông, tứ quý, chặt heo, tới trắng) - đánh với 3 máy 4 mức độ hoặc chơi online P2P (WebRTC) qua Internet / mạng LAN, ghế trống có máy ngồi, có điểm danh vọng, đấu rank và bảng xếp hạng (thắng/thua)",
+        "action": "get-hostname",
+        "submitText": "🚀 Bắt Đầu Thực Thi [get-hostname]",
+        "fields": [
+          {
+            "id": "code",
+            "label": "Code",
+            "type": "text",
+            "placeholder": "Nhập code...",
+            "defaultValue": ""
+          },
+          {
+            "id": "reqId",
+            "label": "Req Id",
+            "type": "text",
+            "placeholder": "Nhập req id...",
+            "defaultValue": ""
+          },
+          {
+            "id": "sdp",
+            "label": "Sdp",
+            "type": "text",
+            "placeholder": "Nhập sdp...",
+            "defaultValue": ""
+          },
+          {
+            "id": "error",
+            "label": "Error",
+            "type": "text",
+            "placeholder": "Nhập error...",
+            "defaultValue": ""
+          },
+          {
+            "id": "timeoutMs",
+            "label": "Timeout Ms",
+            "type": "text",
+            "placeholder": "Nhập timeout ms...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-10-06T13:09:39.340Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-06T13:09:39.340Z",
           "source": "zip",
           "author": "FPT IS Developer"
         }
