@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-07T03:58:33.332Z",
+  "updatedAt": "2026-10-07T04:50:45.384Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -9,15 +9,6 @@
       "version": "1.0.2",
       "icon": "👤",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/account-editor-1.0.2.zip",
-      "main": "main.js"
-    },
-    {
-      "moduleId": "assignee-extractor",
-      "moduleName": "Tìm MHS bằng ticket",
-      "description": "Tìm mã hồ sơ bằng ticket",
-      "version": "1.0.4",
-      "icon": "♙",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/assignee-extractor-1.0.4.zip",
       "main": "main.js"
     },
     {
