@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-06T13:09:39.340Z",
+  "updatedAt": "2026-10-07T03:58:33.332Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -258,14 +258,14 @@
       "moduleId": "tra-cuu-qdtha",
       "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
       "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "icon": "search",
       "category": "Nghiệp Vụ",
       "author": "FPT IS Developer",
       "requiredRole": "custom",
       "hasBackend": true,
       "main": "main.js",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.1.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.2.0.zip",
       "uiSchema": {
         "moduleId": "tra-cuu-qdtha",
         "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
@@ -282,8 +282,14 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-09-25T11:07:52.783Z",
+      "lastPublishedAt": "2026-10-07T03:58:33.331Z",
       "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-10-07T03:58:33.332Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.1.0",
           "publishedAt": "2026-09-25T11:07:52.783Z",
