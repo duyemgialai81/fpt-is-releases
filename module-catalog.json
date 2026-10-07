@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-07T09:32:16.773Z",
+  "updatedAt": "2026-10-07T09:46:33.531Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1286,6 +1286,15 @@
           "author": "FPT IS Developer"
         }
       ]
+    },
+    {
+      "moduleId": "village-and-farm",
+      "version": "1.0.0",
+      "moduleName": "Làng Quê & Nông Trại",
+      "description": "Game mô phỏng nông trại 2D & xây dựng làng Oakwood: trồng trọt, tưới nước, chăn nuôi, thu hoạch, giao thương và giải trừ lời nguyền",
+      "icon": "🌾",
+      "main": "main.js",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/village-and-farm-1.0.0.zip"
     }
   ]
 }
