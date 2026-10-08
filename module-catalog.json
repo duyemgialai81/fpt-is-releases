@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-08T12:18:39.006Z",
+  "updatedAt": "2026-10-08T12:39:28.063Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1361,9 +1361,9 @@
       "moduleId": "system-proxy",
       "moduleName": "Proxy Máy Tính",
       "description": "Proxy HTTP/HTTPS chạy trên máy để khai báo trong Cài đặt proxy của Windows; nhập danh sách link target (tập lệnh PAC), xem nhật ký request. Vẫn chạy khi chuyển module khác",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "icon": "network",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/system-proxy-1.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/system-proxy-1.1.0.zip",
       "uiSchema": {
         "moduleId": "system-proxy",
         "moduleName": "Proxy Máy Tính",
@@ -1396,8 +1396,14 @@
       },
       "requiredRole": "custom",
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-08T12:18:39.006Z",
+      "lastPublishedAt": "2026-10-08T12:39:28.063Z",
       "publishHistory": [
+        {
+          "version": "1.1.0",
+          "publishedAt": "2026-10-08T12:39:28.063Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-08T12:18:39.006Z",
