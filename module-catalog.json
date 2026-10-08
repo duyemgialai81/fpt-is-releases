@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-07T12:11:01.856Z",
+  "updatedAt": "2026-10-08T08:12:58.773Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1301,6 +1301,45 @@
       "icon": "🌾",
       "main": "main.js",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/village-and-farm-1.0.0.zip"
+    },
+    {
+      "moduleId": "audition",
+      "moduleName": "Audition",
+      "description": "Game nhảy theo nhịp kiểu Audition: bấm mũi tên theo chuỗi, canh Space đúng nhịp, nhân vật nhảy trên sân khấu",
+      "version": "1.1.0",
+      "icon": "gamepad",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/audition-1.1.0.zip",
+      "uiSchema": {
+        "moduleId": "audition",
+        "moduleName": "Audition Nhảy Theo Nhịp",
+        "description": "Game nhảy theo nhịp kiểu Audition: bấm mũi tên theo chuỗi, canh Space đúng nhịp, nhân vật nhảy trên sân khấu",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "author": "Gia Lai",
+      "lastPublishedAt": "2026-10-08T08:12:58.772Z",
+      "publishHistory": [
+        {
+          "version": "1.1.0",
+          "publishedAt": "2026-10-08T08:12:58.773Z",
+          "source": "zip",
+          "author": "Gia Lai"
+        }
+      ]
     }
   ]
 }
