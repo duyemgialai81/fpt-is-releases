@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-09T08:21:12.319Z",
+  "updatedAt": "2026-10-09T10:16:01.829Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -751,7 +751,7 @@
     },
     {
       "moduleId": "pikachu",
-      "moduleName": "Pikachu",
+      "moduleName": "Nối Hình Pikachu",
       "description": "Game nối 2 ô giống nhau (kiểu Pikachu/Onet), tính giờ, tính điểm, gợi ý và xáo bài",
       "version": "1.1.1",
       "icon": "gamepad",
@@ -777,8 +777,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-10-08T10:24:49.478Z",
+      "lastPublishedAt": "2026-10-09T10:16:01.828Z",
       "publishHistory": [
+        {
+          "version": "1.1.1",
+          "publishedAt": "2026-10-09T10:16:01.829Z",
+          "source": "zip"
+        },
         {
           "version": "1.1.1",
           "publishedAt": "2026-10-08T10:24:49.478Z",
