@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-09T02:01:06.353Z",
+  "updatedAt": "2026-10-09T03:31:16.175Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1354,67 +1354,6 @@
           "publishedAt": "2026-10-08T08:12:58.773Z",
           "source": "zip",
           "author": "Gia Lai"
-        }
-      ]
-    },
-    {
-      "moduleId": "system-proxy",
-      "moduleName": "Proxy Máy Tính",
-      "description": "Proxy HTTP/HTTPS chạy trên máy để khai báo trong Cài đặt proxy của Windows; nhập danh sách link target (tập lệnh PAC), xem nhật ký request. Vẫn chạy khi chuyển module khác",
-      "version": "1.1.1",
-      "icon": "network",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/system-proxy-1.1.1.zip",
-      "uiSchema": {
-        "moduleId": "system-proxy",
-        "moduleName": "Proxy Máy Tính",
-        "description": "Proxy HTTP/HTTPS chạy trên máy để khai báo trong Cài đặt proxy của Windows; nhập danh sách link target (tập lệnh PAC), xem nhật ký request. Vẫn chạy khi chuyển module khác",
-        "action": "process-task",
-        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
-        "fields": [
-          {
-            "id": "port",
-            "label": "Port",
-            "type": "text",
-            "placeholder": "Nhập port...",
-            "defaultValue": ""
-          },
-          {
-            "id": "lan",
-            "label": "Lan",
-            "type": "text",
-            "placeholder": "Nhập lan...",
-            "defaultValue": ""
-          },
-          {
-            "id": "targets",
-            "label": "Targets",
-            "type": "text",
-            "placeholder": "Nhập targets...",
-            "defaultValue": ""
-          }
-        ]
-      },
-      "requiredRole": "custom",
-      "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-08T13:03:00.432Z",
-      "publishHistory": [
-        {
-          "version": "1.1.1",
-          "publishedAt": "2026-10-08T13:03:00.432Z",
-          "source": "zip",
-          "author": "FPT IS Developer"
-        },
-        {
-          "version": "1.1.0",
-          "publishedAt": "2026-10-08T12:39:28.063Z",
-          "source": "zip",
-          "author": "FPT IS Developer"
-        },
-        {
-          "version": "1.0.0",
-          "publishedAt": "2026-10-08T12:18:39.006Z",
-          "source": "zip",
-          "author": "FPT IS Developer"
         }
       ]
     }
