@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-08T13:03:00.432Z",
+  "updatedAt": "2026-10-09T01:44:18.025Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1415,6 +1415,43 @@
           "publishedAt": "2026-10-08T12:18:39.006Z",
           "source": "zip",
           "author": "FPT IS Developer"
+        }
+      ]
+    },
+    {
+      "moduleId": "ho-tro-tu-xa",
+      "moduleName": "Hỗ Trợ Từ Xa",
+      "description": "Thông tin máy (tên, IP, người dùng) để hỗ trợ qua mạng nội bộ, mở Remote Desktop / Remote Assistance, chẩn đoán UltraViewer không lấy được ID và tạo báo cáo gửi đội mạng",
+      "version": "1.0.0",
+      "icon": "zap",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ho-tro-tu-xa-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "ho-tro-tu-xa",
+        "moduleName": "Hỗ Trợ Từ Xa",
+        "description": "Thông tin máy (tên, IP, người dùng) để hỗ trợ qua mạng nội bộ, mở Remote Desktop / Remote Assistance, chẩn đoán UltraViewer không lấy được ID và tạo báo cáo gửi đội mạng",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-10-09T01:44:18.024Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-09T01:44:18.025Z",
+          "source": "zip"
         }
       ]
     }
