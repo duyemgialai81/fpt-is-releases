@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-09T08:15:20.831Z",
+  "updatedAt": "2026-10-09T08:21:12.319Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1354,43 +1354,6 @@
           "publishedAt": "2026-10-08T08:12:58.773Z",
           "source": "zip",
           "author": "Gia Lai"
-        }
-      ]
-    },
-    {
-      "moduleId": "proxy-server",
-      "moduleName": "Proxy Server",
-      "description": "HTTP/HTTPS forward proxy chạy trên máy này: bật/tắt, mật khẩu, giới hạn IP, chặn tên miền, nhật ký truy cập và thử kết nối (YouTube, Google...)",
-      "version": "1.0.0",
-      "icon": "network",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/proxy-server-1.0.0.zip",
-      "uiSchema": {
-        "moduleId": "proxy-server",
-        "moduleName": "Proxy Server",
-        "description": "HTTP/HTTPS forward proxy chạy trên máy này: bật/tắt, mật khẩu, giới hạn IP, chặn tên miền, nhật ký truy cập và thử kết nối (YouTube, Google...)",
-        "action": "process-task",
-        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
-        "fields": [
-          {
-            "id": "taskId",
-            "label": "Mã Tác Vụ",
-            "type": "text",
-            "defaultValue": "TASK-001"
-          },
-          {
-            "id": "text",
-            "label": "Nội Dung Xử Lý",
-            "type": "textarea",
-            "defaultValue": "Dữ liệu mẫu"
-          }
-        ]
-      },
-      "lastPublishedAt": "2026-10-09T08:15:20.831Z",
-      "publishHistory": [
-        {
-          "version": "1.0.0",
-          "publishedAt": "2026-10-09T08:15:20.831Z",
-          "source": "zip"
         }
       ]
     }
