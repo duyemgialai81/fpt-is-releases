@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-11T05:47:21.323Z",
+  "updatedAt": "2026-10-11T06:00:46.695Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1371,9 +1371,9 @@
       "moduleId": "eioc-form-builder",
       "moduleName": "eIOC Kéo Thả Biểu Mẫu",
       "description": "Quản lý & thiết kế biểu mẫu eIOC THADS kéo thả, phân công nhập liệu 63 tỉnh",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "icon": "📝",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eioc-form-builder-1.0.5.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eioc-form-builder-1.0.6.zip",
       "main": "main.js",
       "uiSchema": {
         "moduleId": "eioc-form-builder",
