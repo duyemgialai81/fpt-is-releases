@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-12T07:19:05.426Z",
+  "updatedAt": "2026-10-12T08:34:44.247Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1138,14 +1138,14 @@
     {
       "moduleId": "dao-vang",
       "moduleName": "Đào Vàng Cổ Điển",
-      "description": "Game Đào Vàng (Gold Miner) kinh điển 10 Map: quăng dây, kéo vàng, thùng nổ TNT, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
-      "version": "3.2.6",
+      "description": "Game Đào Vàng (Gold Miner) kinh điển 100 Map đỉnh cao: quăng dây, kéo vàng, thùng nổ TNT, 5 đại vực thử thách mới, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
+      "version": "3.3.1",
       "icon": "pickaxe",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.2.6.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.3.1.zip",
       "uiSchema": {
         "moduleId": "dao-vang",
         "moduleName": "Đào Vàng Cổ Điển",
-        "description": "Game Đào Vàng (Gold Miner) kinh điển 10 Map: quăng dây, kéo vàng, thùng nổ TNT, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
+        "description": "Game Đào Vàng (Gold Miner) kinh điển 100 Map đỉnh cao: quăng dây, kéo vàng, thùng nổ TNT, 5 đại vực thử thách mới, đồ họa 3D bối cảnh rừng cây và cửa hàng nâng cấp",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -1164,8 +1164,13 @@
         ]
       },
       "author": "Gia Lai Tây",
-      "lastPublishedAt": "2026-10-07T09:32:16.773Z",
+      "lastPublishedAt": "2026-10-12T08:34:44.246Z",
       "publishHistory": [
+        {
+          "version": "3.3.1",
+          "publishedAt": "2026-10-12T08:34:44.247Z",
+          "source": "zip"
+        },
         {
           "version": "3.2.6",
           "publishedAt": "2026-10-07T09:32:16.773Z",
