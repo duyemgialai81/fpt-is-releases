@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-12T04:08:26.988Z",
+  "updatedAt": "2026-10-12T04:09:03.187Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -364,11 +364,11 @@
         "support-request",
         "dashboard",
         "modules",
-        "change-password-sanbox-toa-an",
-        "ioc-phan-quyen-bieu-mau",
-        "ioc-phan-quyen-nguoi-dung"
+        "change-password-sanbox-toa-an"
       ],
       "disallowedModules": [
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bao-cao",
         "authority-assign"
       ]
@@ -401,12 +401,12 @@
         "dashboard",
         "support-request",
         "modules",
-        "change-password-sanbox-toa-an"
+        "change-password-sanbox-toa-an",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung"
       ],
       "disallowedModules": [
-        "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bao-cao",
-        "ioc-phan-quyen-bieu-mau",
         "authority-assign"
       ]
     }
