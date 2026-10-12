@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-12T04:05:54.953Z",
+  "updatedAt": "2026-10-12T04:08:26.988Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
@@ -364,11 +364,11 @@
         "support-request",
         "dashboard",
         "modules",
-        "change-password-sanbox-toa-an"
+        "change-password-sanbox-toa-an",
+        "ioc-phan-quyen-bieu-mau",
+        "ioc-phan-quyen-nguoi-dung"
       ],
       "disallowedModules": [
-        "ioc-phan-quyen-bieu-mau",
-        "ioc-phan-quyen-nguoi-dung",
         "ioc-phan-quyen-bao-cao",
         "authority-assign"
       ]
