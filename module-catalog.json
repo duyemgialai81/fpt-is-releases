@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-12T09:00:27.601Z",
+  "updatedAt": "2026-10-12T10:48:48.223Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -249,19 +249,19 @@
     {
       "moduleId": "tra-cuu-qdtha",
       "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
-      "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
-      "version": "1.2.0",
+      "description": "Tra cứu theo Ticket ID hoặc Số QĐ + email: tự động lấy Ticket ID rồi tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
+      "version": "1.3.0",
       "icon": "search",
       "category": "Nghiệp Vụ",
-      "author": "FPT IS Developer",
+      "author": "AnhCV11",
       "requiredRole": "custom",
       "hasBackend": true,
       "main": "main.js",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.2.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.3.0.zip",
       "uiSchema": {
         "moduleId": "tra-cuu-qdtha",
         "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
-        "description": "Nhập danh sách Ticket ID (mỗi dòng 1 mã), tự động tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
+        "description": "Tra cứu theo Ticket ID hoặc Số QĐ + email: tự động lấy Ticket ID rồi tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
         "action": "lookup-tickets",
         "submitText": "🚀 Bắt Đầu Thực Thi [lookup-tickets]",
         "fields": [
@@ -271,11 +271,31 @@
             "type": "text",
             "placeholder": "Nhập danh sách ticket id...",
             "defaultValue": ""
+          },
+          {
+            "id": "email",
+            "label": "Địa Chỉ Email",
+            "type": "text",
+            "placeholder": "Nhập địa chỉ email...",
+            "defaultValue": ""
+          },
+          {
+            "id": "docNumbers",
+            "label": "Doc Numbers",
+            "type": "text",
+            "placeholder": "Nhập doc numbers...",
+            "defaultValue": ""
           }
         ]
       },
-      "lastPublishedAt": "2026-10-07T03:58:33.331Z",
+      "lastPublishedAt": "2026-10-12T10:48:48.223Z",
       "publishHistory": [
+        {
+          "version": "1.3.0",
+          "publishedAt": "2026-10-12T10:48:48.223Z",
+          "source": "zip",
+          "author": "AnhCV11"
+        },
         {
           "version": "1.2.0",
           "publishedAt": "2026-10-07T03:58:33.332Z",
