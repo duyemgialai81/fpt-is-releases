@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-13T04:57:52.582Z",
+  "updatedAt": "2026-10-13T06:41:37.324Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1470,6 +1470,43 @@
           "publishedAt": "2026-10-12T09:00:27.601Z",
           "source": "zip",
           "author": "DuyDN25"
+        }
+      ]
+    },
+    {
+      "moduleId": "auto-login-sandbox",
+      "moduleName": "Auto Login Sandbox",
+      "description": "Tự động đăng nhập vào hệ thống Sandbox (kytaplatform.com)",
+      "version": "1.0.0",
+      "icon": "🧪",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-sandbox-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "auto-login-sandbox",
+        "moduleName": "Auto Login Sandbox",
+        "description": "Tự động đăng nhập vào hệ thống Sandbox (kytaplatform.com)",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-10-13T06:41:37.324Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-13T06:41:37.324Z",
+          "source": "zip"
         }
       ]
     }
