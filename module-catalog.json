@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-13T06:54:28.468Z",
+  "updatedAt": "2026-10-13T08:16:14.253Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1154,16 +1154,16 @@
     {
       "moduleId": "ui-themes",
       "moduleName": "Quản Lý Giao Diện",
-      "description": "Kho giao diện của hệ thống: chọn, xem trước và thêm kiểu UI mới ",
-      "version": "1.0.4",
-      "icon": "layers",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ui-themes-1.0.4.zip",
+      "description": "Kho giao diện hệ thống: giao diện Cyber Hacker, Chính Phủ, Classic, Pro, Neo; hỗ trợ cài đặt & tải về file ZIP giao diện chia sẻ dễ dàng",
+      "version": "1.0.7",
+      "icon": "palette",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ui-themes-1.0.7.zip",
       "uiSchema": {
         "moduleId": "ui-themes",
         "moduleName": "Quản Lý Giao Diện",
-        "description": "Kho giao diện của hệ thống: chọn, xem trước và thêm kiểu UI mới (Classic, Pro, Neo...) mà không cần cập nhật app",
-        "action": "process-task",
-        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "description": "Kho giao diện hệ thống: giao diện Cyber Hacker, Chính Phủ, Classic, Pro, Neo; hỗ trợ cài đặt & tải về file ZIP giao diện chia sẻ dễ dàng",
+        "action": "export-theme-zip",
+        "submitText": "🚀 Bắt Đầu Thực Thi [export-theme-zip]",
         "fields": [
           {
             "id": "taskId",
@@ -1180,8 +1180,13 @@
         ]
       },
       "author": "Gia Lai",
-      "lastPublishedAt": "2026-10-05T06:52:39.735Z",
+      "lastPublishedAt": "2026-10-13T08:16:14.253Z",
       "publishHistory": [
+        {
+          "version": "1.0.7",
+          "publishedAt": "2026-10-13T08:16:14.253Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.4",
           "publishedAt": "2026-10-05T06:52:39.736Z",
