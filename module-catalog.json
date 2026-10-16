@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-16T08:13:37.279Z",
+  "updatedAt": "2026-10-16T08:42:20.036Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1229,8 +1229,13 @@
         ]
       },
       "author": "Gia Lai Tây",
-      "lastPublishedAt": "2026-10-16T08:13:37.279Z",
+      "lastPublishedAt": "2026-10-16T08:42:20.036Z",
       "publishHistory": [
+        {
+          "version": "3.7.0",
+          "publishedAt": "2026-10-16T08:42:20.036Z",
+          "source": "zip"
+        },
         {
           "version": "3.7.0",
           "publishedAt": "2026-10-16T08:13:37.279Z",
