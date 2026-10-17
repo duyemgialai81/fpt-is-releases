@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-17T05:23:59.871Z",
+  "updatedAt": "2026-10-17T08:56:56.539Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1549,9 +1549,9 @@
       "moduleId": "bonoivu",
       "moduleName": "Phân Quyền Bộ Nội Vụ",
       "description": "Công cụ gán chức vụ & phân quyền người dùng eAccount Bộ Nội Vụ (eDLM, eTask, eKPI)",
-      "version": "1.0.0",
-      "icon": "🏛️",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/bonoivu-1.0.0.zip",
+      "version": "1.1.1",
+      "icon": "user-check",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/bonoivu-1.1.1.zip",
       "uiSchema": {
         "moduleId": "bonoivu",
         "moduleName": "Phân Quyền Bộ Nội Vụ",
@@ -1573,9 +1573,15 @@
           }
         ]
       },
-      "author": "FPT-IS & MOHA Admin",
-      "lastPublishedAt": "2026-10-17T05:23:59.870Z",
+      "author": "DuyDN25",
+      "lastPublishedAt": "2026-10-17T08:56:56.539Z",
       "publishHistory": [
+        {
+          "version": "1.1.1",
+          "publishedAt": "2026-10-17T08:56:56.539Z",
+          "source": "zip",
+          "author": "DuyDN25"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-17T05:23:59.871Z",
