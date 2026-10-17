@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-17T02:39:54.110Z",
+  "updatedAt": "2026-10-17T05:23:59.871Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1574,8 +1574,14 @@
         ]
       },
       "author": "FPT-IS & MOHA Admin",
-      "lastPublishedAt": "2026-10-17T02:39:54.109Z",
+      "lastPublishedAt": "2026-10-17T05:23:59.870Z",
       "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-17T05:23:59.871Z",
+          "source": "zip",
+          "author": "FPT-IS & MOHA Admin"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-10-17T02:39:54.109Z",
