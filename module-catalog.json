@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-16T08:42:20.036Z",
+  "updatedAt": "2026-10-17T02:39:54.110Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1542,6 +1542,45 @@
           "version": "1.0.0",
           "publishedAt": "2026-10-13T06:41:37.324Z",
           "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "bonoivu",
+      "moduleName": "Phân Quyền Bộ Nội Vụ",
+      "description": "Công cụ gán chức vụ & phân quyền người dùng eAccount Bộ Nội Vụ (eDLM, eTask, eKPI)",
+      "version": "1.0.0",
+      "icon": "🏛️",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/bonoivu-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "bonoivu",
+        "moduleName": "Phân Quyền Bộ Nội Vụ",
+        "description": "Công cụ gán chức vụ & phân quyền người dùng eAccount Bộ Nội Vụ (eDLM, eTask, eKPI)",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "author": "FPT-IS & MOHA Admin",
+      "lastPublishedAt": "2026-10-17T02:39:54.109Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-17T02:39:54.109Z",
+          "source": "zip",
+          "author": "FPT-IS & MOHA Admin"
         }
       ]
     }
