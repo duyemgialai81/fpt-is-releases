@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-17T08:56:56.539Z",
+  "updatedAt": "2026-10-19T04:20:43.456Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1593,6 +1593,43 @@
           "publishedAt": "2026-10-17T02:39:54.109Z",
           "source": "zip",
           "author": "FPT-IS & MOHA Admin"
+        }
+      ]
+    },
+    {
+      "moduleId": "auto-login-bo-noi-vu",
+      "moduleName": "Auto Login Bộ Nội Vụ",
+      "description": "Tự động đăng nhập vào hệ thống Bộ Nội Vụ (emoha.moha.gov.vn)",
+      "version": "1.0.0",
+      "icon": "shield-check",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-bo-noi-vu-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "auto-login-bo-noi-vu",
+        "moduleName": "Auto Login Bộ Nội Vụ",
+        "description": "Tự động đăng nhập vào hệ thống Bộ Nội Vụ (emoha.moha.gov.vn)",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-10-19T04:20:43.456Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-10-19T04:20:43.456Z",
+          "source": "zip"
         }
       ]
     }
