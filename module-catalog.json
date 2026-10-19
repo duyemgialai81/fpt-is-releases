@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-19T06:41:00.936Z",
+  "updatedAt": "2026-10-19T07:21:48.301Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1586,9 +1586,9 @@
       "moduleId": "chia-se-dashboard",
       "moduleName": "Chia Sẻ Bàn Làm Việc",
       "description": "Nhập danh sách email, lấy ID qua ô tìm kiếm user eContract rồi chia sẻ dashboard eWorkspace theo lô 250 người",
-      "version": "1.1.4",
+      "version": "1.2.0",
       "icon": "refresh",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/chia-se-dashboard-1.1.4.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/chia-se-dashboard-1.2.0.zip",
       "uiSchema": {
         "moduleId": "chia-se-dashboard",
         "moduleName": "Chia Sẻ Bàn Làm Việc",
@@ -1612,8 +1612,14 @@
       },
       "requiredRole": "custom",
       "author": "FPT IS Developer",
-      "lastPublishedAt": "2026-10-19T06:41:00.936Z",
+      "lastPublishedAt": "2026-10-19T07:21:48.301Z",
       "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-10-19T07:21:48.301Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
+        },
         {
           "version": "1.1.4",
           "publishedAt": "2026-10-19T06:41:00.936Z",
