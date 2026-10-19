@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-19T07:21:48.301Z",
+  "updatedAt": "2026-10-19T07:41:39.346Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -117,11 +117,40 @@
       "moduleId": "dashboard",
       "moduleName": "Bảng Điều Khiển",
       "description": "Quản lý dashboard và môi trường làm việc",
-      "version": "1.0.1",
-      "icon": "▦",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dashboard-1.0.1.zip",
+      "version": "1.0.2",
+      "icon": "cpu",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dashboard-1.0.2.zip",
       "hasBackend": true,
-      "main": "main.js"
+      "main": "main.js",
+      "uiSchema": {
+        "moduleId": "dashboard",
+        "moduleName": "Bảng Điều Khiển",
+        "description": "Quản lý dashboard và môi trường làm việc",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-10-19T07:41:39.346Z",
+      "publishHistory": [
+        {
+          "version": "1.0.2",
+          "publishedAt": "2026-10-19T07:41:39.346Z",
+          "source": "zip"
+        }
+      ]
     },
     {
       "moduleId": "deep-scan",
