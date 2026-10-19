@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-19T04:57:23.305Z",
+  "updatedAt": "2026-10-19T06:41:00.936Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1579,6 +1579,46 @@
           "version": "1.0.0",
           "publishedAt": "2026-10-19T04:20:43.456Z",
           "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "chia-se-dashboard",
+      "moduleName": "Chia Sẻ Bàn Làm Việc",
+      "description": "Nhập danh sách email, lấy ID qua ô tìm kiếm user eContract rồi chia sẻ dashboard eWorkspace theo lô 250 người",
+      "version": "1.1.4",
+      "icon": "refresh",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/chia-se-dashboard-1.1.4.zip",
+      "uiSchema": {
+        "moduleId": "chia-se-dashboard",
+        "moduleName": "Chia Sẻ Bàn Làm Việc",
+        "description": "Nhập danh sách email, lấy ID qua ô tìm kiếm user eContract rồi chia sẻ dashboard eWorkspace theo lô 250 người",
+        "action": "login",
+        "submitText": "🚀 Bắt Đầu Thực Thi [login]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "requiredRole": "custom",
+      "author": "FPT IS Developer",
+      "lastPublishedAt": "2026-10-19T06:41:00.936Z",
+      "publishHistory": [
+        {
+          "version": "1.1.4",
+          "publishedAt": "2026-10-19T06:41:00.936Z",
+          "source": "zip",
+          "author": "FPT IS Developer"
         }
       ]
     }
