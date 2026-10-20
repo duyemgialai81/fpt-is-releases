@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-19T07:41:39.346Z",
+  "updatedAt": "2026-10-20T05:35:13.664Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1654,6 +1654,51 @@
           "publishedAt": "2026-10-19T06:41:00.936Z",
           "source": "zip",
           "author": "FPT IS Developer"
+        }
+      ]
+    },
+    {
+      "moduleId": "bonoivu",
+      "moduleName": "Phân Quyền Bộ Nội Vụ",
+      "description": "Công cụ gán chức vụ & phân quyền người dùng eAccount Bộ Nội Vụ (eDLM, eTask, eKPI)",
+      "version": "1.1.1",
+      "icon": "sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/bonoivu-1.1.1.zip",
+      "uiSchema": {
+        "moduleId": "bonoivu",
+        "moduleName": "Phân Quyền Bộ Nội Vụ",
+        "description": "Công cụ gán chức vụ & phân quyền người dùng eAccount Bộ Nội Vụ (eDLM, eTask, eKPI)",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy"
+      ],
+      "author": "FPT-IS & MOHA Admin",
+      "lastPublishedAt": "2026-10-20T05:35:13.664Z",
+      "publishHistory": [
+        {
+          "version": "1.1.1",
+          "publishedAt": "2026-10-20T05:35:13.664Z",
+          "source": "zip",
+          "author": "FPT-IS & MOHA Admin"
         }
       ]
     }
