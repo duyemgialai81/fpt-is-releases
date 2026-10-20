@@ -1,12 +1,13 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-10-12T04:09:03.187Z",
+  "updatedAt": "2026-10-20T13:36:46.273Z",
   "moduleRules": {
     "screen-permissions": {
       "requiredRole": "custom",
       "allowedMachines": [
         "EP-DUYDN25",
-        "DOJADEROY"
+        "DOJADEROY",
+        "EP-ANHCV11"
       ],
       "description": "Chỉ hiển thị cho máy Admin phân quyền màn hình"
     },
@@ -329,7 +330,8 @@
         "authority-assign",
         "batch-delete-enforcement",
         "ioc-phan-quyen-nguoi-dung",
-        "ioc-phan-quyen-bieu-mau"
+        "ioc-phan-quyen-bieu-mau",
+        "screen-permissions"
       ],
       "disallowedModules": [
         "ioc-phan-quyen-bao-cao"
