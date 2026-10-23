@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-23T02:44:46.398Z",
+  "updatedAt": "2026-10-23T03:16:54.411Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1262,14 +1262,14 @@
     {
       "moduleId": "dao-vang",
       "moduleName": "Đào Vàng Cổ Điển",
-      "description": "Game Đào Vàng (Gold Miner) kinh điển 150 Màn đỉnh cao: 3 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
-      "version": "3.7.0",
+      "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: 4 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150, Mặt Trăng 151-200), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
+      "version": "3.8.5",
       "icon": "pickaxe",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.7.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.8.5.zip",
       "uiSchema": {
         "moduleId": "dao-vang",
         "moduleName": "Đào Vàng Cổ Điển",
-        "description": "Game Đào Vàng (Gold Miner) kinh điển 150 Màn đỉnh cao: 3 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
+        "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: 4 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150, Mặt Trăng 151-200), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -1288,8 +1288,13 @@
         ]
       },
       "author": "Gia Lai Tây",
-      "lastPublishedAt": "2026-10-16T08:42:20.036Z",
+      "lastPublishedAt": "2026-10-23T03:16:54.410Z",
       "publishHistory": [
+        {
+          "version": "3.8.5",
+          "publishedAt": "2026-10-23T03:16:54.411Z",
+          "source": "zip"
+        },
         {
           "version": "3.7.0",
           "publishedAt": "2026-10-16T08:42:20.036Z",
