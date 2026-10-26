@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-23T03:16:54.411Z",
+  "updatedAt": "2026-10-26T10:03:22.866Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -19,45 +19,6 @@
       "icon": "♢",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/authority-assign-1.0.5.zip",
       "main": "main.js"
-    },
-    {
-      "moduleId": "auto-login",
-      "moduleName": "Auto Login",
-      "description": "Tự động đăng nhập vào hệ thống",
-      "version": "1.0.27",
-      "icon": "🔐",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.27.zip",
-      "main": "main.js",
-      "hasBackend": true,
-      "uiSchema": {
-        "moduleId": "auto-login",
-        "moduleName": "Auto Login",
-        "description": "Tự động đăng nhập vào hệ thống",
-        "action": "process-task",
-        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
-        "fields": [
-          {
-            "id": "taskId",
-            "label": "Mã Tác Vụ",
-            "type": "text",
-            "defaultValue": "TASK-001"
-          },
-          {
-            "id": "text",
-            "label": "Nội Dung Xử Lý",
-            "type": "textarea",
-            "defaultValue": "Dữ liệu mẫu"
-          }
-        ]
-      },
-      "lastPublishedAt": "2026-10-13T04:57:52.582Z",
-      "publishHistory": [
-        {
-          "version": "1.0.27",
-          "publishedAt": "2026-10-13T04:57:52.582Z",
-          "source": "zip"
-        }
-      ]
     },
     {
       "moduleId": "batch-delete-enforcement",
