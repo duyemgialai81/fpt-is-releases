@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-27T01:55:40.143Z",
+  "updatedAt": "2026-10-27T05:35:31.894Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -1677,6 +1677,45 @@
           "version": "1.0.30",
           "publishedAt": "2026-10-26T10:03:41.378Z",
           "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "edlm-hoan-thanh-vb-den",
+      "moduleName": "Hoàn Thành Văn Bản Đến eDLM",
+      "description": "Dán token người dùng, chọn ngày, đọc danh sách văn bản đến (Chờ xử lý / Tất cả) rồi bấm Hoàn thành hàng loạt trên eDLM Bộ Nội vụ",
+      "version": "0.3.0",
+      "icon": "✅",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-hoan-thanh-vb-den-0.3.0.zip",
+      "uiSchema": {
+        "moduleId": "edlm-hoan-thanh-vb-den",
+        "moduleName": "Hoàn Thành Văn Bản Đến eDLM",
+        "description": "Dán token người dùng, chọn ngày, đọc danh sách văn bản đến (Chờ xử lý / Tất cả) rồi bấm Hoàn thành hàng loạt trên eDLM Bộ Nội vụ",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "author": "FPT-IS",
+      "lastPublishedAt": "2026-10-27T05:35:31.894Z",
+      "publishHistory": [
+        {
+          "version": "0.3.0",
+          "publishedAt": "2026-10-27T05:35:31.894Z",
+          "source": "zip",
+          "author": "FPT-IS"
         }
       ]
     }
