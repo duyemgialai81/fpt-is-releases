@@ -1,16 +1,7 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T15:58:09.211Z",
+  "updatedAt": "2026-10-28T15:58:23.200Z",
   "modules": [
-    {
-      "moduleId": "authority-assign",
-      "moduleName": "Phân Quyền Hồ Sơ",
-      "description": "Phân quyền xử lý hồ sơ",
-      "version": "1.0.6",
-      "icon": "♢",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/authority-assign-1.0.6.zip",
-      "main": "main.js"
-    },
     {
       "moduleId": "batch-delete-enforcement",
       "moduleName": "Xóa Hồ Sơ Hàng Loạt",
