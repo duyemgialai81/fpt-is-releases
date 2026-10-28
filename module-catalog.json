@@ -1,16 +1,7 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T03:32:00.415Z",
+  "updatedAt": "2026-10-28T15:58:09.211Z",
   "modules": [
-    {
-      "moduleId": "account-editor",
-      "moduleName": "Cán Bộ (eAccount)",
-      "description": "Chỉnh sửa tài khoản cán bộ",
-      "version": "1.0.3",
-      "icon": "👤",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/account-editor-1.0.3.zip",
-      "main": "main.js"
-    },
     {
       "moduleId": "authority-assign",
       "moduleName": "Phân Quyền Hồ Sơ",
