@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T03:25:23.384Z",
+  "updatedAt": "2026-10-28T03:32:00.415Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -104,8 +104,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-10-28T03:25:23.384Z",
+      "lastPublishedAt": "2026-10-28T03:32:00.415Z",
       "publishHistory": [
+        {
+          "version": "1.0.5",
+          "publishedAt": "2026-10-28T03:32:00.415Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.5",
           "publishedAt": "2026-10-28T03:25:23.384Z",
