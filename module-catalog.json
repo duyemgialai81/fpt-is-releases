@@ -1,16 +1,7 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T15:58:42.974Z",
+  "updatedAt": "2026-10-28T16:00:38.819Z",
   "modules": [
-    {
-      "moduleId": "call-log",
-      "moduleName": "Lịch Sử Gọi Lệnh",
-      "description": "Xem lịch sử gọi lệnh",
-      "version": "1.0.4",
-      "icon": "◷",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/call-log-1.0.4.zip",
-      "main": "main.js"
-    },
     {
       "moduleId": "change-case-code",
       "moduleName": "Đổi Mã Hồ Sơ",
