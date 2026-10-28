@@ -1,16 +1,7 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T15:58:33.749Z",
+  "updatedAt": "2026-10-28T15:58:42.974Z",
   "modules": [
-    {
-      "moduleId": "batch-search-receipts",
-      "moduleName": "Ticket Biên Lai",
-      "description": "Tra cứu biên lai hàng loạt",
-      "version": "1.0.4",
-      "icon": "⌕",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/batch-search-receipts-1.0.4.zip",
-      "main": "main.js"
-    },
     {
       "moduleId": "call-log",
       "moduleName": "Lịch Sử Gọi Lệnh",
