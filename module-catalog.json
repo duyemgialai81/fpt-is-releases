@@ -1,16 +1,7 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T16:00:47.984Z",
+  "updatedAt": "2026-10-28T16:01:00.690Z",
   "modules": [
-    {
-      "moduleId": "change-password",
-      "moduleName": "Cấp Lại Mật Khẩu",
-      "description": "Cấp lại mật khẩu tài khoản",
-      "version": "1.0.5",
-      "icon": "⌁",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-1.0.5.zip",
-      "main": "main.js"
-    },
     {
       "moduleId": "contract-receipt-manager",
       "moduleName": "Hợp Đồng & Biên Lai",
