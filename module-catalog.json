@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T02:56:57.804Z",
+  "updatedAt": "2026-10-28T03:25:23.384Z",
   "modules": [
     {
       "moduleId": "account-editor",
@@ -78,9 +78,9 @@
       "moduleId": "dashboard",
       "moduleName": "Bảng Điều Khiển",
       "description": "Quản lý dashboard và môi trường làm việc",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "icon": "▦",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dashboard-1.0.4.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dashboard-1.0.5.zip",
       "hasBackend": true,
       "main": "main.js",
       "uiSchema": {
@@ -104,8 +104,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-10-28T02:34:22.505Z",
+      "lastPublishedAt": "2026-10-28T03:25:23.384Z",
       "publishHistory": [
+        {
+          "version": "1.0.5",
+          "publishedAt": "2026-10-28T03:25:23.384Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.4",
           "publishedAt": "2026-10-28T02:34:22.506Z",
