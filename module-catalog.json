@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-10-28T16:10:24.035Z",
+  "updatedAt": "2026-11-02T08:26:04.040Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -377,6 +377,145 @@
       "main": "main.js",
       "uiKit": "1",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ho-tro-tu-xa-1.0.0.zip"
+    },
+    {
+      "moduleId": "edlm-hoan-thanh-vb-den",
+      "moduleName": "Hoàn Thành Văn Bản Đến eDLM",
+      "description": "Dán token người dùng, đọc danh sách văn bản đến rồi bấm Hoàn thành hàng loạt trên eDLM Bộ Nội vụ; có hoàn tác (đưa về Chờ xử lý), bấm lại lượt lỗi và lịch sử",
+      "version": "0.4.0",
+      "icon": "✅",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-hoan-thanh-vb-den-0.4.0.zip",
+      "uiSchema": {
+        "moduleId": "edlm-hoan-thanh-vb-den",
+        "moduleName": "Hoàn Thành Văn Bản Đến eDLM",
+        "description": "Dán token người dùng, đọc danh sách văn bản đến rồi bấm Hoàn thành hàng loạt trên eDLM Bộ Nội vụ; có hoàn tác (đưa về Chờ xử lý), bấm lại lượt lỗi và lịch sử",
+        "action": "status",
+        "submitText": "🚀 Bắt Đầu Thực Thi [status]",
+        "fields": [
+          {
+            "id": "ui",
+            "label": "Ui",
+            "type": "text",
+            "placeholder": "Nhập ui...",
+            "defaultValue": ""
+          },
+          {
+            "id": "email",
+            "label": "Địa Chỉ Email",
+            "type": "text",
+            "placeholder": "Nhập địa chỉ email...",
+            "defaultValue": ""
+          },
+          {
+            "id": "user_name",
+            "label": "User Name",
+            "type": "text",
+            "placeholder": "Nhập user name...",
+            "defaultValue": ""
+          },
+          {
+            "id": "preferred_username",
+            "label": "Preferred Username",
+            "type": "text",
+            "placeholder": "Nhập preferred username...",
+            "defaultValue": ""
+          },
+          {
+            "id": "login",
+            "label": "Login",
+            "type": "text",
+            "placeholder": "Nhập login...",
+            "defaultValue": ""
+          },
+          {
+            "id": "sub",
+            "label": "Sub",
+            "type": "text",
+            "placeholder": "Nhập sub...",
+            "defaultValue": ""
+          },
+          {
+            "id": "to",
+            "label": "To",
+            "type": "text",
+            "placeholder": "Nhập to...",
+            "defaultValue": ""
+          },
+          {
+            "id": "token",
+            "label": "Token",
+            "type": "text",
+            "placeholder": "Nhập token...",
+            "defaultValue": ""
+          },
+          {
+            "id": "tab",
+            "label": "Tab",
+            "type": "text",
+            "placeholder": "Nhập tab...",
+            "defaultValue": ""
+          },
+          {
+            "id": "from",
+            "label": "From",
+            "type": "text",
+            "placeholder": "Nhập from...",
+            "defaultValue": ""
+          },
+          {
+            "id": "utc",
+            "label": "Utc",
+            "type": "text",
+            "placeholder": "Nhập utc...",
+            "defaultValue": ""
+          },
+          {
+            "id": "roles",
+            "label": "Roles",
+            "type": "text",
+            "placeholder": "Nhập roles...",
+            "defaultValue": ""
+          },
+          {
+            "id": "positions",
+            "label": "Positions",
+            "type": "text",
+            "placeholder": "Nhập positions...",
+            "defaultValue": ""
+          },
+          {
+            "id": "note",
+            "label": "Note",
+            "type": "textarea",
+            "placeholder": "Nhập note...",
+            "defaultValue": ""
+          },
+          {
+            "id": "concurrency",
+            "label": "Concurrency",
+            "type": "text",
+            "placeholder": "Nhập concurrency...",
+            "defaultValue": ""
+          },
+          {
+            "id": "file",
+            "label": "File",
+            "type": "text",
+            "placeholder": "Nhập file...",
+            "defaultValue": ""
+          }
+        ]
+      },
+      "author": "FPT-IS",
+      "lastPublishedAt": "2026-11-02T08:26:04.040Z",
+      "publishHistory": [
+        {
+          "version": "0.4.0",
+          "publishedAt": "2026-11-02T08:26:04.040Z",
+          "source": "zip",
+          "author": "FPT-IS"
+        }
+      ]
     }
   ]
 }
