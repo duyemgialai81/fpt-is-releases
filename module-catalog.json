@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-02T08:26:04.040Z",
+  "updatedAt": "2026-11-02T08:28:55.469Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -516,6 +516,424 @@
           "author": "FPT-IS"
         }
       ]
+    },
+    {
+      "moduleId": "ai-assistant",
+      "moduleName": "Trợ Lý AI Oracle",
+      "description": "Trợ lý AI hỗ trợ nghiệp vụ",
+      "version": "1.0.4",
+      "icon": "🤖",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ai-assistant-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:07.783Z"
+    },
+    {
+      "moduleId": "aim-bot",
+      "moduleName": "Aim Bot",
+      "description": "Game luyện ngắm - đấu tốc độ bắn bia (tâm +3, vòng giữa +2, vòng ngoài +1, bắn trượt bị trừ điểm nhân đôi) với Bot AI qua 5 mức độ (Dễ, Trung Bình, Khó, Chuyên Gia, Địa Ngục) hoặc luyện tập một mình, thống kê độ chính xác, thời gian phản xạ, tổng kết điểm mỗi ván lên bảng xếp hạng online",
+      "version": "1.5.0",
+      "icon": "Crosshair",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/aim-bot-1.5.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:08.696Z"
+    },
+    {
+      "moduleId": "assignee-extractor",
+      "moduleName": "Tìm MHS bằng ticket",
+      "description": "Tìm mã hồ sơ bằng ticket",
+      "version": "1.0.5",
+      "icon": "♙",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/assignee-extractor-1.0.5.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:09.557Z"
+    },
+    {
+      "moduleId": "auto-login",
+      "moduleName": "Auto Login",
+      "description": "Tự động đăng nhập vào hệ thống",
+      "version": "1.0.32",
+      "icon": "🔐",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-1.0.32.zip",
+      "main": "main.js",
+      "hasBackend": true,
+      "syncedFromReleaseAt": "2026-11-02T08:26:10.411Z"
+    },
+    {
+      "moduleId": "auto-login-bo-noi-vu",
+      "moduleName": "Auto Login Bộ Nội Vụ",
+      "description": "Tự động đăng nhập vào hệ thống Bộ Nội Vụ (emoha.moha.gov.vn)",
+      "version": "1.0.3",
+      "icon": "🏛️",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-bo-noi-vu-1.0.3.zip",
+      "main": "main.js",
+      "hasBackend": true,
+      "syncedFromReleaseAt": "2026-11-02T08:26:11.228Z"
+    },
+    {
+      "moduleId": "auto-login-sandbox",
+      "moduleName": "Auto Login Sandbox",
+      "description": "Tự động đăng nhập vào hệ thống Sandbox (kytaplatform.com)",
+      "version": "1.0.1",
+      "icon": "🧪",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-sandbox-1.0.1.zip",
+      "main": "main.js",
+      "hasBackend": true,
+      "syncedFromReleaseAt": "2026-11-02T08:26:12.145Z"
+    },
+    {
+      "moduleId": "bonoivu",
+      "moduleName": "Phân Quyền Bộ Nội Vụ",
+      "description": "Công cụ gán chức vụ & phân quyền người dùng eAccount Bộ Nội Vụ (eDLM, eTask, eKPI)",
+      "version": "1.1.1",
+      "icon": "🏛️",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/bonoivu-1.1.1.zip",
+      "main": "main.js",
+      "category": "Nghiệp Vụ",
+      "author": "FPT-IS & MOHA Admin",
+      "syncedFromReleaseAt": "2026-11-02T08:26:13.111Z"
+    },
+    {
+      "moduleId": "change-password-sanbox-toa-an",
+      "moduleName": "Cấp Lại MK Sandbox Tòa Án",
+      "description": "Cấp lại mật khẩu hàng loạt cho một 100 tài khoản cùng lúc (Sandbox Tòa Án)",
+      "version": "1.0.7",
+      "icon": "key",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-sanbox-toa-an-1.0.7.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:13.994Z"
+    },
+    {
+      "moduleId": "chia-se-dashboard",
+      "moduleName": "Chia Sẻ Bàn Làm Việc",
+      "description": "Nhập danh sách email, lấy ID qua ô tìm kiếm user eContract rồi chia sẻ dashboard eWorkspace theo lô 250 người",
+      "version": "1.2.0",
+      "icon": "Share2",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/chia-se-dashboard-1.2.0.zip",
+      "category": "Nghiệp Vụ",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:14.961Z"
+    },
+    {
+      "moduleId": "co-caro",
+      "moduleName": "Cờ Caro",
+      "description": "Game cờ caro (Gomoku) 15x15 - đấu với máy hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đủ 5 quân liên tiếp để thắng",
+      "version": "2.9.0",
+      "icon": "Grid3x3",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-caro-2.9.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:16.462Z"
+    },
+    {
+      "moduleId": "co-tuong",
+      "moduleName": "Cờ Tướng",
+      "description": "Game cờ tướng đầy đủ luật (tướng không đối mặt, cản mã, cản tượng, pháo ăn qua ngòi, tốt qua sông, chiếu bí, hết nước đi) - đấu với máy 7 mức độ hoặc chơi online P2P (WebRTC) qua Internet / mạng LAN, có điểm danh vọng, đấu rank và bảng xếp hạng (thắng/thua)",
+      "version": "1.0.0",
+      "icon": "Swords",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/co-tuong-1.0.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:17.377Z"
+    },
+    {
+      "moduleId": "contract-receipt-manager",
+      "moduleName": "Hợp Đồng & Biên Lai",
+      "description": "Quản lý hợp đồng và biên lai",
+      "version": "1.0.3",
+      "icon": "▣",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/contract-receipt-manager-1.0.3.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:18.337Z"
+    },
+    {
+      "moduleId": "dashboard",
+      "moduleName": "Bảng Điều Khiển",
+      "description": "Quản lý dashboard và môi trường làm việc",
+      "version": "1.0.8",
+      "icon": "▦",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dashboard-1.0.8.zip",
+      "main": "main.js",
+      "hasBackend": true,
+      "syncedFromReleaseAt": "2026-11-02T08:26:19.306Z"
+    },
+    {
+      "moduleId": "deep-scan",
+      "moduleName": "Lấy Ticket eQD",
+      "description": "Quét sâu và lấy ticket eQD",
+      "version": "1.0.5",
+      "icon": "⌕",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/deep-scan-1.0.5.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:20.255Z"
+    },
+    {
+      "moduleId": "do-min",
+      "moduleName": "Dò Mìn",
+      "description": "Game dò mìn kinh điển - lật ô, cắm cờ, tránh trúng mìn với 3 độ khó",
+      "version": "1.3.0",
+      "icon": "Bomb",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/do-min-1.3.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:21.150Z"
+    },
+    {
+      "moduleId": "doc-code-extractor",
+      "moduleName": "Trích Xuất Hồ Sơ",
+      "description": "Lấy mã hồ sơ từ dữ liệu đầu vào",
+      "version": "1.0.4",
+      "icon": "▤",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/doc-code-extractor-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:22.048Z"
+    },
+    {
+      "moduleId": "eioc-form-builder",
+      "moduleName": "eIOC Kéo Thả Biểu Mẫu",
+      "description": "Quản lý & thiết kế biểu mẫu eIOC THADS kéo thả, phân công nhập liệu 63 tỉnh",
+      "version": "1.0.6",
+      "icon": "📝",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/eioc-form-builder-1.0.6.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:23.221Z"
+    },
+    {
+      "moduleId": "ekoland-tarot-reader",
+      "moduleName": "Ekoland Tarot Reader",
+      "description": "Trải bài Tarot Ekoland 1 hoặc 3 lá (79 lá, chiều Xuôi/Ngược) và nhận luận giải — chế độ demo cục bộ hoặc LLM OpenAI-compatible",
+      "version": "1.2.0",
+      "icon": "MoonStar",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ekoland-tarot-reader-1.2.0.zip",
+      "category": "Tiện ích & Nghiệp vụ",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:26.128Z"
+    },
+    {
+      "moduleId": "game-2048",
+      "moduleName": "Game 2048",
+      "description": "Trò chơi giải trí 2048 kinh điển - dùng phím mũi tên gộp các ô số giống nhau để đạt 2048",
+      "version": "1.5.0",
+      "icon": "Gamepad2",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/game-2048-1.5.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:27.320Z"
+    },
+    {
+      "moduleId": "ghi-chu",
+      "moduleName": "Ghi Chú",
+      "description": "Ghi chú nhanh - tạo, sửa, tìm kiếm và quản lý các ghi chú cá nhân, tự động lưu",
+      "version": "1.0.0",
+      "icon": "StickyNote",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ghi-chu-1.0.0.zip",
+      "category": "Tiện Ích & Nghiệp Vụ",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:28.573Z"
+    },
+    {
+      "moduleId": "hai-chien",
+      "moduleName": "Hải Chiến",
+      "description": "Game Hải Chiến (Battleship) 10x10 - xếp 5 tàu rồi bắn đoán vị trí tàu địch (trúng được bắn tiếp). Đấu với máy (3 mức) hoặc chơi online P2P (WebRTC): qua Internet (không cần tự dựng server) hoặc trong mạng LAN (không cần Internet), danh sách phòng tự động, tối đa 5 máy (2 đấu + 3 xem), đấu Rank tính điểm, chống gian lận bằng cam kết bố cục tàu (commit-reveal)",
+      "version": "1.4.0",
+      "icon": "Ship",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/hai-chien-1.4.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:29.681Z"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-do-bao-cao",
+      "moduleName": "Phân quyền biểu đồ báo cáo",
+      "description": "Cấp / gỡ quyền xem, sửa biểu đồ báo cáo và đặt trang chủ cho tài khoản",
+      "version": "1.0.7",
+      "icon": "BarChart3",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-do-bao-cao-1.0.7.zip",
+      "category": "IOC Phân quyền",
+      "author": "IOC",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:30.630Z"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-bieu-mau",
+      "moduleName": "Phân quyền biểu mẫu",
+      "description": "Cấp / gỡ quyền biểu mẫu cho nhiều tài khoản và kiểm tra quyền biểu mẫu",
+      "version": "1.0.12",
+      "icon": "FileText",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-bieu-mau-1.0.12.zip",
+      "category": "IOC Phân quyền",
+      "author": "IOC",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:31.619Z"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-chi-so",
+      "moduleName": "Phân quyền chỉ số",
+      "description": "Cấp quyền chỉ số (mẹ / con) cho nhiều tài khoản cùng lúc",
+      "version": "1.0.4",
+      "icon": "Gauge",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-chi-so-1.0.4.zip",
+      "category": "IOC Phân quyền",
+      "author": "IOC",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:32.536Z"
+    },
+    {
+      "moduleId": "ioc-phan-quyen-nguoi-dung",
+      "moduleName": "Phân quyền người dùng IOC",
+      "description": "Thêm / gỡ tài khoản khỏi nhóm quyền IOC theo đơn vị (khu vực, tỉnh, cấp cục) và kiểm tra tài khoản",
+      "version": "1.0.9",
+      "icon": "Users",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ioc-phan-quyen-nguoi-dung-1.0.9.zip",
+      "category": "IOC Phân quyền",
+      "author": "IOC",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:26:33.438Z"
+    },
+    {
+      "moduleId": "license-manager",
+      "moduleName": "Quản Lý Bản Quyền App",
+      "description": "Quản lý bản quyền ứng dụng",
+      "version": "1.0.3",
+      "icon": "♙",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/license-manager-1.0.3.zip",
+      "main": "main.js",
+      "requiredRole": "admin",
+      "syncedFromReleaseAt": "2026-11-02T08:26:34.922Z"
+    },
+    {
+      "moduleId": "node-trigger",
+      "moduleName": "Kích Hoạt Chuyển Bước",
+      "description": "Kích hoạt chuyển bước hồ sơ",
+      "version": "1.0.4",
+      "icon": "▷",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/node-trigger-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:26:35.927Z"
+    },
+    {
+      "moduleId": "page-mascot",
+      "moduleName": "Linh Vật App",
+      "description": "Bộ sưu tập 58 linh vật tương tác động trên toàn ứng dụng",
+      "version": "1.0.5",
+      "icon": "Sparkles",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/page-mascot-1.0.5.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:44.609Z"
+    },
+    {
+      "moduleId": "quick-ticket-opener",
+      "moduleName": "Quick Ticket Opener",
+      "description": "Mở nhanh nhiều ticket cùng lúc",
+      "version": "1.0.6",
+      "icon": "🚀",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/quick-ticket-opener-1.0.6.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:45.631Z"
+    },
+    {
+      "moduleId": "recall-node",
+      "moduleName": "Thu Hồi Luồng",
+      "description": "Thu hồi luồng xử lý hồ sơ",
+      "version": "1.0.4",
+      "icon": "↶",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/recall-node-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:46.767Z"
+    },
+    {
+      "moduleId": "regoto-processing",
+      "moduleName": "Ép Trạng Thái Xử Lý",
+      "description": "Đưa hồ sơ về trạng thái xử lý",
+      "version": "1.0.4",
+      "icon": "↻",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/regoto-processing-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:47.831Z"
+    },
+    {
+      "moduleId": "search-ticket",
+      "moduleName": "Search Ticket",
+      "description": "Tra cứu siêu tốc ID gốc và trạng thái hồ sơ nhiều mã cùng lúc",
+      "version": "2.0.5",
+      "icon": "🔎",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/search-ticket-2.0.5.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:48.884Z"
+    },
+    {
+      "moduleId": "ticket-extender",
+      "moduleName": "Gia Hạn Biên Lai",
+      "description": "Gia hạn biên lai",
+      "version": "1.0.4",
+      "icon": "◷",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-extender-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:49.909Z"
+    },
+    {
+      "moduleId": "ticket-extractor",
+      "moduleName": "Ticket Extractor",
+      "description": "Lấy danh sách Ticket ID tự động",
+      "version": "1.0.4",
+      "icon": "🎫",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-extractor-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:51.010Z"
+    },
+    {
+      "moduleId": "ticket-transfer",
+      "moduleName": "Điều Chuyển Hàng Loạt",
+      "description": "Điều chuyển hồ sơ hàng loạt",
+      "version": "1.0.4",
+      "icon": "⇄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ticket-transfer-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:52.056Z"
+    },
+    {
+      "moduleId": "tien-len",
+      "moduleName": "Tiến Lên Miền Nam",
+      "description": "Game bài Tiến Lên Miền Nam 4 người đầy đủ luật (sảnh, đôi thông, tứ quý, chặt heo, tới trắng) - đánh với 3 máy 4 mức độ hoặc chơi online P2P (WebRTC) qua Internet / mạng LAN, ghế trống có máy ngồi, có điểm danh vọng, đấu rank và bảng xếp hạng (thắng/thua)",
+      "version": "1.0.0",
+      "icon": "Spade",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tien-len-1.0.0.zip",
+      "category": "Giải Trí",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:28:53.256Z"
+    },
+    {
+      "moduleId": "tra-cuu-qdtha",
+      "moduleName": "Tra Cứu Hồ Sơ QĐTHA",
+      "description": "Nhập email + Số QĐ: tự động lấy Ticket ID rồi tra cứu Mã hồ sơ, Mail CHV phụ trách và Trạng thái từ hệ thống THADS",
+      "version": "1.3.2",
+      "icon": "Search",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/tra-cuu-qdtha-1.3.2.zip",
+      "main": "main.js",
+      "category": "Nghiệp Vụ",
+      "author": "FPT IS Developer",
+      "requiredRole": "custom",
+      "syncedFromReleaseAt": "2026-11-02T08:28:54.330Z"
+    },
+    {
+      "moduleId": "update-money",
+      "moduleName": "Update Lại Tiền",
+      "description": "Cập nhật lại số tiền",
+      "version": "1.0.4",
+      "icon": "₫",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/update-money-1.0.4.zip",
+      "main": "main.js",
+      "syncedFromReleaseAt": "2026-11-02T08:28:55.469Z"
     }
   ]
 }
