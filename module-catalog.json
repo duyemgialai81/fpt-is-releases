@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-02T08:28:55.469Z",
+  "updatedAt": "2026-11-03T17:46:34.146Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -934,6 +934,43 @@
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/update-money-1.0.4.zip",
       "main": "main.js",
       "syncedFromReleaseAt": "2026-11-02T08:28:55.469Z"
+    },
+    {
+      "moduleId": "fpt-econtract-suite",
+      "moduleName": "FPT eContract Suite",
+      "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT eContract v3.1",
+      "version": "1.0.0",
+      "icon": "zap",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/fpt-econtract-suite-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "fpt-econtract-suite",
+        "moduleName": "FPT eContract Suite",
+        "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT eContract v3.1",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-11-03T17:46:34.146Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-11-03T17:46:34.146Z",
+          "source": "zip"
+        }
+      ]
     }
   ]
 }
