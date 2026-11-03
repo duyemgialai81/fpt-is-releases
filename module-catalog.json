@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-03T17:46:34.146Z",
+  "updatedAt": "2026-11-03T18:12:14.827Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -938,14 +938,14 @@
     {
       "moduleId": "fpt-econtract-suite",
       "moduleName": "FPT eContract Suite",
-      "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT eContract v3.1",
+      "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT v3.1",
       "version": "1.0.0",
-      "icon": "zap",
+      "icon": "receipt",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/fpt-econtract-suite-1.0.0.zip",
       "uiSchema": {
         "moduleId": "fpt-econtract-suite",
         "moduleName": "FPT eContract Suite",
-        "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT eContract v3.1",
+        "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT v3.1",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -963,8 +963,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-03T17:46:34.146Z",
+      "lastPublishedAt": "2026-11-03T18:12:14.826Z",
       "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-11-03T18:12:14.827Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-11-03T17:46:34.146Z",
