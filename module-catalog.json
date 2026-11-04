@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-03T18:12:14.827Z",
+  "updatedAt": "2026-11-04T03:41:01.802Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -380,37 +380,23 @@
     },
     {
       "moduleId": "edlm-hoan-thanh-vb-den",
-      "moduleName": "Hoàn Thành Văn Bản Đến eDLM",
-      "description": "Dán token người dùng, đọc danh sách văn bản đến rồi bấm Hoàn thành hàng loạt trên eDLM Bộ Nội vụ; có hoàn tác (đưa về Chờ xử lý), bấm lại lượt lỗi và lịch sử",
-      "version": "0.4.0",
-      "icon": "✅",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-hoan-thanh-vb-den-0.4.0.zip",
+      "moduleName": "Quản Lý & Chuyển Trạng Thái Văn Bản eDLM",
+      "description": "Chuyển trạng thái linh hoạt mọi văn bản đến & văn bản đi (Chờ xử lý, Đang xử lý, Đã xử lý, Nhận để biết) trên eDLM Bộ Nội vụ; có hoàn tác và lịch sử",
+      "version": "0.6.0",
+      "icon": "🔄",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-hoan-thanh-vb-den-0.6.0.zip",
       "uiSchema": {
         "moduleId": "edlm-hoan-thanh-vb-den",
-        "moduleName": "Hoàn Thành Văn Bản Đến eDLM",
-        "description": "Dán token người dùng, đọc danh sách văn bản đến rồi bấm Hoàn thành hàng loạt trên eDLM Bộ Nội vụ; có hoàn tác (đưa về Chờ xử lý), bấm lại lượt lỗi và lịch sử",
-        "action": "status",
-        "submitText": "🚀 Bắt Đầu Thực Thi [status]",
+        "moduleName": "Quản Lý & Chuyển Trạng Thái Văn Bản eDLM",
+        "description": "Chuyển trạng thái linh hoạt mọi văn bản đến & văn bản đi (Chờ xử lý, Đang xử lý, Đã xử lý, Nhận để biết) trên eDLM Bộ Nội vụ; có hoàn tác và lịch sử",
+        "action": "nhan-de-biet",
+        "submitText": "🚀 Bắt Đầu Thực Thi [nhan-de-biet]",
         "fields": [
-          {
-            "id": "ui",
-            "label": "Ui",
-            "type": "text",
-            "placeholder": "Nhập ui...",
-            "defaultValue": ""
-          },
           {
             "id": "email",
             "label": "Địa Chỉ Email",
             "type": "text",
             "placeholder": "Nhập địa chỉ email...",
-            "defaultValue": ""
-          },
-          {
-            "id": "user_name",
-            "label": "User Name",
-            "type": "text",
-            "placeholder": "Nhập user name...",
             "defaultValue": ""
           },
           {
@@ -435,13 +421,6 @@
             "defaultValue": ""
           },
           {
-            "id": "to",
-            "label": "To",
-            "type": "text",
-            "placeholder": "Nhập to...",
-            "defaultValue": ""
-          },
-          {
             "id": "token",
             "label": "Token",
             "type": "text",
@@ -463,6 +442,13 @@
             "defaultValue": ""
           },
           {
+            "id": "to",
+            "label": "To",
+            "type": "text",
+            "placeholder": "Nhập to...",
+            "defaultValue": ""
+          },
+          {
             "id": "utc",
             "label": "Utc",
             "type": "text",
@@ -477,10 +463,45 @@
             "defaultValue": ""
           },
           {
+            "id": "type",
+            "label": "Type",
+            "type": "text",
+            "placeholder": "Nhập type...",
+            "defaultValue": ""
+          },
+          {
+            "id": "docType",
+            "label": "Doc Type",
+            "type": "text",
+            "placeholder": "Nhập doc type...",
+            "defaultValue": ""
+          },
+          {
             "id": "positions",
             "label": "Positions",
             "type": "text",
             "placeholder": "Nhập positions...",
+            "defaultValue": ""
+          },
+          {
+            "id": "actionType",
+            "label": "Action Type",
+            "type": "text",
+            "placeholder": "Nhập action type...",
+            "defaultValue": ""
+          },
+          {
+            "id": "targetAction",
+            "label": "Target Action",
+            "type": "text",
+            "placeholder": "Nhập target action...",
+            "defaultValue": ""
+          },
+          {
+            "id": "action",
+            "label": "Action",
+            "type": "text",
+            "placeholder": "Nhập action...",
             "defaultValue": ""
           },
           {
@@ -507,14 +528,26 @@
         ]
       },
       "author": "FPT-IS",
-      "lastPublishedAt": "2026-11-02T08:26:04.040Z",
+      "lastPublishedAt": "2026-11-04T03:41:01.802Z",
       "publishHistory": [
+        {
+          "version": "0.6.0",
+          "publishedAt": "2026-11-04T03:41:01.802Z",
+          "source": "zip",
+          "author": "FPT-IS"
+        },
         {
           "version": "0.4.0",
           "publishedAt": "2026-11-02T08:26:04.040Z",
           "source": "zip",
           "author": "FPT-IS"
         }
+      ],
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy"
       ]
     },
     {
