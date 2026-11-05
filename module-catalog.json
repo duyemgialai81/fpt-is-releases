@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-05T06:44:43.654Z",
+  "updatedAt": "2026-11-05T08:43:18.563Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -972,9 +972,9 @@
       "moduleId": "fpt-econtract-suite",
       "moduleName": "FPT eContract Suite",
       "description": "Tạo hợp đồng FPT eContract qua excall: theo marker PDF, template eWriter, template eContract; quét marker, lấy link ký, hủy, vô hiệu hóa, khoá refId (API v3.1)",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "icon": "receipt",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/fpt-econtract-suite-2.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/fpt-econtract-suite-2.1.0.zip",
       "uiSchema": {
         "moduleId": "fpt-econtract-suite",
         "moduleName": "FPT eContract Suite",
@@ -996,8 +996,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-05T06:44:43.654Z",
+      "lastPublishedAt": "2026-11-05T08:43:18.563Z",
       "publishHistory": [
+        {
+          "version": "2.1.0",
+          "publishedAt": "2026-11-05T08:43:18.563Z",
+          "source": "zip"
+        },
         {
           "version": "2.0.0",
           "publishedAt": "2026-11-05T06:44:43.654Z",
