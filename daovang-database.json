@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "name": "Đào Vàng FPT-IS Git Cloud Database",
+  "updatedAt": "2026-11-05T09:51:03.346Z",
+  "serverNotice": "🚀 Hệ thống Database Git Cloud Đào Vàng FPT-IS đã hoạt động! Không cần thuê máy chủ, dữ liệu đồng bộ vĩnh viễn trên GitHub!",
+  "liveConfig": {
+    "eventBanner": "🎉 Sự kiện Mùa Vàng Git Cloud: Nhập Giftcode DAOBIGWIN và FPTIS2026 trong Hòm Thư để nhận 150K Vàng + Đồ Dubai!",
+    "goldMultiplier": 1.2,
+    "activeSeason": "Mùa 1: Thợ Mỏ Khởi Nghiệp 2026"
+  },
+  "leaderboard": [
+    {
+      "id": "EP-DUYDN25",
+      "name": "Vua Đào Vàng (Admin)",
+      "host": "EP-DUYDN25",
+      "wallet": 8888888,
+      "totalEarned": 18888888,
+      "topLevel": 200,
+      "clearedCount": 200,
+      "updatedAt": 1793872263347
+    },
+    {
+      "id": "thomo_hanoi_01",
+      "name": "Thợ Mỏ Cầu Giấy",
+      "host": "EP-HANOI-01",
+      "wallet": 3500000,
+      "totalEarned": 7200000,
+      "topLevel": 150,
+      "clearedCount": 150,
+      "updatedAt": 1793868663347
+    },
+    {
+      "id": "thomo_danang_02",
+      "name": "Thần Đào Sơn Trà",
+      "host": "EP-DANANG-02",
+      "wallet": 2800000,
+      "totalEarned": 5900000,
+      "topLevel": 120,
+      "clearedCount": 120,
+      "updatedAt": 1793865063347
+    },
+    {
+      "id": "thomo_hcm_03",
+      "name": "Cao Thủ Tân Bình",
+      "host": "EP-HCM-03",
+      "wallet": 2100000,
+      "totalEarned": 4800000,
+      "topLevel": 100,
+      "clearedCount": 100,
+      "updatedAt": 1793857863347
+    }
+  ],
+  "globalMails": [
+    {
+      "id": "mail_gitdb_welcome",
+      "scope": "all",
+      "to": "all",
+      "title": "🎉 Chào mừng Nâng cấp Database Git Cloud",
+      "body": "Chúc mừng hệ thống Đào Vàng FPT-IS chính thức chuyển sang Database JSON trên Git! Tặng bạn 50.000 vàng, 10 vé quay và 5 thuốc nổ!",
+      "from": "Ban Quản Trị Đào Vàng",
+      "rewards": {
+        "money": 50000,
+        "items": [
+          "claw-dubai"
+        ],
+        "tickets": 10,
+        "shards": 500,
+        "giftBoxes": 2,
+        "dynamite": 5
+      },
+      "sentAt": 1793872263347,
+      "expiresAt": 1825408263347
+    },
+    {
+      "id": "mail_weekend_boost",
+      "scope": "all",
+      "to": "all",
+      "title": "💎 Quà Đua Top Cuối Tuần Git Cloud",
+      "body": "Ban Quản Trị gửi tặng toàn bộ anh em thợ mỏ bộ quà rương nguyên tố và thẻ may mắn để đua top cuối tuần!",
+      "from": "Hội Đồng Đua Top",
+      "rewards": {
+        "money": 30000,
+        "items": [
+          "hat-thunder"
+        ],
+        "tickets": 5,
+        "shards": 300,
+        "giftBoxes": 1,
+        "dynamite": 3
+      },
+      "sentAt": 1793872263347,
+      "expiresAt": 1825408263347
+    }
+  ],
+  "targetedMails": {},
+  "giftCodes": {
+    "DAOBIGWIN": {
+      "code": "DAOBIGWIN",
+      "title": "Quà Tân Thủ Vua Đào Vàng",
+      "desc": "Tặng 50.000 Vàng, 5 Vé Quay, 3 Thuốc Nổ, 200 Mảnh, 1 Rương Quà Nguyên Tố",
+      "rewards": {
+        "money": 50000,
+        "items": [],
+        "tickets": 5,
+        "shards": 200,
+        "giftBoxes": 1,
+        "dynamite": 3
+      },
+      "maxUses": 999999,
+      "expiresAt": 1825408263348
+    },
+    "FPTIS2026": {
+      "code": "FPTIS2026",
+      "title": "Huy Hiệu Thợ Mỏ FIS 2026",
+      "desc": "Tặng 100.000 Vàng, 10 Vé Quay, 10 Thuốc Nổ, 1000 Mảnh, Nón Đu Bai Quý Tộc",
+      "rewards": {
+        "money": 100000,
+        "items": [
+          "hat-dubai"
+        ],
+        "tickets": 10,
+        "shards": 1000,
+        "giftBoxes": 2,
+        "dynamite": 10
+      },
+      "maxUses": 999999,
+      "expiresAt": 1825408263348
+    },
+    "DUBAIGOLD": {
+      "code": "DUBAIGOLD",
+      "title": "Gói Đại Gia Dubai",
+      "desc": "Tặng 200.000 Vàng, Móc Câu Dubai và Áo Choàng Dubai",
+      "rewards": {
+        "money": 200000,
+        "items": [
+          "claw-dubai",
+          "cape-dubai"
+        ],
+        "tickets": 8,
+        "shards": 800,
+        "giftBoxes": 1,
+        "dynamite": 5
+      },
+      "maxUses": 999999,
+      "expiresAt": 1825408263348
+    },
+    "MAYMAN888": {
+      "code": "MAYMAN888",
+      "title": "Lộc Phát Khởi Đầu",
+      "desc": "Tặng 88.888 Vàng và 8 Vé Quay May Mắn",
+      "rewards": {
+        "money": 88888,
+        "items": [],
+        "tickets": 8,
+        "shards": 300,
+        "giftBoxes": 0,
+        "dynamite": 4
+      },
+      "maxUses": 999999,
+      "expiresAt": 1825408263348
+    }
+  }
+}
