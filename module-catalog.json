@@ -288,8 +288,14 @@
         ]
       },
       "author": "Gia Lai Tây",
-      "lastPublishedAt": "2026-11-05T10:48:50.185Z",
+      "lastPublishedAt": "2026-11-05T10:54:00.758Z",
       "publishHistory": [
+        {
+          "version": "3.9.5",
+          "publishedAt": "2026-11-05T10:54:00.758Z",
+          "source": "zip",
+          "note": "Git Cloud Database JSON upgrade"
+        },
         {
           "version": "3.9.5",
           "publishedAt": "2026-11-05T10:48:50.186Z",
