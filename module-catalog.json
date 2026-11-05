@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-04T03:41:01.802Z",
+  "updatedAt": "2026-11-05T06:44:43.654Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -971,14 +971,14 @@
     {
       "moduleId": "fpt-econtract-suite",
       "moduleName": "FPT eContract Suite",
-      "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT v3.1",
-      "version": "1.0.0",
+      "description": "Tạo hợp đồng FPT eContract qua excall: theo marker PDF, template eWriter, template eContract; quét marker, lấy link ký, hủy, vô hiệu hóa, khoá refId (API v3.1)",
+      "version": "2.0.0",
       "icon": "receipt",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/fpt-econtract-suite-1.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/fpt-econtract-suite-2.0.0.zip",
       "uiSchema": {
         "moduleId": "fpt-econtract-suite",
         "moduleName": "FPT eContract Suite",
-        "description": "Bộ công cụ tạo HĐ cơ bản, nâng cao, lấy link ký, hủy và vô hiệu hóa hợp đồng FPT v3.1",
+        "description": "Tạo hợp đồng FPT eContract qua excall: theo marker PDF, template eWriter, template eContract; quét marker, lấy link ký, hủy, vô hiệu hóa, khoá refId (API v3.1)",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -996,8 +996,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-03T18:12:14.826Z",
+      "lastPublishedAt": "2026-11-05T06:44:43.654Z",
       "publishHistory": [
+        {
+          "version": "2.0.0",
+          "publishedAt": "2026-11-05T06:44:43.654Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-11-03T18:12:14.827Z",
@@ -1008,6 +1013,12 @@
           "publishedAt": "2026-11-03T17:46:34.146Z",
           "source": "zip"
         }
+      ],
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy"
       ]
     }
   ]
