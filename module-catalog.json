@@ -233,9 +233,9 @@
       "moduleId": "dao-vang",
       "moduleName": "Đào Vàng Cổ Điển",
       "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: 4 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150, Mặt Trăng 151-200), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
-      "version": "3.8.6",
+      "version": "3.9.0",
       "icon": "⛏️",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.8.6.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.9.0.zip",
       "uiSchema": {
         "moduleId": "dao-vang",
         "moduleName": "Đào Vàng Cổ Điển",
@@ -258,8 +258,14 @@
         ]
       },
       "author": "Gia Lai Tây",
-      "lastPublishedAt": "2026-10-23T03:16:54.410Z",
+      "lastPublishedAt": "2026-11-05T10:33:27.574Z",
       "publishHistory": [
+        {
+          "version": "3.9.0",
+          "publishedAt": "2026-11-05T10:33:27.575Z",
+          "source": "zip",
+          "note": "Git Cloud Database JSON upgrade"
+        },
         {
           "version": "3.8.5",
           "publishedAt": "2026-10-23T03:16:54.411Z",
