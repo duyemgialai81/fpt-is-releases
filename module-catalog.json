@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-05T08:43:18.563Z",
+  "updatedAt": "2026-11-05T10:48:50.186Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -232,34 +232,69 @@
     {
       "moduleId": "dao-vang",
       "moduleName": "Đào Vàng Cổ Điển",
-      "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: 4 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150, Mặt Trăng 151-200), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
+      "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: Hệ thống Đăng Nhập Tài Khoản & Mật Khẩu, Cloud Save đa thiết bị vĩnh viễn, Database Git Cloud, Hòm Thư & Giftcode GitHub, 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng",
       "version": "3.9.5",
-      "icon": "⛏️",
+      "icon": "pickaxe",
       "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/dao-vang-3.9.5.zip",
       "uiSchema": {
         "moduleId": "dao-vang",
         "moduleName": "Đào Vàng Cổ Điển",
-        "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: 4 Đại Cõi (Mỏ Vàng 1-50, Đại Dương 51-100, Vực Thẳm Mariana 101-150, Mặt Trăng 151-200), 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng, chuẩn tỉ lệ 4:3",
-        "action": "process-task",
-        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "description": "Game Đào Vàng (Gold Miner) kinh điển 200 Màn đỉnh cao: Hệ thống Đăng Nhập Tài Khoản & Mật Khẩu, Cloud Save đa thiết bị vĩnh viễn, Database Git Cloud, Hòm Thư & Giftcode GitHub, 90+ Trang Bị Thời Trang, Đua Top Cuối Tuần nhận đồ thưởng",
+        "action": "get-stats",
+        "submitText": "🚀 Bắt Đầu Thực Thi [get-stats]",
         "fields": [
           {
-            "id": "taskId",
-            "label": "Mã Tác Vụ",
+            "id": "username",
+            "label": "Tên Đăng Nhập",
             "type": "text",
-            "defaultValue": "TASK-001"
+            "placeholder": "Nhập tên đăng nhập...",
+            "defaultValue": ""
           },
           {
-            "id": "text",
-            "label": "Nội Dung Xử Lý",
-            "type": "textarea",
-            "defaultValue": "Dữ liệu mẫu"
+            "id": "save",
+            "label": "Save",
+            "type": "text",
+            "placeholder": "Nhập save...",
+            "defaultValue": ""
+          },
+          {
+            "id": "score",
+            "label": "Score",
+            "type": "text",
+            "placeholder": "Nhập score...",
+            "defaultValue": ""
+          },
+          {
+            "id": "level",
+            "label": "Level",
+            "type": "text",
+            "placeholder": "Nhập level...",
+            "defaultValue": ""
+          },
+          {
+            "id": "inGame",
+            "label": "In Game",
+            "type": "text",
+            "placeholder": "Nhập in game...",
+            "defaultValue": ""
+          },
+          {
+            "id": "entry",
+            "label": "Entry",
+            "type": "text",
+            "placeholder": "Nhập entry...",
+            "defaultValue": ""
           }
         ]
       },
       "author": "Gia Lai Tây",
-      "lastPublishedAt": "2026-11-05T10:47:33.383Z",
+      "lastPublishedAt": "2026-11-05T10:48:50.185Z",
       "publishHistory": [
+        {
+          "version": "3.9.5",
+          "publishedAt": "2026-11-05T10:48:50.186Z",
+          "source": "zip"
+        },
         {
           "version": "3.9.5",
           "publishedAt": "2026-11-05T10:47:33.383Z",
