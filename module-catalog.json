@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-06T07:27:15.447Z",
+  "updatedAt": "2026-11-06T07:34:24.483Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -1082,14 +1082,14 @@
     {
       "moduleId": "ect-process-support",
       "moduleName": "Hỗ Trợ Quy Trình & Reset Luồng eContract",
-      "description": "Tra cứu hợp đồng, tự động nhận diện số luồng ký và 1-click Reset luồng eContract linh hoạt",
-      "version": "1.0.0",
+      "description": "Tra cứu hợp đồng, tự động nhận diện số luồng ký và 1-click Reset luồng eContract linh hoạt (FPT UI Kit)",
+      "version": "1.1.0",
       "icon": "git-branch",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ect-process-support-1.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ect-process-support-1.1.0.zip",
       "uiSchema": {
         "moduleId": "ect-process-support",
         "moduleName": "Hỗ Trợ Quy Trình & Reset Luồng eContract",
-        "description": "Tra cứu hợp đồng, tự động nhận diện số luồng ký và 1-click Reset luồng eContract linh hoạt",
+        "description": "Tra cứu hợp đồng, tự động nhận diện số luồng ký và 1-click Reset luồng eContract linh hoạt (FPT UI Kit)",
         "action": "get-envelope-info",
         "submitText": "🚀 Bắt Đầu Thực Thi [get-envelope-info]",
         "fields": [
@@ -1107,8 +1107,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-06T07:27:15.447Z",
+      "lastPublishedAt": "2026-11-06T07:34:24.482Z",
       "publishHistory": [
+        {
+          "version": "1.1.0",
+          "publishedAt": "2026-11-06T07:34:24.483Z",
+          "source": "zip"
+        },
         {
           "version": "1.0.0",
           "publishedAt": "2026-11-06T07:27:15.447Z",
