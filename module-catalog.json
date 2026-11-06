@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-05T10:48:50.186Z",
+  "updatedAt": "2026-11-06T07:27:15.447Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -1077,6 +1077,43 @@
         "EP-DUYDN25",
         "DonJadeRoy",
         "DoJadeRoy"
+      ]
+    },
+    {
+      "moduleId": "ect-process-support",
+      "moduleName": "Hỗ Trợ Quy Trình & Reset Luồng eContract",
+      "description": "Tra cứu hợp đồng, tự động nhận diện số luồng ký và 1-click Reset luồng eContract linh hoạt",
+      "version": "1.0.0",
+      "icon": "git-branch",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/ect-process-support-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "ect-process-support",
+        "moduleName": "Hỗ Trợ Quy Trình & Reset Luồng eContract",
+        "description": "Tra cứu hợp đồng, tự động nhận diện số luồng ký và 1-click Reset luồng eContract linh hoạt",
+        "action": "get-envelope-info",
+        "submitText": "🚀 Bắt Đầu Thực Thi [get-envelope-info]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-11-06T07:27:15.447Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-11-06T07:27:15.447Z",
+          "source": "zip"
+        }
       ]
     }
   ]
