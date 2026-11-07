@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "Đào Vàng FPT-IS Git Cloud Database",
-  "updatedAt": "2026-11-07T12:38:38.047Z",
+  "updatedAt": "2026-11-07T12:39:02.065Z",
   "serverNotice": "🚀 Hệ thống Database Git Cloud Đào Vàng FPT-IS đã hoạt động! Không cần thuê máy chủ, dữ liệu đồng bộ vĩnh viễn trên GitHub!",
   "liveConfig": {
     "eventBanner": "🎉 Sự kiện Mùa Vàng Git Cloud: Nhập Giftcode DAOBIGWIN và FPTIS2026 trong Hòm Thư để nhận 150K Vàng + Đồ Dubai!",
@@ -53,11 +53,11 @@
       "id": "5e3bb0b03ec403b4",
       "name": "DoJadeRoy",
       "host": "DoJadeRoy",
-      "wallet": 1671421,
-      "totalEarned": 767867,
+      "wallet": 1673623,
+      "totalEarned": 770069,
       "topLevel": 158,
       "clearedCount": 23,
-      "updatedAt": 1794055118047
+      "updatedAt": 1794055142065
     }
   ],
   "globalMails": [
