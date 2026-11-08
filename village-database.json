@@ -281,11 +281,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "cycleNo": 0
+                "fertCutLeftSec": 7200,
+                "cycleNo": 1,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-08T10:01:48.204Z",
+                "matureAt": "2026-11-08T10:02:33.204Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -335,7 +341,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-08T10:01:00.720Z",
+          "serverTime": "2026-11-08T10:01:05.316Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -348,13 +354,9 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 34,
+            "used": 32,
             "capacity": 150,
             "items": [
-              {
-                "itemId": "ngo",
-                "qty": 2
-              },
               {
                 "itemId": "lua",
                 "qty": 32
@@ -2966,7 +2968,7 @@
               "minLevel": 1,
               "event": "PLANT",
               "count": 12,
-              "progress": 4,
+              "progress": 5,
               "reward": {
                 "gold": 150,
                 "exp": 30
@@ -3993,7 +3995,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794132060752,
+      "lastLoginAt": 1794132065344,
       "host": "DoJadeRoy"
     }
   },
@@ -4005,10 +4007,10 @@
       "gold": 680,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794132060753
+      "updatedAt": 1794132065345
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-08T10:01:00.753Z"
+  "updatedAt": "2026-11-08T10:01:05.345Z"
 }
