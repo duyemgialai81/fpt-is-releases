@@ -1,0 +1,4001 @@
+{
+  "version": "1.4.0",
+  "users": {
+    "nông dân fpt-is": {
+      "username": "nông dân fpt-is",
+      "displayName": "Nông Dân FPT-IS",
+      "farmName": "Nông Dân FPT-IS Nông Trại",
+      "save": {
+        "version": 1,
+        "nextObjId": 450001,
+        "user": {
+          "id": "6d6f6617-ea76-4064-bf05-f45be5de2656",
+          "displayName": "Nông Dân FPT-IS",
+          "level": 1,
+          "isNpc": false,
+          "settings": {},
+          "tutorialStep": 0,
+          "tutorialSnoozed": false,
+          "createdAt": "2026-11-08T07:22:06.749Z",
+          "providers": [
+            "guest"
+          ]
+        },
+        "wallet": {
+          "gold": 500,
+          "xu": 20,
+          "level": 1,
+          "exp": 0,
+          "expToNext": 136
+        },
+        "home": {
+          "provinceId": "hue",
+          "villageId": "56e011a5-8159-43cf-9e1a-2e6bdc446b2f",
+          "homeChangedAt": null,
+          "freeChangeUsed": false,
+          "peacefulMode": false,
+          "peacefulChangedAt": null,
+          "skinRegion": null,
+          "regionChange": {
+            "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656",
+            "fromProvinceId": null,
+            "toProvinceId": "hue",
+            "fromRegion": null,
+            "toRegion": "trung"
+          },
+          "affectedProvinceIds": [
+            "hue"
+          ]
+        },
+        "world": {
+          "owner": {
+            "id": "6d6f6617-ea76-4064-bf05-f45be5de2656",
+            "displayName": "Nông Dân FPT-IS",
+            "level": 1,
+            "isNpc": false
+          },
+          "zones": {
+            "unlocked": [
+              5,
+              6,
+              9,
+              10
+            ],
+            "unlockable": [
+              1,
+              2,
+              4,
+              7,
+              8,
+              11,
+              13,
+              14
+            ],
+            "nextCost": {
+              "gold": 2000,
+              "materials": [
+                {
+                  "itemId": "so_do",
+                  "qty": 1
+                },
+                {
+                  "itemId": "coc_moc",
+                  "qty": 1
+                },
+                {
+                  "itemId": "bua",
+                  "qty": 1
+                }
+              ],
+              "level": 8
+            },
+            "lotUses": []
+          },
+          "objects": [
+            {
+              "id": 441273,
+              "defId": "nha",
+              "kind": "special",
+              "x": 22,
+              "y": 24,
+              "rot": 0,
+              "level": 1,
+              "stored": false
+            },
+            {
+              "id": 441274,
+              "defId": "ham",
+              "kind": "storage",
+              "x": 45,
+              "y": 38,
+              "rot": 0,
+              "level": 1,
+              "stored": false
+            },
+            {
+              "id": 441275,
+              "defId": "kho",
+              "kind": "storage",
+              "x": 44,
+              "y": 22,
+              "rot": 0,
+              "level": 1,
+              "stored": false
+            },
+            {
+              "id": 441276,
+              "defId": "bang_don_xe_tai",
+              "kind": "special",
+              "x": 36,
+              "y": 45,
+              "rot": 0,
+              "level": 1,
+              "stored": false
+            },
+            {
+              "id": 441277,
+              "defId": "may_cam",
+              "kind": "factory",
+              "x": 38,
+              "y": 17,
+              "rot": 0,
+              "level": 2,
+              "stored": false,
+              "factory": {
+                "slots": 2,
+                "workers": 1,
+                "queue": [],
+                "output": []
+              }
+            },
+            {
+              "id": 441278,
+              "defId": "chuong_ga",
+              "kind": "pen",
+              "x": 40,
+              "y": 26,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "pen": {
+                "capacity": 3,
+                "animals": []
+              }
+            },
+            {
+              "id": 441279,
+              "defId": "field",
+              "kind": "field",
+              "x": 16,
+              "y": 32,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "MATURE",
+                "cropId": "lua",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "yieldExpected": 8,
+                "yieldRemaining": 8,
+                "cycleNo": 1,
+                "matureAt": "2026-11-08T07:34:29.495Z"
+              }
+            },
+            {
+              "id": 441280,
+              "defId": "field",
+              "kind": "field",
+              "x": 18,
+              "y": 32,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "MATURE",
+                "cropId": "lua",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "yieldExpected": 8,
+                "yieldRemaining": 8,
+                "cycleNo": 1,
+                "matureAt": "2026-11-08T07:34:29.495Z"
+              }
+            },
+            {
+              "id": 441281,
+              "defId": "field",
+              "kind": "field",
+              "x": 20,
+              "y": 32,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "MATURE",
+                "cropId": "lua",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "yieldExpected": 8,
+                "yieldRemaining": 8,
+                "cycleNo": 1,
+                "matureAt": "2026-11-08T07:34:29.495Z"
+              }
+            },
+            {
+              "id": 441282,
+              "defId": "field",
+              "kind": "field",
+              "x": 22,
+              "y": 32,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "MATURE",
+                "cropId": "lua",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "yieldExpected": 8,
+                "yieldRemaining": 8,
+                "cycleNo": 1,
+                "matureAt": "2026-11-08T07:34:29.495Z"
+              }
+            },
+            {
+              "id": 441283,
+              "defId": "field",
+              "kind": "field",
+              "x": 24,
+              "y": 32,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "EMPTY",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "cycleNo": 0
+              }
+            },
+            {
+              "id": 441284,
+              "defId": "field",
+              "kind": "field",
+              "x": 26,
+              "y": 32,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "EMPTY",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "cycleNo": 0
+              }
+            },
+            {
+              "id": 441285,
+              "defId": "da_nho",
+              "kind": "obstacle",
+              "x": 34,
+              "y": 47,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "obstacle": {
+                "tool": "thuoc_no",
+                "toolQty": 1,
+                "exp": 10
+              }
+            },
+            {
+              "id": 441286,
+              "defId": "bui_ram",
+              "kind": "obstacle",
+              "x": 32,
+              "y": 47,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "obstacle": {
+                "tool": "dao_phat",
+                "toolQty": 1,
+                "exp": 10
+              }
+            },
+            {
+              "id": 441287,
+              "defId": "bui_ram",
+              "kind": "obstacle",
+              "x": 47,
+              "y": 43,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "obstacle": {
+                "tool": "dao_phat",
+                "toolQty": 1,
+                "exp": 10
+              }
+            }
+          ],
+          "bag": [],
+          "serverTime": "2026-11-08T09:59:13.737Z",
+          "layoutTemplate": "trung_a",
+          "region": "trung",
+          "scenery": {
+            "landscape": "bien_trung",
+            "seed": 3043652828,
+            "genVersion": 1,
+            "rerolls": 0
+          }
+        },
+        "storage": {
+          "ham": {
+            "level": 0,
+            "used": 22,
+            "capacity": 150,
+            "items": [
+              {
+                "itemId": "lua",
+                "qty": 12
+              },
+              {
+                "itemId": "ngo",
+                "qty": 10
+              }
+            ],
+            "nextUpgrade": [
+              {
+                "item": "van_go",
+                "have": 2,
+                "need": 1
+              },
+              {
+                "item": "dinh",
+                "have": 2,
+                "need": 1
+              },
+              {
+                "item": "son",
+                "have": 2,
+                "need": 1
+              }
+            ]
+          },
+          "kho": {
+            "level": 0,
+            "used": 32,
+            "capacity": 120,
+            "items": [
+              {
+                "itemId": "dao_phat",
+                "qty": 3
+              },
+              {
+                "itemId": "thuoc_no",
+                "qty": 3
+              },
+              {
+                "itemId": "cam_ga",
+                "qty": 4
+              },
+              {
+                "itemId": "phan_nhanh",
+                "qty": 5
+              },
+              {
+                "itemId": "dong_ho_cat_15p",
+                "qty": 5
+              },
+              {
+                "itemId": "van_go",
+                "qty": 2
+              },
+              {
+                "itemId": "dinh",
+                "qty": 2
+              },
+              {
+                "itemId": "son",
+                "qty": 2
+              },
+              {
+                "itemId": "ban_le",
+                "qty": 2
+              },
+              {
+                "itemId": "oc_vit",
+                "qty": 2
+              },
+              {
+                "itemId": "ton",
+                "qty": 2
+              }
+            ],
+            "nextUpgrade": [
+              {
+                "item": "ban_le",
+                "have": 2,
+                "need": 1
+              },
+              {
+                "item": "oc_vit",
+                "have": 2,
+                "need": 1
+              },
+              {
+                "item": "ton",
+                "have": 2,
+                "need": 1
+              }
+            ]
+          }
+        },
+        "bag": [],
+        "quests": {
+          "main": [
+            {
+              "id": "m01",
+              "kind": "main",
+              "name": "Vụ lúa đầu tiên",
+              "desc": "Gặt 4 luống lúa chín.",
+              "minLevel": 1,
+              "event": "HARVEST_FIELD",
+              "count": 4,
+              "progress": 0,
+              "reward": {
+                "gold": 80,
+                "exp": 40
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": false
+            },
+            {
+              "id": "m02",
+              "kind": "main",
+              "name": "Gieo lại",
+              "desc": "Gieo lúa hoặc ngô lên 6 luống.",
+              "minLevel": 1,
+              "event": "PLANT",
+              "count": 6,
+              "progress": 0,
+              "reward": {
+                "gold": 80,
+                "exp": 40
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m03",
+              "kind": "main",
+              "name": "Mẻ cám đầu tiên",
+              "desc": "Thu 1 mẻ Cám gà từ Máy xay cám.",
+              "minLevel": 1,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "may_cam",
+              "progress": 0,
+              "reward": {
+                "gold": 100,
+                "exp": 50
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m04",
+              "kind": "main",
+              "name": "Đàn gà nhỏ",
+              "desc": "Mua 2 con gà (chuồng gà tặng sẵn).",
+              "minLevel": 2,
+              "event": "BUY_ANIMAL",
+              "count": 2,
+              "targetAnimalId": "ga",
+              "progress": 0,
+              "reward": {
+                "gold": 120,
+                "exp": 50
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m05",
+              "kind": "main",
+              "name": "Trứng tươi",
+              "desc": "Thu 4 trứng gà.",
+              "minLevel": 2,
+              "event": "COLLECT_ANIMAL",
+              "count": 4,
+              "targetDefId": "chuong_ga",
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 60
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m06",
+              "kind": "main",
+              "name": "Chuyến xe đầu tiên",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 2,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 300,
+                "exp": 100,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_15p",
+                    "qty": 2
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m07",
+              "kind": "main",
+              "name": "Nhà xay xát",
+              "desc": "Xây Nhà xay xát.",
+              "minLevel": 3,
+              "event": "BUILD_PLACE",
+              "count": 1,
+              "targetDefId": "nha_xay_xat",
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 60
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m08",
+              "kind": "main",
+              "name": "Hạt gạo trắng",
+              "desc": "Thu 3 Gạo.",
+              "minLevel": 3,
+              "event": "COLLECT_PRODUCT",
+              "count": 3,
+              "targetDefId": "nha_xay_xat",
+              "progress": 0,
+              "reward": {
+                "gold": 200,
+                "exp": 60
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m09",
+              "kind": "main",
+              "name": "Láng giềng tốt",
+              "desc": "Giúp 2 luống ở vườn Bác Hai.",
+              "minLevel": 3,
+              "event": "HELP",
+              "count": 2,
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 60
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m10",
+              "kind": "main",
+              "name": "Nghe lời Chuột Tí",
+              "desc": "Hái trộm 1 luống ở vườn Bác Hai.",
+              "minLevel": 3,
+              "event": "STEAL_OK",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 120,
+                "exp": 40
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m11",
+              "kind": "main",
+              "name": "Rương đầu tiên",
+              "desc": "Mở rương miễn phí trong ngày.",
+              "minLevel": 3,
+              "event": "CHEST_OPEN",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 120,
+                "exp": 40
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m12",
+              "kind": "main",
+              "name": "Dọn vườn",
+              "desc": "Phát 1 bụi rậm bằng Dao phát.",
+              "minLevel": 3,
+              "event": "CLEAR_OBSTACLE",
+              "count": 1,
+              "targetDefId": "bui_ram",
+              "progress": 0,
+              "reward": {
+                "gold": 400,
+                "exp": 150,
+                "items": [
+                  {
+                    "itemId": "riu",
+                    "qty": 1
+                  },
+                  {
+                    "itemId": "phan_nhanh",
+                    "qty": 3
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m13",
+              "kind": "main",
+              "name": "Mùa mía",
+              "desc": "Gieo 6 luống mía.",
+              "minLevel": 4,
+              "event": "PLANT",
+              "count": 6,
+              "progress": 0,
+              "reward": {
+                "gold": 250,
+                "exp": 50
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m14",
+              "kind": "main",
+              "name": "Lò nấu đường",
+              "desc": "Xây Lò nấu đường.",
+              "minLevel": 5,
+              "event": "BUILD_PLACE",
+              "count": 1,
+              "targetDefId": "lo_duong",
+              "progress": 0,
+              "reward": {
+                "gold": 300,
+                "exp": 60,
+                "items": [
+                  {
+                    "itemId": "so_do",
+                    "qty": 1
+                  },
+                  {
+                    "itemId": "coc_moc",
+                    "qty": 1
+                  },
+                  {
+                    "itemId": "bua",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m16",
+              "kind": "main",
+              "name": "Chó canh vườn",
+              "desc": "Có chó canh vườn: lên Lv6 được tặng Chó Vện (hết bảo vệ tân thủ ở Lv6!).",
+              "minLevel": 6,
+              "event": "BUY_DOG",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 300,
+                "exp": 80
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m17",
+              "kind": "main",
+              "name": "Xương gặm",
+              "desc": "Làm Xương gặm và cho chó ăn.",
+              "minLevel": 6,
+              "event": "FEED_DOG",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 200,
+                "exp": 70,
+                "items": [
+                  {
+                    "itemId": "xuong_gam",
+                    "qty": 3
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m31",
+              "kind": "main",
+              "name": "Góp Đình làng",
+              "desc": "Góp nông sản vào Đình làng 1 lần.",
+              "minLevel": 6,
+              "event": "DINH_CONTRIBUTE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 300,
+                "exp": 70
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m18",
+              "kind": "main",
+              "name": "Bò sữa",
+              "desc": "Mua 1 con bò sữa.",
+              "minLevel": 6,
+              "event": "BUY_ANIMAL",
+              "count": 1,
+              "targetAnimalId": "bo",
+              "progress": 0,
+              "reward": {
+                "gold": 450,
+                "exp": 100
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m19",
+              "kind": "main",
+              "name": "Ra chợ",
+              "desc": "Đăng bán 3 món ở Sạp chợ.",
+              "minLevel": 7,
+              "event": "MARKET_LIST",
+              "count": 3,
+              "progress": 0,
+              "reward": {
+                "gold": 400,
+                "exp": 100
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m20",
+              "kind": "main",
+              "name": "Sữa ra kem",
+              "desc": "Xây Nhà làm sữa, thu 3 Kem tươi.",
+              "minLevel": 7,
+              "event": "COLLECT_PRODUCT",
+              "count": 3,
+              "targetDefId": "nha_sua",
+              "progress": 0,
+              "reward": {
+                "gold": 800,
+                "exp": 220,
+                "items": [
+                  {
+                    "itemId": "van_go",
+                    "qty": 10
+                  },
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m15",
+              "kind": "main",
+              "name": "Mở đất",
+              "desc": "Mở vùng đất đầu tiên.",
+              "minLevel": 8,
+              "event": "UNLOCK_ZONE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 700,
+                "exp": 140,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m21",
+              "kind": "main",
+              "name": "Lò bánh nóng",
+              "desc": "Thu 5 Bánh mì.",
+              "minLevel": 8,
+              "event": "COLLECT_PRODUCT",
+              "count": 5,
+              "targetDefId": "lo_banh",
+              "progress": 0,
+              "reward": {
+                "gold": 600,
+                "exp": 150,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m22",
+              "kind": "main",
+              "name": "Nới kho",
+              "desc": "Nâng cấp Hầm hoặc Kho 1 lần.",
+              "minLevel": 9,
+              "event": "UPGRADE_STORAGE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 700,
+                "exp": 150,
+                "items": [
+                  {
+                    "itemId": "van_go",
+                    "qty": 5
+                  },
+                  {
+                    "itemId": "dinh",
+                    "qty": 5
+                  },
+                  {
+                    "itemId": "son",
+                    "qty": 5
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m23",
+              "kind": "main",
+              "name": "Vườn cam",
+              "desc": "Hái 4 lần cây cam.",
+              "minLevel": 10,
+              "event": "HARVEST_TREE",
+              "count": 4,
+              "targetDefId": "cay_cam",
+              "progress": 0,
+              "reward": {
+                "gold": 800,
+                "exp": 200
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m24",
+              "kind": "main",
+              "name": "Chuồng heo",
+              "desc": "Xây Chuồng heo, mua 2 con heo.",
+              "minLevel": 10,
+              "event": "BUY_ANIMAL",
+              "count": 2,
+              "targetAnimalId": "heo",
+              "progress": 0,
+              "reward": {
+                "gold": 1500,
+                "xu": 2,
+                "exp": 370,
+                "decor": "xe_dap"
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m32",
+              "kind": "main",
+              "name": "Xưởng đặc sản",
+              "desc": "Xây xưởng đặc sản miền mình (Bếp cổ truyền, Xưởng duyên hải hoặc Lò kẹo miệt vườn).",
+              "minLevel": 10,
+              "event": "BUILD_PLACE",
+              "count": 1,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 900,
+                "exp": 150,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m33",
+              "kind": "main",
+              "name": "Món quê",
+              "desc": "Thu 3 món đặc sản từ xưởng đặc sản miền mình.",
+              "minLevel": 11,
+              "event": "COLLECT_PRODUCT",
+              "count": 3,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 1000,
+                "exp": 170
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m37",
+              "kind": "main",
+              "name": "Khung dệt",
+              "desc": "Xây Khung dệt, thu 2 Vải bông.",
+              "minLevel": 11,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "khung_det",
+              "progress": 0,
+              "reward": {
+                "gold": 1000,
+                "exp": 170,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m42",
+              "kind": "main",
+              "name": "Chè đậu xanh",
+              "desc": "Xây Bếp chè xôi, thu 2 Chè đậu xanh.",
+              "minLevel": 12,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "bep_che_xoi",
+              "progress": 0,
+              "reward": {
+                "gold": 1100,
+                "exp": 190,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m25",
+              "kind": "main",
+              "name": "Vào xóm",
+              "desc": "Tham gia hoặc lập một xóm.",
+              "minLevel": 12,
+              "event": "HAMLET_JOIN",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 1200,
+                "exp": 300
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m26",
+              "kind": "main",
+              "name": "Đua xóm",
+              "desc": "Hoàn thành 3 nhiệm vụ đua tuần.",
+              "minLevel": 12,
+              "event": "DERBY_TASK_DONE",
+              "count": 3,
+              "progress": 0,
+              "reward": {
+                "gold": 2000,
+                "xu": 2,
+                "exp": 480,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 2
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true,
+              "side": true
+            },
+            {
+              "id": "m47",
+              "kind": "main",
+              "name": "Thuê thợ chăn nuôi lần đầu",
+              "desc": "Thuê thợ trông một chuồng lần đầu tiên.",
+              "minLevel": 12,
+              "event": "PEN_HIRE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 1600,
+                "exp": 270,
+                "items": [
+                  {
+                    "itemId": "dinh",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m34",
+              "kind": "main",
+              "name": "Cừu non",
+              "desc": "Mua 1 con cừu.",
+              "minLevel": 13,
+              "event": "BUY_ANIMAL",
+              "count": 1,
+              "targetAnimalId": "cuu",
+              "progress": 0,
+              "reward": {
+                "gold": 1100,
+                "exp": 220
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m38",
+              "kind": "main",
+              "name": "Mứt dâu",
+              "desc": "Xây Xưởng mứt, thu 2 Mứt dâu.",
+              "minLevel": 14,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "xuong_mut",
+              "progress": 0,
+              "reward": {
+                "gold": 1400,
+                "exp": 250,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m27",
+              "kind": "main",
+              "name": "Đất đỏ",
+              "desc": "Nâng 1 luống lên đất đỏ.",
+              "minLevel": 15,
+              "event": "SOIL_UPGRADE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 1600,
+                "exp": 500,
+                "items": [
+                  {
+                    "itemId": "van_go",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m35",
+              "kind": "main",
+              "name": "Thợ thứ hai",
+              "desc": "Thuê thợ cho ghế thứ 2 ở một nhà máy.",
+              "minLevel": 15,
+              "event": "FACTORY_HIRE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 1600,
+                "exp": 270,
+                "items": [
+                  {
+                    "itemId": "dinh",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m36",
+              "kind": "main",
+              "name": "Áo len",
+              "desc": "Xây Tiệm may, thu 1 Áo len.",
+              "minLevel": 16,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_may",
+              "progress": 0,
+              "reward": {
+                "gold": 1800,
+                "exp": 300,
+                "items": [
+                  {
+                    "itemId": "son",
+                    "qty": 10
+                  },
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 1
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m45",
+              "kind": "main",
+              "name": "Bánh flan",
+              "desc": "Xây Tiệm bánh ngọt, thu 3 Bánh flan.",
+              "minLevel": 16,
+              "event": "COLLECT_PRODUCT",
+              "count": 3,
+              "targetDefId": "tiem_banh_ngot",
+              "progress": 0,
+              "reward": {
+                "gold": 2500,
+                "xu": 3,
+                "exp": 760,
+                "items": [
+                  {
+                    "itemId": "dong_ho_cat_1h",
+                    "qty": 2
+                  }
+                ],
+                "decor": "xe_bo"
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m28",
+              "kind": "main",
+              "name": "Ghe rời bến",
+              "desc": "Đủ thùng để ghe rời bến 1 lần.",
+              "minLevel": 17,
+              "event": "BOAT_SAIL",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 2000,
+                "exp": 600
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m46",
+              "kind": "main",
+              "name": "Mứt gừng",
+              "desc": "Thu 2 Mứt gừng ở Xưởng mứt.",
+              "minLevel": 18,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "xuong_mut",
+              "progress": 0,
+              "reward": {
+                "gold": 2000,
+                "exp": 370,
+                "items": [
+                  {
+                    "itemId": "ban_le",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m29",
+              "kind": "main",
+              "name": "Mật ngọt",
+              "desc": "Thu 10 mật ong.",
+              "minLevel": 20,
+              "event": "COLLECT_ANIMAL",
+              "count": 10,
+              "targetDefId": "vuon_ong",
+              "progress": 0,
+              "reward": {
+                "gold": 2500,
+                "exp": 800,
+                "items": [
+                  {
+                    "itemId": "ton",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m40",
+              "kind": "main",
+              "name": "Thợ thứ ba",
+              "desc": "Thuê thợ cho ghế thứ 3 ở một nhà máy.",
+              "minLevel": 20,
+              "event": "FACTORY_HIRE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 2500,
+                "exp": 440,
+                "items": [
+                  {
+                    "itemId": "oc_vit",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m41",
+              "kind": "main",
+              "name": "Trà mật ong",
+              "desc": "Thu 3 Trà mật ong ở Quầy nước.",
+              "minLevel": 21,
+              "event": "COLLECT_PRODUCT",
+              "count": 3,
+              "targetDefId": "quay_nuoc",
+              "progress": 0,
+              "reward": {
+                "gold": 2700,
+                "exp": 470
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m39",
+              "kind": "main",
+              "name": "Tiệm hoa",
+              "desc": "Xây Tiệm hoa, thu 3 Bó hoa cúc.",
+              "minLevel": 21,
+              "event": "COLLECT_PRODUCT",
+              "count": 3,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 3000,
+                "xu": 3,
+                "exp": 1180,
+                "decor": "tuong_chuot_ti"
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m30",
+              "kind": "main",
+              "name": "Đất đen",
+              "desc": "Nâng 1 luống lên đất đen.",
+              "minLevel": 28,
+              "event": "SOIL_UPGRADE",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 5000,
+                "xu": 5,
+                "exp": 1500,
+                "items": [
+                  {
+                    "itemId": "ton",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m43",
+              "kind": "main",
+              "name": "Nhân sâm",
+              "desc": "Gieo nhân sâm 3 lần.",
+              "minLevel": 30,
+              "event": "PLANT",
+              "count": 3,
+              "progress": 0,
+              "reward": {
+                "gold": 3500,
+                "exp": 870,
+                "items": [
+                  {
+                    "itemId": "ban_le",
+                    "qty": 10
+                  }
+                ]
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "m44",
+              "kind": "main",
+              "name": "Trà sâm",
+              "desc": "Thu 2 Trà sâm mật ong ở Quầy nước.",
+              "minLevel": 30,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "quay_nuoc",
+              "progress": 0,
+              "reward": {
+                "gold": 6000,
+                "xu": 10,
+                "exp": 2610,
+                "items": [
+                  {
+                    "itemId": "oc_vit",
+                    "qty": 10
+                  }
+                ],
+                "decor": "nha_choi_be_ma"
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c33_1",
+              "kind": "main",
+              "name": "Kẹo lạc",
+              "desc": "Thu 2 Kẹo lạc ở Lò nấu đường.",
+              "minLevel": 33,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "lo_duong",
+              "progress": 0,
+              "reward": {
+                "gold": 4000,
+                "exp": 950
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c33_2",
+              "kind": "main",
+              "name": "Chốt chương · Lạc đầu mùa",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 33,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 6600,
+                "exp": 2380
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c35_1",
+              "kind": "main",
+              "name": "Chuối sấy",
+              "desc": "Thu 2 Chuối sấy ở Xưởng mứt.",
+              "minLevel": 35,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "xuong_mut",
+              "progress": 0,
+              "reward": {
+                "gold": 4200,
+                "exp": 1010
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c35_2",
+              "kind": "main",
+              "name": "Chốt chương · Nải chuối đầu tiên",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 35,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 7000,
+                "exp": 2520
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c38_1",
+              "kind": "main",
+              "name": "Dầu lạc",
+              "desc": "Xây Lò ép dầu, thu 1 Dầu lạc.",
+              "minLevel": 38,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "lo_ep_dau",
+              "progress": 0,
+              "reward": {
+                "gold": 4600,
+                "exp": 1090
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c38_2",
+              "kind": "main",
+              "name": "Chốt chương · Dầu ép làng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 38,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 7600,
+                "exp": 2730
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c39_1",
+              "kind": "main",
+              "name": "Trà sả gừng",
+              "desc": "Thu 2 Trà sả gừng ở Quầy nước.",
+              "minLevel": 39,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "quay_nuoc",
+              "progress": 0,
+              "reward": {
+                "gold": 4700,
+                "exp": 1120
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c39_2",
+              "kind": "main",
+              "name": "Chốt chương · Hương sả",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 39,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 7800,
+                "exp": 2790
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c41_1",
+              "kind": "main",
+              "name": "Hạt rang quê nhà",
+              "desc": "Thu 2 món từ xưởng đặc sản miền mình (hạt dẻ, ca cao, hạt điều).",
+              "minLevel": 41,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 4900,
+                "exp": 1170
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c41_2",
+              "kind": "main",
+              "name": "Chốt chương · Hạt quý ba miền",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 41,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 8200,
+                "exp": 2930
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c44_1",
+              "kind": "main",
+              "name": "Đồng hướng dương",
+              "desc": "Gặt 4 luống hướng dương.",
+              "minLevel": 44,
+              "event": "HARVEST_FIELD",
+              "count": 4,
+              "progress": 0,
+              "reward": {
+                "gold": 5300,
+                "exp": 1250
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c44_2",
+              "kind": "main",
+              "name": "Chốt chương · Hướng dương",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 44,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 8800,
+                "exp": 3130
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c47_1",
+              "kind": "main",
+              "name": "Dưa, xôi rau quê",
+              "desc": "Thu 2 món ở Xưởng mứt hoặc Bếp chè xôi (dưa cải mèo, dưa bông điên điển, xôi đậu ngự).",
+              "minLevel": 47,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefIds": [
+                "xuong_mut",
+                "bep_che_xoi"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 5600,
+                "exp": 1330
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c47_2",
+              "kind": "main",
+              "name": "Chốt chương · Rau quê mới",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 47,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 9400,
+                "exp": 3340
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c50_1",
+              "kind": "main",
+              "name": "Bột năng",
+              "desc": "Thu 2 Bột năng ở Nhà xay xát.",
+              "minLevel": 50,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "nha_xay_xat",
+              "progress": 0,
+              "reward": {
+                "gold": 6000,
+                "exp": 1420
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c50_2",
+              "kind": "main",
+              "name": "Chốt chương · Bột năng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 50,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 10000,
+                "exp": 3540
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c53_1",
+              "kind": "main",
+              "name": "Mứt trái quê nhà",
+              "desc": "Thu 2 món từ xưởng đặc sản miền mình (quả mơ, thanh trà, chôm chôm).",
+              "minLevel": 53,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 6400,
+                "exp": 1500
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c53_2",
+              "kind": "main",
+              "name": "Chốt chương · Trái ngọt ba miền",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 53,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 10600,
+                "exp": 3740
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c56_1",
+              "kind": "main",
+              "name": "Tinh bột nghệ",
+              "desc": "Thu 2 Tinh bột nghệ ở Nhà xay xát.",
+              "minLevel": 56,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "nha_xay_xat",
+              "progress": 0,
+              "reward": {
+                "gold": 6700,
+                "exp": 1580
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c56_2",
+              "kind": "main",
+              "name": "Chốt chương · Nghệ vàng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 56,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 11200,
+                "exp": 3940
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c70_1",
+              "kind": "main",
+              "name": "Hoa hồng đầu mùa",
+              "desc": "Gặt 4 luống hoa hồng.",
+              "minLevel": 70,
+              "event": "HARVEST_FIELD",
+              "count": 4,
+              "progress": 0,
+              "reward": {
+                "gold": 8400,
+                "exp": 1950
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c70_2",
+              "kind": "main",
+              "name": "Chốt chương · Vườn hồng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 70,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 14000,
+                "exp": 4870
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c72_1",
+              "kind": "main",
+              "name": "Nước hoa hồng",
+              "desc": "Thu 1 Nước hoa hồng ở Lò ép dầu.",
+              "minLevel": 72,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "lo_ep_dau",
+              "progress": 0,
+              "reward": {
+                "gold": 8600,
+                "exp": 2000
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c72_2",
+              "kind": "main",
+              "name": "Chốt chương · Nước hoa hồng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 72,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 14400,
+                "exp": 5000
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c78_1",
+              "kind": "main",
+              "name": "Vụ đậu đỏ",
+              "desc": "Gặt 4 luống đậu đỏ.",
+              "minLevel": 78,
+              "event": "HARVEST_FIELD",
+              "count": 4,
+              "progress": 0,
+              "reward": {
+                "gold": 9400,
+                "exp": 2700
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c78_2",
+              "kind": "main",
+              "name": "Chốt chương · Đậu đỏ",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 78,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 15600,
+                "exp": 6750
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c80_1",
+              "kind": "main",
+              "name": "Bánh đậu đỏ",
+              "desc": "Thu 1 Bánh đậu đỏ ở Tiệm bánh ngọt.",
+              "minLevel": 80,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_banh_ngot",
+              "progress": 0,
+              "reward": {
+                "gold": 9600,
+                "exp": 2990
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c80_2",
+              "kind": "main",
+              "name": "Chốt chương · Bánh đậu đỏ",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 80,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 16000,
+                "exp": 7470
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c83_1",
+              "kind": "main",
+              "name": "Hương quê nhà",
+              "desc": "Thu 2 món từ xưởng đặc sản miền mình (hồi khô, nhang trầm, mít sấy).",
+              "minLevel": 83,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 10000,
+                "exp": 3440
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c83_2",
+              "kind": "main",
+              "name": "Chốt chương · Hồi, trầm, mít",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 83,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 16600,
+                "exp": 8590
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c87_1",
+              "kind": "main",
+              "name": "Hành phi",
+              "desc": "Thu 2 Hành phi ở Lò ép dầu.",
+              "minLevel": 87,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "lo_ep_dau",
+              "progress": 0,
+              "reward": {
+                "gold": 10400,
+                "exp": 4070
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c87_2",
+              "kind": "main",
+              "name": "Chốt chương · Hành phi",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 87,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 17400,
+                "exp": 10180
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c92_1",
+              "kind": "main",
+              "name": "Bánh xèo",
+              "desc": "Xây Quán ăn làng, thu 1 Bánh xèo.",
+              "minLevel": 92,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "quan_an_lang",
+              "progress": 0,
+              "reward": {
+                "gold": 11000,
+                "exp": 4930
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c92_2",
+              "kind": "main",
+              "name": "Chốt chương · Quán ăn làng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 92,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 18400,
+                "exp": 12310
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c94_1",
+              "kind": "main",
+              "name": "Giò lan đầu tiên",
+              "desc": "Gặt 4 luống hoa lan.",
+              "minLevel": 94,
+              "event": "HARVEST_FIELD",
+              "count": 4,
+              "progress": 0,
+              "reward": {
+                "gold": 11300,
+                "exp": 5290
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c94_2",
+              "kind": "main",
+              "name": "Chốt chương · Hoa lan",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 94,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 18800,
+                "exp": 13210
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c97_1",
+              "kind": "main",
+              "name": "Bánh bèo",
+              "desc": "Thu 1 Bánh bèo ở Quán ăn làng.",
+              "minLevel": 97,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "quan_an_lang",
+              "progress": 0,
+              "reward": {
+                "gold": 11600,
+                "exp": 5840
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c97_2",
+              "kind": "main",
+              "name": "Chốt chương · Bánh bèo",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 97,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 19400,
+                "exp": 14610
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c98_1",
+              "kind": "main",
+              "name": "Lẵng hoa Tết",
+              "desc": "Thu 1 Lẵng hoa Tết ở Tiệm hoa.",
+              "minLevel": 98,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 11800,
+                "exp": 6040
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c98_2",
+              "kind": "main",
+              "name": "Chốt chương · Lẵng hoa Tết",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 98,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 19600,
+                "exp": 15090
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c101_1",
+              "kind": "main",
+              "name": "Trà, cà phê, bánh pía",
+              "desc": "Thu 2 món từ xưởng đặc sản miền mình (trà Shan tuyết, cà phê Arabica, bánh pía).",
+              "minLevel": 101,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 12100,
+                "exp": 6620
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c101_2",
+              "kind": "main",
+              "name": "Chốt chương · Đặc sản tiến vua",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 101,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 20200,
+                "exp": 16560
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c104_1",
+              "kind": "main",
+              "name": "Hộp quà tiến vua",
+              "desc": "Thu 1 Hộp quà tiến vua ở Tiệm hoa.",
+              "minLevel": 104,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 12500,
+                "exp": 7240
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c104_2",
+              "kind": "main",
+              "name": "Chốt chương · Hộp quà tiến vua",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 104,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 20800,
+                "exp": 18090
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c111_1",
+              "kind": "main",
+              "name": "Chè khoai môn",
+              "desc": "Thu 1 Chè khoai môn ở Bếp chè xôi.",
+              "minLevel": 111,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "bep_che_xoi",
+              "progress": 0,
+              "reward": {
+                "gold": 13300,
+                "exp": 8760
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c111_2",
+              "kind": "main",
+              "name": "Chốt chương · Khoai môn",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 111,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 22200,
+                "exp": 21890
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c126_1",
+              "kind": "main",
+              "name": "Măng tây xào",
+              "desc": "Thu 1 Măng tây xào ở Quán ăn làng.",
+              "minLevel": 126,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "quan_an_lang",
+              "progress": 0,
+              "reward": {
+                "gold": 15100,
+                "exp": 12430
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c126_2",
+              "kind": "main",
+              "name": "Chốt chương · Măng tây",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 126,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 25200,
+                "exp": 31080
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c130_1",
+              "kind": "main",
+              "name": "Nến thơm sả",
+              "desc": "Xây Xưởng hương liệu, thu 1 Nến thơm sả.",
+              "minLevel": 130,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "xuong_huong_lieu",
+              "progress": 0,
+              "reward": {
+                "gold": 15600,
+                "exp": 13510
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c130_2",
+              "kind": "main",
+              "name": "Chốt chương · Xưởng hương liệu",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 130,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 26000,
+                "exp": 33770
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c136_1",
+              "kind": "main",
+              "name": "Túi thơm quế hồi",
+              "desc": "Thu 1 Túi thơm quế hồi lá dứa ở Xưởng hương liệu.",
+              "minLevel": 136,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "xuong_huong_lieu",
+              "progress": 0,
+              "reward": {
+                "gold": 16300,
+                "exp": 15200
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c136_2",
+              "kind": "main",
+              "name": "Chốt chương · Túi thơm",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 136,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 27200,
+                "exp": 37990
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c139_1",
+              "kind": "main",
+              "name": "Ô mai, bòn bon, hồng xiêm",
+              "desc": "Thu 2 món từ xưởng đặc sản miền mình (ô mai sơn tra, bòn bon ngào đường, hồng xiêm sấy dẻo).",
+              "minLevel": 139,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 16700,
+                "exp": 16080
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c139_2",
+              "kind": "main",
+              "name": "Chốt chương · Trái sấy ba miền",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 139,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 27800,
+                "exp": 40190
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c142_1",
+              "kind": "main",
+              "name": "Giỏ trái sấy",
+              "desc": "Thu 1 Giỏ trái sấy ba miền ở Tiệm hoa.",
+              "minLevel": 142,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 17000,
+                "exp": 16980
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c142_2",
+              "kind": "main",
+              "name": "Chốt chương · Giỏ trái sấy",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 142,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 28400,
+                "exp": 42450
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c146_1",
+              "kind": "main",
+              "name": "Trà atiso",
+              "desc": "Thu 2 Trà atiso ở Quầy nước.",
+              "minLevel": 146,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "quay_nuoc",
+              "progress": 0,
+              "reward": {
+                "gold": 17500,
+                "exp": 18220
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c146_2",
+              "kind": "main",
+              "name": "Chốt chương · Trà atiso",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 146,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 29200,
+                "exp": 45540
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c148_1",
+              "kind": "main",
+              "name": "Cao atiso",
+              "desc": "Thu 1 Cao atiso ở Xưởng hương liệu.",
+              "minLevel": 148,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "xuong_huong_lieu",
+              "progress": 0,
+              "reward": {
+                "gold": 17800,
+                "exp": 18850
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c148_2",
+              "kind": "main",
+              "name": "Chốt chương · Cao atiso",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 148,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 29600,
+                "exp": 47120
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c152_1",
+              "kind": "main",
+              "name": "Bánh nướng đậu đỏ",
+              "desc": "Thu 1 Bánh nướng nhân đậu đỏ ở Lò bánh.",
+              "minLevel": 152,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "lo_banh",
+              "progress": 0,
+              "reward": {
+                "gold": 18200,
+                "exp": 20150
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c152_2",
+              "kind": "main",
+              "name": "Chốt chương · Bánh nướng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 152,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 30400,
+                "exp": 50370
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c154_1",
+              "kind": "main",
+              "name": "Trà hoa hồng",
+              "desc": "Thu 2 Trà hoa hồng mật ong ở Quầy nước.",
+              "minLevel": 154,
+              "event": "COLLECT_PRODUCT",
+              "count": 2,
+              "targetDefId": "quay_nuoc",
+              "progress": 0,
+              "reward": {
+                "gold": 18500,
+                "exp": 20810
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c154_2",
+              "kind": "main",
+              "name": "Chốt chương · Trà hoa hồng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 154,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 30800,
+                "exp": 52030
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c160_1",
+              "kind": "main",
+              "name": "Mâm cỗ quê nhà",
+              "desc": "Thu 1 mâm cỗ Tết từ xưởng đặc sản miền mình.",
+              "minLevel": 160,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefIds": [
+                "bep_co_truyen",
+                "xuong_duyen_hai",
+                "lo_keo_miet_vuon"
+              ],
+              "progress": 0,
+              "reward": {
+                "gold": 19200,
+                "exp": 22860
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c160_2",
+              "kind": "main",
+              "name": "Chốt chương · Mâm cỗ Tết",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 160,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 32000,
+                "exp": 57160
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c166_1",
+              "kind": "main",
+              "name": "Bình hoa ly",
+              "desc": "Thu 1 Bình hoa ly ở Tiệm hoa.",
+              "minLevel": 166,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 19900,
+                "exp": 25000
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c166_2",
+              "kind": "main",
+              "name": "Chốt chương · Hoa ly",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 166,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 33200,
+                "exp": 62510
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c170_1",
+              "kind": "main",
+              "name": "Lẵng hoa khai trương",
+              "desc": "Thu 1 Lẵng hoa khai trương ở Tiệm hoa.",
+              "minLevel": 170,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 20400,
+                "exp": 26480
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c170_2",
+              "kind": "main",
+              "name": "Chốt chương · Lẵng khai trương",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 170,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 34000,
+                "exp": 66200
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c174_1",
+              "kind": "main",
+              "name": "Xôi ngũ sắc",
+              "desc": "Thu 1 Xôi ngũ sắc ở Bếp chè xôi.",
+              "minLevel": 174,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "bep_che_xoi",
+              "progress": 0,
+              "reward": {
+                "gold": 20900,
+                "exp": 28000
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c174_2",
+              "kind": "main",
+              "name": "Chốt chương · Xôi ngũ sắc",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 174,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 34800,
+                "exp": 70000
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c182_1",
+              "kind": "main",
+              "name": "Mâm ngũ quả giống quý",
+              "desc": "Thu 1 Mâm ngũ quả giống quý ở Tiệm hoa.",
+              "minLevel": 182,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 21800,
+                "exp": 31150
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c182_2",
+              "kind": "main",
+              "name": "Chốt chương · Mâm ngũ quả",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 182,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 36400,
+                "exp": 77880
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c186_1",
+              "kind": "main",
+              "name": "Trà sâm Ngọc Linh",
+              "desc": "Thu 1 Trà sâm Ngọc Linh ở Quầy nước.",
+              "minLevel": 186,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "quay_nuoc",
+              "progress": 0,
+              "reward": {
+                "gold": 22300,
+                "exp": 32790
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c186_2",
+              "kind": "main",
+              "name": "Chốt chương · Sâm Ngọc Linh",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 186,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 37200,
+                "exp": 81970
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c192_1",
+              "kind": "main",
+              "name": "Hộp quà Tết làng",
+              "desc": "Thu 1 Hộp quà Tết làng ở Tiệm hoa.",
+              "minLevel": 192,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 23000,
+                "exp": 35320
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c192_2",
+              "kind": "main",
+              "name": "Chốt chương · Quà Tết làng",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 192,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 38400,
+                "exp": 88290
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c197_1",
+              "kind": "main",
+              "name": "Lẵng hoa Tết ba miền",
+              "desc": "Thu 1 Lẵng hoa Tết ba miền ở Tiệm hoa.",
+              "minLevel": 197,
+              "event": "COLLECT_PRODUCT",
+              "count": 1,
+              "targetDefId": "tiem_hoa",
+              "progress": 0,
+              "reward": {
+                "gold": 23600,
+                "exp": 37490
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            },
+            {
+              "id": "c197_2",
+              "kind": "main",
+              "name": "Chốt chương · Tết ba miền",
+              "desc": "Giao 1 đơn xe tải.",
+              "minLevel": 197,
+              "event": "TRUCK_DELIVER",
+              "count": 1,
+              "progress": 0,
+              "reward": {
+                "gold": 39400,
+                "exp": 93730
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "locked": true
+            }
+          ],
+          "daily": [
+            {
+              "id": "d_fert",
+              "kind": "daily",
+              "name": "Bón phân",
+              "desc": "Bón phân 3 luống.",
+              "minLevel": 1,
+              "event": "FERTILIZE",
+              "count": 3,
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 30
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "rerolled": false
+            },
+            {
+              "id": "d_truck",
+              "kind": "daily",
+              "name": "Giao đơn",
+              "desc": "Giao 3 đơn xe tải.",
+              "minLevel": 1,
+              "event": "TRUCK_DELIVER",
+              "count": 3,
+              "progress": 0,
+              "reward": {
+                "gold": 250,
+                "exp": 50
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "rerolled": false
+            },
+            {
+              "id": "d_care",
+              "kind": "daily",
+              "name": "Chăm ruộng",
+              "desc": "Xử lý 5 sự cố trên ruộng nhà.",
+              "minLevel": 1,
+              "event": "FIX_PROBLEM",
+              "count": 5,
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 30
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "rerolled": false
+            },
+            {
+              "id": "d_harvest",
+              "kind": "daily",
+              "name": "Gặt hái",
+              "desc": "Gặt 12 luống.",
+              "minLevel": 1,
+              "event": "HARVEST_FIELD",
+              "count": 12,
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 30
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "rerolled": false
+            },
+            {
+              "id": "d_plant",
+              "kind": "daily",
+              "name": "Gieo trồng",
+              "desc": "Gieo 12 luống.",
+              "minLevel": 1,
+              "event": "PLANT",
+              "count": 12,
+              "progress": 0,
+              "reward": {
+                "gold": 150,
+                "exp": 30
+              },
+              "completedAt": null,
+              "claimedAt": null,
+              "rerolled": false
+            }
+          ],
+          "dailyRerollXu": 2
+        },
+        "achievements": [
+          {
+            "id": "a_harvest",
+            "title": "Nông dân chăm chỉ",
+            "event": "HARVEST_FIELD",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 100,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_harvest_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 1000,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_harvest_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 10000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_harvest_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_product",
+            "title": "Thợ lành nghề",
+            "event": "COLLECT_PRODUCT",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_product_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 500,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_product_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 5000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_product_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_animal",
+            "title": "Chủ trại",
+            "event": "COLLECT_ANIMAL",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_animal_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 500,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_animal_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 5000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_animal_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_truck",
+            "title": "Bạn của thương lái",
+            "event": "TRUCK_DELIVER",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 20,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_truck_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 200,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_truck_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 2000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_truck_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_boat",
+            "title": "Chủ bến",
+            "event": "BOAT_SAIL",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 5,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_boat_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_boat_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 500,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_boat_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_market",
+            "title": "Tiểu thương",
+            "event": "MARKET_SOLD",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 20,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_market_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 200,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_market_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 2000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_market_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_help",
+            "title": "Bàn tay vàng",
+            "event": "HELP",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_help_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 500,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_help_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 5000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_help_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_steal",
+            "title": "Chuột Tí chính hiệu",
+            "event": "STEAL_OK",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_steal_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 500,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_steal_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 5000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_steal_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_dog",
+            "title": "Chó nhà canh giỏi",
+            "event": "DOG_BIT_THIEF",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 10,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_dog_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 100,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_dog_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 1000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_dog_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_zone",
+            "title": "Điền chủ",
+            "event": "UNLOCK_ZONE",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 3,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_zone_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 10,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_zone_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 12,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_zone_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_storage",
+            "title": "Kho rộng",
+            "event": "UPGRADE_STORAGE",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 5,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_storage_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 20,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_storage_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_storage_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_tree",
+            "title": "Vườn cây trái",
+            "event": "HARVEST_TREE",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_tree_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 500,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_tree_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 5000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_tree_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_derby",
+            "title": "Niềm tự hào xóm",
+            "event": "DERBY_TASK_DONE",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 10,
+                "progress": 0,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_derby_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 100,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_derby_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 1000,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_derby_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_login",
+            "title": "Người bạn thân",
+            "event": "LOGIN_DAY",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 7,
+                "progress": 1,
+                "reward": {
+                  "gold": 200,
+                  "exp": 50
+                },
+                "titleId": "a_login_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 60,
+                "progress": 0,
+                "reward": {
+                  "gold": 500,
+                  "exp": 150
+                },
+                "titleId": "a_login_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 365,
+                "progress": 0,
+                "reward": {
+                  "gold": 1500,
+                  "exp": 400
+                },
+                "titleId": "a_login_3",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          },
+          {
+            "id": "a_level_milestone",
+            "title": "Cột mốc nông dân",
+            "event": "LEVEL_UP",
+            "tiers": [
+              {
+                "tier": 1,
+                "threshold": 49,
+                "progress": 0,
+                "reward": {
+                  "gold": 4000,
+                  "xu": 20,
+                  "exp": 200
+                },
+                "titleId": "a_level_milestone_1",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 2,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 8000,
+                  "xu": 40,
+                  "exp": 400
+                },
+                "titleId": "a_level_milestone_2",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 3,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 12000,
+                  "xu": 60,
+                  "exp": 600
+                },
+                "titleId": "a_level_milestone_3",
+                "completedAt": null,
+                "claimedAt": null
+              },
+              {
+                "tier": 4,
+                "threshold": 50,
+                "progress": 0,
+                "reward": {
+                  "gold": 20000,
+                  "xu": 100,
+                  "exp": 1000
+                },
+                "titleId": "a_level_milestone_4",
+                "completedAt": null,
+                "claimedAt": null
+              }
+            ]
+          }
+        ],
+        "truck": {
+          "orders": [
+            {
+              "slot": 0,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                },
+                {
+                  "itemId": "ngo",
+                  "qty": 12,
+                  "wave": true
+                }
+              ],
+              "rewardGold": 87,
+              "rewardExp": 65
+            },
+            {
+              "slot": 1,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "ngo",
+                  "qty": 12,
+                  "wave": true
+                },
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                }
+              ],
+              "rewardGold": 87,
+              "rewardExp": 65
+            },
+            {
+              "slot": 2,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                }
+              ],
+              "rewardGold": 30,
+              "rewardExp": 29
+            },
+            {
+              "slot": 3,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "lua",
+                  "qty": 11
+                },
+                {
+                  "itemId": "ngo",
+                  "qty": 7,
+                  "wave": true
+                }
+              ],
+              "rewardGold": 61,
+              "rewardExp": 47
+            },
+            {
+              "slot": 4,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                }
+              ],
+              "rewardGold": 30,
+              "rewardExp": 29
+            },
+            {
+              "slot": 5,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "ngo",
+                  "qty": 8,
+                  "wave": true
+                },
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                }
+              ],
+              "rewardGold": 68,
+              "rewardExp": 53
+            },
+            {
+              "slot": 6,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                },
+                {
+                  "itemId": "ngo",
+                  "qty": 12,
+                  "wave": true
+                }
+              ],
+              "rewardGold": 87,
+              "rewardExp": 65
+            },
+            {
+              "slot": 7,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "ngo",
+                  "qty": 12,
+                  "wave": true
+                }
+              ],
+              "rewardGold": 58,
+              "rewardExp": 36
+            },
+            {
+              "slot": 8,
+              "status": "open",
+              "lines": [
+                {
+                  "itemId": "lua",
+                  "qty": 12
+                },
+                {
+                  "itemId": "ngo",
+                  "qty": 9,
+                  "wave": true
+                }
+              ],
+              "rewardGold": 73,
+              "rewardExp": 56
+            }
+          ],
+          "deleteLadder": {
+            "used": 0,
+            "mark": 12,
+            "nextWaitSeconds": 900,
+            "baseWaitSeconds": 900
+          },
+          "bulk": {
+            "doneToday": 0,
+            "cap": 6,
+            "rest": false,
+            "goldMul": 0.9012516759356646
+          }
+        },
+        "checkin": {
+          "streakDay": 0,
+          "canClaimToday": true,
+          "rewards": [
+            {
+              "gold": 100,
+              "day": 1
+            },
+            {
+              "randomMaterial": 1,
+              "day": 2
+            },
+            {
+              "items": [
+                {
+                  "itemId": "phan_nhanh",
+                  "qty": 2
+                }
+              ],
+              "day": 3
+            },
+            {
+              "gold": 300,
+              "day": 4
+            },
+            {
+              "randomMaterial": 2,
+              "day": 5
+            },
+            {
+              "gold": 500,
+              "day": 6
+            },
+            {
+              "xu": 5,
+              "decor": "bu_nhin",
+              "day": 7
+            }
+          ]
+        },
+        "chests": {
+          "freeAvailable": true,
+          "extraCostXu": 5,
+          "openedToday": 0,
+          "odds": [
+            {
+              "pct": 38,
+              "reward": {
+                "gold": 100
+              }
+            },
+            {
+              "pct": 20,
+              "reward": {
+                "items": [
+                  {
+                    "itemId": "phan_nhanh",
+                    "qty": 1
+                  }
+                ]
+              }
+            },
+            {
+              "pct": 25,
+              "reward": {
+                "randomMaterial": 1
+              }
+            },
+            {
+              "pct": 12,
+              "reward": {
+                "xu": 2
+              }
+            },
+            {
+              "pct": 5,
+              "reward": {
+                "xu": 10
+              }
+            }
+          ],
+          "levelGold": true
+        },
+        "pass": {
+          "seasonId": "2c395e58-7d98-462f-9c7c-90b0c2ce0312",
+          "premium": false,
+          "xp": 0,
+          "level": 0,
+          "claimedFree": [],
+          "claimedPremium": [],
+          "dogVoucher": {
+            "tier": 10,
+            "track": "premium",
+            "breed": "dog_shiba"
+          }
+        },
+        "mailbox": {
+          "items": [
+            {
+              "id": "70067",
+              "kind": "gold",
+              "qty": 200,
+              "source": "STARTER_GIFT",
+              "createdAt": "2026-11-08T07:22:06.749Z",
+              "expiresAt": "2026-11-15T07:22:06.749Z",
+              "readAt": "2026-11-08T09:59:13.083Z"
+            },
+            {
+              "id": "70068",
+              "kind": "item",
+              "itemId": "dong_ho_cat_15p",
+              "qty": 5,
+              "source": "STARTER_GIFT",
+              "createdAt": "2026-11-08T07:22:06.749Z",
+              "expiresAt": "2026-11-15T07:22:06.749Z",
+              "readAt": "2026-11-08T09:59:13.083Z"
+            },
+            {
+              "id": "70069",
+              "kind": "item",
+              "itemId": "dong_ho_cat_1h",
+              "qty": 2,
+              "source": "STARTER_GIFT",
+              "createdAt": "2026-11-08T07:22:06.749Z",
+              "expiresAt": "2026-11-15T07:22:06.749Z",
+              "readAt": "2026-11-08T09:59:13.083Z"
+            },
+            {
+              "id": "70070",
+              "kind": "text",
+              "qty": 1,
+              "source": "HOUSE_V2_NOTICE",
+              "ref": {
+                "bodyKey": "house.mail.notice_body",
+                "subjectKey": "house.mail.notice_subject"
+              },
+              "createdAt": "2026-11-08T07:22:07.065Z",
+              "expiresAt": "2026-11-15T07:22:07.065Z",
+              "readAt": "2026-11-08T09:59:13.083Z"
+            }
+          ],
+          "count": 4,
+          "max": 50
+        },
+        "dogs": {
+          "enabled": true,
+          "dogs": [],
+          "seenSkills": [],
+          "kennel": {
+            "capacity": 1,
+            "used": 0,
+            "reserved": 0,
+            "free": 1,
+            "expansions": 0,
+            "maxExpansions": 2,
+            "nextExpansion": {
+              "level": 20,
+              "price": 8000
+            },
+            "updateSeen": false,
+            "xuExpansions": 0,
+            "maxXuExpansions": 3,
+            "nextXuExpansion": {
+              "price": 30
+            },
+            "accessories": {
+              "occasion": null,
+              "next": null,
+              "hats": []
+            }
+          }
+        },
+        "marketMine": {
+          "slots": {
+            "count": 4,
+            "max": 10,
+            "nextCost": {
+              "gold": 1000
+            }
+          },
+          "listings": [],
+          "mailLocked": [],
+          "pendingGold": 0,
+          "sellUnlocksAt": "2026-11-09T07:22:06.749Z",
+          "sellPriceRange": [
+            0.85,
+            1.15
+          ]
+        },
+        "marketNewspaper": [],
+        "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
+      },
+      "lastLoginAt": 1794131953772,
+      "host": "DoJadeRoy"
+    }
+  },
+  "leaderboard": [
+    {
+      "id": "nông dân fpt-is",
+      "name": "Nông Dân FPT-IS",
+      "farmName": "Nông Dân FPT-IS Nông Trại",
+      "gold": 500,
+      "level": 1,
+      "host": "DoJadeRoy",
+      "updatedAt": 1794131953778
+    }
+  ],
+  "presence": {},
+  "market": {},
+  "updatedAt": "2026-11-08T09:59:13.778Z"
+}
