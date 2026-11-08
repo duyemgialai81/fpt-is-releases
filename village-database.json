@@ -225,8 +225,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 3,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-08T10:01:40.905Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-08T10:02:25.905Z",
                 "matureAt": "2026-11-08T10:02:25.905Z",
                 "yieldExpected": 8
               }
@@ -341,7 +341,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-08T10:01:05.316Z",
+          "serverTime": "2026-11-08T10:01:41.320Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -3995,7 +3995,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794132065344,
+      "lastLoginAt": 1794132102066,
       "host": "DoJadeRoy"
     }
   },
@@ -4007,10 +4007,10 @@
       "gold": 680,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794132065345
+      "updatedAt": 1794132102066
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-08T10:01:05.345Z"
+  "updatedAt": "2026-11-08T10:01:42.066Z"
 }
