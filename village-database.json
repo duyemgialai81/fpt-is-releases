@@ -22,10 +22,10 @@
           ]
         },
         "wallet": {
-          "gold": 530,
-          "xu": 20,
+          "gold": 680,
+          "xu": 22,
           "level": 1,
-          "exp": 29,
+          "exp": 44,
           "expToNext": 136
         },
         "home": {
@@ -327,7 +327,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-08T09:59:28.508Z",
+          "serverTime": "2026-11-08T10:00:49.281Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -368,7 +368,7 @@
           },
           "kho": {
             "level": 0,
-            "used": 32,
+            "used": 34,
             "capacity": 120,
             "items": [
               {
@@ -385,7 +385,7 @@
               },
               {
                 "itemId": "phan_nhanh",
-                "qty": 5
+                "qty": 7
               },
               {
                 "itemId": "dong_ho_cat_15p",
@@ -3830,9 +3830,9 @@
           ]
         },
         "chests": {
-          "freeAvailable": true,
+          "freeAvailable": false,
           "extraCostXu": 5,
-          "openedToday": 0,
+          "openedToday": 1,
           "odds": [
             {
               "pct": 38,
@@ -3981,7 +3981,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794131968634,
+      "lastLoginAt": 1794132049487,
       "host": "DoJadeRoy"
     }
   },
@@ -3990,13 +3990,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 530,
+      "gold": 680,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794131968634
+      "updatedAt": 1794132049487
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-08T09:59:28.634Z"
+  "updatedAt": "2026-11-08T10:00:49.487Z"
 }
