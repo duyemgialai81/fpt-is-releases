@@ -238,17 +238,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 3,
                 "cropId": "ngo",
-                "stage": 1,
-                "stageEndsAt": "2026-11-08T10:02:30.720Z",
                 "matureAt": "2026-11-08T10:02:30.720Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -278,17 +277,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 1,
                 "cropId": "ngo",
-                "stage": 1,
-                "stageEndsAt": "2026-11-08T10:02:33.204Z",
                 "matureAt": "2026-11-08T10:02:33.204Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -338,7 +336,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-08T10:02:29.306Z",
+          "serverTime": "2026-11-08T10:02:33.805Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -3992,7 +3990,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794132150282,
+      "lastLoginAt": 1794132154914,
       "host": "DoJadeRoy"
     }
   },
@@ -4004,10 +4002,10 @@
       "gold": 680,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794132150282
+      "updatedAt": 1794132154914
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-08T10:02:30.282Z"
+  "updatedAt": "2026-11-08T10:02:34.914Z"
 }
