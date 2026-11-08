@@ -22,10 +22,10 @@
           ]
         },
         "wallet": {
-          "gold": 500,
+          "gold": 530,
           "xu": 20,
           "level": 1,
-          "exp": 0,
+          "exp": 29,
           "expToNext": 136
         },
         "home": {
@@ -327,7 +327,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-08T09:59:19.662Z",
+          "serverTime": "2026-11-08T09:59:28.508Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -340,13 +340,9 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 22,
+            "used": 10,
             "capacity": 150,
             "items": [
-              {
-                "itemId": "lua",
-                "qty": 12
-              },
               {
                 "itemId": "ngo",
                 "qty": 10
@@ -2907,7 +2903,7 @@
               "minLevel": 1,
               "event": "TRUCK_DELIVER",
               "count": 3,
-              "progress": 0,
+              "progress": 1,
               "reward": {
                 "gold": 250,
                 "exp": 50
@@ -3108,7 +3104,7 @@
               {
                 "tier": 1,
                 "threshold": 20,
-                "progress": 0,
+                "progress": 1,
                 "reward": {
                   "gold": 200,
                   "exp": 50
@@ -3120,7 +3116,7 @@
               {
                 "tier": 2,
                 "threshold": 200,
-                "progress": 0,
+                "progress": 1,
                 "reward": {
                   "gold": 500,
                   "exp": 150
@@ -3132,7 +3128,7 @@
               {
                 "tier": 3,
                 "threshold": 2000,
-                "progress": 0,
+                "progress": 1,
                 "reward": {
                   "gold": 1500,
                   "exp": 400
@@ -3675,11 +3671,16 @@
               "lines": [
                 {
                   "itemId": "lua",
-                  "qty": 12
+                  "qty": 8
+                },
+                {
+                  "itemId": "ngo",
+                  "qty": 6,
+                  "wave": true
                 }
               ],
-              "rewardGold": 30,
-              "rewardExp": 29
+              "rewardGold": 72,
+              "rewardExp": 54
             },
             {
               "slot": 3,
@@ -3980,7 +3981,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794131960233,
+      "lastLoginAt": 1794131968634,
       "host": "DoJadeRoy"
     }
   },
@@ -3989,13 +3990,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 500,
+      "gold": 530,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794131960233
+      "updatedAt": 1794131968634
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-08T09:59:20.233Z"
+  "updatedAt": "2026-11-08T09:59:28.634Z"
 }
