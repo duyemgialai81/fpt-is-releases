@@ -172,13 +172,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 300,
-                "cycleNo": 2
+                "fertCutLeftSec": 7200,
+                "cycleNo": 3,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-08T10:01:44.156Z",
+                "matureAt": "2026-11-08T10:02:29.156Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -191,13 +195,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 300,
-                "cycleNo": 2
+                "fertCutLeftSec": 7200,
+                "cycleNo": 3,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-08T10:01:42.589Z",
+                "matureAt": "2026-11-08T10:02:27.589Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -233,13 +241,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 300,
-                "cycleNo": 2
+                "fertCutLeftSec": 7200,
+                "cycleNo": 3,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-08T10:01:45.720Z",
+                "matureAt": "2026-11-08T10:02:30.720Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -323,7 +335,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-08T10:00:56.855Z",
+          "serverTime": "2026-11-08T10:01:00.720Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -336,12 +348,12 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 40,
+            "used": 34,
             "capacity": 150,
             "items": [
               {
                 "itemId": "ngo",
-                "qty": 8
+                "qty": 2
               },
               {
                 "itemId": "lua",
@@ -2954,7 +2966,7 @@
               "minLevel": 1,
               "event": "PLANT",
               "count": 12,
-              "progress": 1,
+              "progress": 4,
               "reward": {
                 "gold": 150,
                 "exp": 30
@@ -3981,7 +3993,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794132057154,
+      "lastLoginAt": 1794132060752,
       "host": "DoJadeRoy"
     }
   },
@@ -3993,10 +4005,10 @@
       "gold": 680,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794132057155
+      "updatedAt": 1794132060753
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-08T10:00:57.155Z"
+  "updatedAt": "2026-11-08T10:01:00.753Z"
 }
