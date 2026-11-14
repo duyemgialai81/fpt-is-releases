@@ -191,13 +191,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 4
+                "fertCutLeftSec": 7200,
+                "cycleNo": 5,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-14T17:03:19.832Z",
+                "matureAt": "2026-11-14T17:04:04.832Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -210,13 +214,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 4
+                "fertCutLeftSec": 7200,
+                "cycleNo": 5,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-14T17:03:17.361Z",
+                "matureAt": "2026-11-14T17:04:02.361Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -325,7 +333,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T17:02:31.037Z",
+          "serverTime": "2026-11-14T17:02:35.487Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -338,7 +346,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 70,
+            "used": 66,
             "capacity": 150,
             "items": [
               {
@@ -347,7 +355,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 38
+                "qty": 34
               }
             ],
             "nextUpgrade": [
@@ -2956,7 +2964,7 @@
               "minLevel": 1,
               "event": "PLANT",
               "count": 12,
-              "progress": 6,
+              "progress": 8,
               "reward": {
                 "gold": 150,
                 "exp": 30
@@ -3983,7 +3991,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794675751095,
+      "lastLoginAt": 1794675755806,
       "host": "DoJadeRoy"
     }
   },
@@ -3995,10 +4003,10 @@
       "gold": 880,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794675751099
+      "updatedAt": 1794675755807
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T17:02:31.099Z"
+  "updatedAt": "2026-11-14T17:02:35.807Z"
 }
