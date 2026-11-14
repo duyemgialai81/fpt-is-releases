@@ -229,13 +229,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 4
+                "fertCutLeftSec": 7200,
+                "cycleNo": 5,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-14T17:03:15.297Z",
+                "matureAt": "2026-11-14T17:04:00.297Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -321,7 +325,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T16:31:43.989Z",
+          "serverTime": "2026-11-14T17:02:31.037Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -334,7 +338,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 72,
+            "used": 70,
             "capacity": 150,
             "items": [
               {
@@ -343,7 +347,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 40
+                "qty": 38
               }
             ],
             "nextUpgrade": [
@@ -2952,7 +2956,7 @@
               "minLevel": 1,
               "event": "PLANT",
               "count": 12,
-              "progress": 5,
+              "progress": 6,
               "reward": {
                 "gold": 150,
                 "exp": 30
@@ -3979,7 +3983,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794673904388,
+      "lastLoginAt": 1794675751095,
       "host": "DoJadeRoy"
     }
   },
@@ -3991,10 +3995,10 @@
       "gold": 880,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794673904389
+      "updatedAt": 1794675751099
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T16:31:44.389Z"
+  "updatedAt": "2026-11-14T17:02:31.099Z"
 }
