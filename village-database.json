@@ -144,18 +144,15 @@
               "factory": {
                 "slots": 2,
                 "workers": 1,
-                "queue": [
-                  {
-                    "recipeId": "cam_ga",
-                    "startAt": "2026-11-14T17:04:23.333Z",
-                    "endAt": "2026-11-14T17:05:23.333Z",
-                    "w": 1
-                  }
-                ],
+                "queue": [],
                 "output": [
                   {
                     "recipeId": "cam_ga",
                     "readyAt": "2026-11-14T17:04:23.333Z"
+                  },
+                  {
+                    "recipeId": "cam_ga",
+                    "readyAt": "2026-11-14T17:05:23.333Z"
                   }
                 ]
               }
@@ -345,7 +342,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T17:04:24.744Z",
+          "serverTime": "2026-11-14T17:05:23.575Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -4003,7 +4000,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794675864968,
+      "lastLoginAt": 1794675924421,
       "host": "DoJadeRoy"
     }
   },
@@ -4015,10 +4012,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794675864969
+      "updatedAt": 1794675924421
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T17:04:24.969Z"
+  "updatedAt": "2026-11-14T17:05:24.421Z"
 }
