@@ -248,8 +248,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 5,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-14T17:03:15.297Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-14T17:04:00.297Z",
                 "matureAt": "2026-11-14T17:04:00.297Z",
                 "yieldExpected": 8
               }
@@ -337,7 +337,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T17:02:59.640Z",
+          "serverTime": "2026-11-14T17:03:16.255Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -3908,7 +3908,7 @@
               "source": "STARTER_GIFT",
               "createdAt": "2026-11-08T07:22:06.749Z",
               "expiresAt": "2026-11-15T07:22:06.749Z",
-              "readAt": "2026-11-08T09:59:17.340Z"
+              "readAt": "2026-11-14T17:03:16.214Z"
             },
             {
               "id": "70068",
@@ -3918,7 +3918,7 @@
               "source": "STARTER_GIFT",
               "createdAt": "2026-11-08T07:22:06.749Z",
               "expiresAt": "2026-11-15T07:22:06.749Z",
-              "readAt": "2026-11-08T09:59:17.340Z"
+              "readAt": "2026-11-14T17:03:16.214Z"
             },
             {
               "id": "70069",
@@ -3928,7 +3928,7 @@
               "source": "STARTER_GIFT",
               "createdAt": "2026-11-08T07:22:06.749Z",
               "expiresAt": "2026-11-15T07:22:06.749Z",
-              "readAt": "2026-11-08T09:59:17.340Z"
+              "readAt": "2026-11-14T17:03:16.214Z"
             },
             {
               "id": "70070",
@@ -3941,7 +3941,7 @@
               },
               "createdAt": "2026-11-08T07:22:07.065Z",
               "expiresAt": "2026-11-15T07:22:07.065Z",
-              "readAt": "2026-11-08T09:59:17.340Z"
+              "readAt": "2026-11-14T17:03:16.214Z"
             }
           ],
           "count": 4,
@@ -3995,7 +3995,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794675779925,
+      "lastLoginAt": 1794675796742,
       "host": "DoJadeRoy"
     }
   },
@@ -4007,10 +4007,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794675779925
+      "updatedAt": 1794675796743
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T17:02:59.925Z"
+  "updatedAt": "2026-11-14T17:03:16.743Z"
 }
