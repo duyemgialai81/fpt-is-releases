@@ -144,7 +144,20 @@
               "factory": {
                 "slots": 2,
                 "workers": 1,
-                "queue": [],
+                "queue": [
+                  {
+                    "recipeId": "cam_ga",
+                    "startAt": "2026-11-14T17:03:23.333Z",
+                    "endAt": "2026-11-14T17:04:23.333Z",
+                    "w": 1
+                  },
+                  {
+                    "recipeId": "cam_ga",
+                    "startAt": "2026-11-14T17:04:23.333Z",
+                    "endAt": "2026-11-14T17:05:23.333Z",
+                    "w": 1
+                  }
+                ],
                 "output": []
               }
             },
@@ -179,8 +192,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 5,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-14T17:03:21.576Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-14T17:04:06.576Z",
                 "matureAt": "2026-11-14T17:04:06.576Z",
                 "yieldExpected": 8
               }
@@ -337,7 +350,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T17:03:20.302Z",
+          "serverTime": "2026-11-14T17:03:24.356Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -350,16 +363,16 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 64,
+            "used": 58,
             "capacity": 150,
             "items": [
               {
                 "itemId": "lua",
-                "qty": 32
+                "qty": 30
               },
               {
                 "itemId": "ngo",
-                "qty": 32
+                "qty": 28
               }
             ],
             "nextUpgrade": [
@@ -3995,7 +4008,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794675800838,
+      "lastLoginAt": 1794675804684,
       "host": "DoJadeRoy"
     }
   },
@@ -4007,10 +4020,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794675800839
+      "updatedAt": 1794675804685
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T17:03:20.839Z"
+  "updatedAt": "2026-11-14T17:03:24.685Z"
 }
