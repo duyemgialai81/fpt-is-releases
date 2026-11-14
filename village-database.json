@@ -22,10 +22,10 @@
           ]
         },
         "wallet": {
-          "gold": 680,
-          "xu": 22,
+          "gold": 880,
+          "xu": 24,
           "level": 1,
-          "exp": 80,
+          "exp": 100,
           "expToNext": 136
         },
         "home": {
@@ -324,7 +324,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T08:27:12.216Z",
+          "serverTime": "2026-11-14T16:31:38.384Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -3791,8 +3791,8 @@
           }
         },
         "checkin": {
-          "streakDay": 0,
-          "canClaimToday": true,
+          "streakDay": 1,
+          "canClaimToday": false,
           "rewards": [
             {
               "gold": 100,
@@ -3982,7 +3982,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794644832412,
+      "lastLoginAt": 1794673898778,
       "host": "DoJadeRoy"
     }
   },
@@ -3991,13 +3991,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 680,
+      "gold": 880,
       "level": 1,
       "host": "DoJadeRoy",
-      "updatedAt": 1794644832422
+      "updatedAt": 1794673898787
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T08:27:12.422Z"
+  "updatedAt": "2026-11-14T16:31:38.787Z"
 }
