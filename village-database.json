@@ -11,7 +11,7 @@
         "user": {
           "id": "6d6f6617-ea76-4064-bf05-f45be5de2656",
           "displayName": "Nông Dân FPT-IS",
-          "level": 1,
+          "level": 2,
           "isNpc": false,
           "settings": {},
           "tutorialStep": 0,
@@ -22,11 +22,11 @@
           ]
         },
         "wallet": {
-          "gold": 880,
-          "xu": 24,
-          "level": 1,
-          "exp": 105,
-          "expToNext": 136
+          "gold": 1060,
+          "xu": 26,
+          "level": 2,
+          "exp": 9,
+          "expToNext": 296
         },
         "home": {
           "provinceId": "hue",
@@ -51,7 +51,7 @@
           "owner": {
             "id": "6d6f6617-ea76-4064-bf05-f45be5de2656",
             "displayName": "Nông Dân FPT-IS",
-            "level": 1,
+            "level": 2,
             "isNpc": false
           },
           "zones": {
@@ -172,13 +172,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 4
+                "fertCutLeftSec": 7200,
+                "cycleNo": 5,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-14T17:03:21.576Z",
+                "matureAt": "2026-11-14T17:04:06.576Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -333,7 +337,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-14T17:02:35.487Z",
+          "serverTime": "2026-11-14T17:02:59.640Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -346,7 +350,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 66,
+            "used": 64,
             "capacity": 150,
             "items": [
               {
@@ -355,7 +359,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 34
+                "qty": 32
               }
             ],
             "nextUpgrade": [
@@ -462,7 +466,7 @@
                 "exp": 40
               },
               "completedAt": "2026-11-08T10:00:52.631Z",
-              "claimedAt": null,
+              "claimedAt": "2026-11-14T17:02:58.735Z",
               "locked": false
             },
             {
@@ -480,7 +484,7 @@
               },
               "completedAt": null,
               "claimedAt": null,
-              "locked": true
+              "locked": false
             },
             {
               "id": "m03",
@@ -2964,7 +2968,7 @@
               "minLevel": 1,
               "event": "PLANT",
               "count": 12,
-              "progress": 8,
+              "progress": 9,
               "reward": {
                 "gold": 150,
                 "exp": 30
@@ -3991,7 +3995,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794675755806,
+      "lastLoginAt": 1794675779925,
       "host": "DoJadeRoy"
     }
   },
@@ -4000,13 +4004,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 880,
-      "level": 1,
+      "gold": 1060,
+      "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794675755807
+      "updatedAt": 1794675779925
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-14T17:02:35.807Z"
+  "updatedAt": "2026-11-14T17:02:59.925Z"
 }
