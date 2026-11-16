@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-06T07:34:24.483Z",
+  "updatedAt": "2026-11-16T08:19:22.439Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -1132,6 +1132,43 @@
         {
           "version": "1.0.0",
           "publishedAt": "2026-11-06T07:27:15.447Z",
+          "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "change-password",
+      "moduleName": "Cấp Lại Mật Khẩu",
+      "description": "Mở khóa + cấp lại mật khẩu hàng loạt tối đa 30.000 tài khoản / lần (dán token)",
+      "version": "1.2.0",
+      "icon": "⌁",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/change-password-1.2.0.zip",
+      "uiSchema": {
+        "moduleId": "change-password",
+        "moduleName": "Cấp Lại Mật Khẩu",
+        "description": "Mở khóa + cấp lại mật khẩu hàng loạt tối đa 30.000 tài khoản / lần (dán token)",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-11-16T08:19:22.439Z",
+      "publishHistory": [
+        {
+          "version": "1.2.0",
+          "publishedAt": "2026-11-16T08:19:22.439Z",
           "source": "zip"
         }
       ]
