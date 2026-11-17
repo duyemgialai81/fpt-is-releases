@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-17T11:18:54.699Z",
+  "updatedAt": "2026-11-17T13:13:07.689Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -892,6 +892,51 @@
           "version": "1.2.0",
           "publishedAt": "2026-11-16T08:19:22.439Z",
           "source": "zip"
+        }
+      ]
+    },
+    {
+      "moduleId": "edlm-vdxp-monitor",
+      "moduleName": "Giám Sát & Xử Lý Trục VDXP (TATC & BNV)",
+      "description": "Bộ công cụ trực ca (9h - 14h - 18h), chẩn đoán lỗi liên thông VDXP (D1-D16, N1-N10, F1-F7), tra cứu 200.000 cơ quan trục và tạo phiếu kỹ thuật chuẩn.",
+      "version": "1.0.0",
+      "icon": "activity",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-vdxp-monitor-1.0.0.zip",
+      "uiSchema": {
+        "moduleId": "edlm-vdxp-monitor",
+        "moduleName": "Giám Sát & Xử Lý Trục VDXP (TATC & BNV)",
+        "description": "Bộ công cụ trực ca (9h - 14h - 18h), chẩn đoán lỗi liên thông VDXP (D1-D16, N1-N10, F1-F7), tra cứu 200.000 cơ quan trục và tạo phiếu kỹ thuật chuẩn.",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "requiredRole": "admin",
+      "allowedMachines": [
+        "EP-DUYDN25",
+        "DonJadeRoy",
+        "DoJadeRoy"
+      ],
+      "author": "FPT-IS eDLM Core Support",
+      "lastPublishedAt": "2026-11-17T13:13:07.689Z",
+      "publishHistory": [
+        {
+          "version": "1.0.0",
+          "publishedAt": "2026-11-17T13:13:07.689Z",
+          "source": "zip",
+          "author": "FPT-IS eDLM Core Support"
         }
       ]
     }
