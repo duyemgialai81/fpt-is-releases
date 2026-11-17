@@ -25,7 +25,7 @@
           "gold": 1060,
           "xu": 26,
           "level": 2,
-          "exp": 19,
+          "exp": 29,
           "expToNext": 296
         },
         "home": {
@@ -181,16 +181,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 5,
-                "cropId": "ngo",
-                "matureAt": "2026-11-14T17:04:06.576Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 6
               }
             },
             {
@@ -222,16 +219,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 5,
-                "cropId": "ngo",
-                "matureAt": "2026-11-14T17:04:02.361Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 6
               }
             },
             {
@@ -336,7 +330,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-17T04:23:01.544Z",
+          "serverTime": "2026-11-17T04:23:03.596Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -349,7 +343,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 74,
+            "used": 90,
             "capacity": 150,
             "items": [
               {
@@ -358,7 +352,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 44
+                "qty": 60
               }
             ],
             "nextUpgrade": [
@@ -2950,12 +2944,12 @@
               "minLevel": 1,
               "event": "HARVEST_FIELD",
               "count": 12,
-              "progress": 11,
+              "progress": 12,
               "reward": {
                 "gold": 150,
                 "exp": 30
               },
-              "completedAt": null,
+              "completedAt": "2026-11-17T04:23:02.104Z",
               "claimedAt": null,
               "rerolled": false
             },
@@ -2988,7 +2982,7 @@
               {
                 "tier": 1,
                 "threshold": 100,
-                "progress": 11,
+                "progress": 13,
                 "reward": {
                   "gold": 200,
                   "exp": 50
@@ -3000,7 +2994,7 @@
               {
                 "tier": 2,
                 "threshold": 1000,
-                "progress": 11,
+                "progress": 13,
                 "reward": {
                   "gold": 500,
                   "exp": 150
@@ -3012,7 +3006,7 @@
               {
                 "tier": 3,
                 "threshold": 10000,
-                "progress": 11,
+                "progress": 13,
                 "reward": {
                   "gold": 1500,
                   "exp": 400
@@ -3994,7 +3988,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794889381643,
+      "lastLoginAt": 1794889383831,
       "host": "DoJadeRoy"
     }
   },
@@ -4006,10 +4000,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794889381660
+      "updatedAt": 1794889383831
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-17T04:23:01.660Z"
+  "updatedAt": "2026-11-17T04:23:03.831Z"
 }
