@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-17T01:59:20.939Z",
+  "updatedAt": "2026-11-17T11:18:54.699Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -634,12 +634,12 @@
       "moduleId": "auto-login-bo-noi-vu",
       "moduleName": "Auto Login Bộ Nội Vụ",
       "description": "Tự động đăng nhập vào hệ thống Bộ Nội Vụ (emoha.moha.gov.vn)",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "icon": "🏛️",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-bo-noi-vu-1.0.3.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/auto-login-bo-noi-vu-1.0.4.zip",
       "main": "main.js",
       "hasBackend": true,
-      "syncedFromReleaseAt": "2026-11-02T08:26:11.228Z"
+      "syncedFromReleaseAt": "2026-11-17T11:18:54.019Z"
     },
     {
       "moduleId": "bonoivu",
