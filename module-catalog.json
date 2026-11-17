@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-17T13:13:07.689Z",
+  "updatedAt": "2026-11-17T13:22:01.786Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -937,6 +937,43 @@
           "publishedAt": "2026-11-17T13:13:07.689Z",
           "source": "zip",
           "author": "FPT-IS eDLM Core Support"
+        }
+      ]
+    },
+    {
+      "moduleId": "toaan-phanquyen",
+      "moduleName": "Phân Quyền Tài Khoản (Tòa Án & eAccount)",
+      "description": "Bộ công cụ phân quyền tài khoản cán bộ, gán nhóm quyền chuẩn, phân quyền quy trình eDLM (TATC & BNV) và đối soát tài khoản đơn vị Tòa án.",
+      "version": "1.1.0",
+      "icon": "⚖️",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/toaan-phanquyen-1.1.0.zip",
+      "uiSchema": {
+        "moduleId": "toaan-phanquyen",
+        "moduleName": "Phân Quyền Tài Khoản (Tòa Án & eAccount)",
+        "description": "Bộ công cụ phân quyền tài khoản cán bộ, gán nhóm quyền chuẩn, phân quyền quy trình eDLM (TATC & BNV) và đối soát tài khoản đơn vị Tòa án.",
+        "action": "process-task",
+        "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
+        "fields": [
+          {
+            "id": "taskId",
+            "label": "Mã Tác Vụ",
+            "type": "text",
+            "defaultValue": "TASK-001"
+          },
+          {
+            "id": "text",
+            "label": "Nội Dung Xử Lý",
+            "type": "textarea",
+            "defaultValue": "Dữ liệu mẫu"
+          }
+        ]
+      },
+      "lastPublishedAt": "2026-11-17T13:22:01.786Z",
+      "publishHistory": [
+        {
+          "version": "1.1.0",
+          "publishedAt": "2026-11-17T13:22:01.786Z",
+          "source": "zip"
         }
       ]
     }
