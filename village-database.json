@@ -181,13 +181,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 6
+                "fertCutLeftSec": 7200,
+                "cycleNo": 7,
+                "cropId": "lua",
+                "stage": 0,
+                "stageEndsAt": "2026-11-17T04:24:00.780Z",
+                "matureAt": "2026-11-17T04:24:45.780Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -352,7 +356,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-17T04:23:15.058Z",
+          "serverTime": "2026-11-17T04:23:26.095Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -365,12 +369,12 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 80,
+            "used": 78,
             "capacity": 150,
             "items": [
               {
                 "itemId": "lua",
-                "qty": 20
+                "qty": 18
               },
               {
                 "itemId": "ngo",
@@ -492,12 +496,12 @@
               "minLevel": 1,
               "event": "PLANT",
               "count": 6,
-              "progress": 5,
+              "progress": 6,
               "reward": {
                 "gold": 80,
                 "exp": 40
               },
-              "completedAt": null,
+              "completedAt": "2026-11-17T04:23:15.780Z",
               "claimedAt": null,
               "locked": false
             },
@@ -3923,7 +3927,7 @@
               "source": "STARTER_GIFT",
               "createdAt": "2026-11-08T07:22:06.749Z",
               "expiresAt": "2026-11-15T07:22:06.749Z",
-              "readAt": "2026-11-14T17:03:19.150Z"
+              "readAt": "2026-11-17T04:23:25.311Z"
             },
             {
               "id": "70068",
@@ -3933,7 +3937,7 @@
               "source": "STARTER_GIFT",
               "createdAt": "2026-11-08T07:22:06.749Z",
               "expiresAt": "2026-11-15T07:22:06.749Z",
-              "readAt": "2026-11-14T17:03:19.150Z"
+              "readAt": "2026-11-17T04:23:25.311Z"
             },
             {
               "id": "70069",
@@ -3943,7 +3947,7 @@
               "source": "STARTER_GIFT",
               "createdAt": "2026-11-08T07:22:06.749Z",
               "expiresAt": "2026-11-15T07:22:06.749Z",
-              "readAt": "2026-11-14T17:03:19.150Z"
+              "readAt": "2026-11-17T04:23:25.311Z"
             },
             {
               "id": "70070",
@@ -3956,7 +3960,7 @@
               },
               "createdAt": "2026-11-08T07:22:07.065Z",
               "expiresAt": "2026-11-15T07:22:07.065Z",
-              "readAt": "2026-11-14T17:03:19.150Z"
+              "readAt": "2026-11-17T04:23:25.311Z"
             }
           ],
           "count": 4,
@@ -4010,7 +4014,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794889395234,
+      "lastLoginAt": 1794889406302,
       "host": "DoJadeRoy"
     }
   },
@@ -4022,10 +4026,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794889395235
+      "updatedAt": 1794889406303
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-17T04:23:15.236Z"
+  "updatedAt": "2026-11-17T04:23:26.303Z"
 }
