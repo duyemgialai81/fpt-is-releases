@@ -181,17 +181,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 7,
                 "cropId": "lua",
-                "stage": 0,
-                "stageEndsAt": "2026-11-17T04:24:00.780Z",
                 "matureAt": "2026-11-17T04:24:45.780Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -204,17 +203,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 7,
                 "cropId": "lua",
-                "stage": 0,
-                "stageEndsAt": "2026-11-17T04:23:59.063Z",
                 "matureAt": "2026-11-17T04:24:44.063Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -227,17 +225,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 7,
                 "cropId": "lua",
-                "stage": 0,
-                "stageEndsAt": "2026-11-17T04:23:56.992Z",
                 "matureAt": "2026-11-17T04:24:41.992Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -250,17 +247,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 7,
                 "cropId": "lua",
-                "stage": 0,
-                "stageEndsAt": "2026-11-17T04:23:53.279Z",
                 "matureAt": "2026-11-17T04:24:38.279Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -273,17 +269,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 1,
                 "cropId": "lua",
-                "stage": 0,
-                "stageEndsAt": "2026-11-17T04:23:54.827Z",
                 "matureAt": "2026-11-17T04:24:39.827Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -296,17 +291,16 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "MATURE",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
                 "cycleNo": 3,
                 "cropId": "lua",
-                "stage": 0,
-                "stageEndsAt": "2026-11-17T04:23:51.296Z",
                 "matureAt": "2026-11-17T04:24:36.296Z",
-                "yieldExpected": 8
+                "yieldExpected": 8,
+                "yieldRemaining": 8
               }
             },
             {
@@ -356,7 +350,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-17T04:23:29.095Z",
+          "serverTime": "2026-11-18T08:26:32.418Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -4014,7 +4008,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1794889409291,
+      "lastLoginAt": 1794990392542,
       "host": "DoJadeRoy"
     }
   },
@@ -4026,10 +4020,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1794889409291
+      "updatedAt": 1794990392556
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-17T04:23:29.291Z"
+  "updatedAt": "2026-11-18T08:26:32.556Z"
 }
