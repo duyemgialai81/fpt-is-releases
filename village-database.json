@@ -188,8 +188,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 11,
                 "cropId": "rau_muong",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T13:01:06.074Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T13:01:51.074Z",
                 "matureAt": "2026-11-19T13:01:51.074Z",
                 "yieldExpected": 8
               }
@@ -356,7 +356,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:00:34.052Z",
+          "serverTime": "2026-11-19T13:01:09.114Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -4014,7 +4014,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093234184,
+      "lastLoginAt": 1795093270055,
       "host": "DoJadeRoy"
     }
   },
@@ -4026,10 +4026,10 @@
       "gold": 1804,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093234185
+      "updatedAt": 1795093270055
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:00:34.185Z"
+  "updatedAt": "2026-11-19T13:01:10.055Z"
 }
