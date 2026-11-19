@@ -25,7 +25,7 @@
           "gold": 1820,
           "xu": 26,
           "level": 2,
-          "exp": 253,
+          "exp": 258,
           "expToNext": 296
         },
         "home": {
@@ -291,17 +291,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "GROWING",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 5,
-                "cropId": "ngo",
-                "stage": 1,
-                "stageEndsAt": "2026-11-19T13:00:00.165Z",
-                "matureAt": "2026-11-19T13:00:00.165Z",
-                "yieldExpected": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 6
               }
             },
             {
@@ -351,7 +347,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T12:59:59.018Z",
+          "serverTime": "2026-11-19T13:00:10.050Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -364,7 +360,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 114,
+            "used": 122,
             "capacity": 150,
             "items": [
               {
@@ -373,7 +369,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 48
+                "qty": 56
               }
             ],
             "nextUpgrade": [
@@ -3003,7 +2999,7 @@
               {
                 "tier": 1,
                 "threshold": 100,
-                "progress": 19,
+                "progress": 20,
                 "reward": {
                   "gold": 200,
                   "exp": 50
@@ -3015,7 +3011,7 @@
               {
                 "tier": 2,
                 "threshold": 1000,
-                "progress": 19,
+                "progress": 20,
                 "reward": {
                   "gold": 500,
                   "exp": 150
@@ -3027,7 +3023,7 @@
               {
                 "tier": 3,
                 "threshold": 10000,
-                "progress": 19,
+                "progress": 20,
                 "reward": {
                   "gold": 1500,
                   "exp": 400
@@ -4009,7 +4005,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093199457,
+      "lastLoginAt": 1795093210231,
       "host": "DoJadeRoy"
     }
   },
@@ -4021,10 +4017,10 @@
       "gold": 1820,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093199457
+      "updatedAt": 1795093210232
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T12:59:59.457Z"
+  "updatedAt": "2026-11-19T13:00:10.232Z"
 }
