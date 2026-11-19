@@ -22,10 +22,10 @@
           ]
         },
         "wallet": {
-          "gold": 1220,
+          "gold": 1520,
           "xu": 26,
           "level": 2,
-          "exp": 133,
+          "exp": 193,
           "expToNext": 296
         },
         "home": {
@@ -234,8 +234,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 9,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T12:59:09.109Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T12:59:54.109Z",
                 "matureAt": "2026-11-19T12:59:54.109Z",
                 "yieldExpected": 8
               }
@@ -257,8 +257,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 9,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T12:59:11.596Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T12:59:56.596Z",
                 "matureAt": "2026-11-19T12:59:56.596Z",
                 "yieldExpected": 8
               }
@@ -356,7 +356,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T12:59:08.556Z",
+          "serverTime": "2026-11-19T12:59:13.055Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -2976,7 +2976,7 @@
                 "exp": 30
               },
               "completedAt": "2026-11-17T04:23:02.104Z",
-              "claimedAt": null,
+              "claimedAt": "2026-11-19T12:59:12.855Z",
               "rerolled": false
             },
             {
@@ -2993,7 +2993,7 @@
                 "exp": 30
               },
               "completedAt": "2026-11-17T04:23:09.827Z",
-              "claimedAt": null,
+              "claimedAt": "2026-11-19T12:59:09.367Z",
               "rerolled": false
             }
           ],
@@ -4014,7 +4014,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093148998,
+      "lastLoginAt": 1795093153067,
       "host": "DoJadeRoy"
     }
   },
@@ -4023,13 +4023,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 1220,
+      "gold": 1520,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093148999
+      "updatedAt": 1795093153067
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T12:59:08.999Z"
+  "updatedAt": "2026-11-19T12:59:13.067Z"
 }
