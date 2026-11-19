@@ -22,7 +22,7 @@
           ]
         },
         "wallet": {
-          "gold": 1812,
+          "gold": 1804,
           "xu": 26,
           "level": 2,
           "exp": 283,
@@ -204,13 +204,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 10
+                "fertCutLeftSec": 7200,
+                "cycleNo": 11,
+                "cropId": "rau_muong",
+                "stage": 0,
+                "stageEndsAt": "2026-11-19T13:01:10.005Z",
+                "matureAt": "2026-11-19T13:01:55.005Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -336,7 +340,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:00:21.747Z",
+          "serverTime": "2026-11-19T13:00:25.052Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -3994,7 +3998,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093221768,
+      "lastLoginAt": 1795093225593,
       "host": "DoJadeRoy"
     }
   },
@@ -4003,13 +4007,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 1812,
+      "gold": 1804,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093221768
+      "updatedAt": 1795093225593
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:00:21.768Z"
+  "updatedAt": "2026-11-19T13:00:25.593Z"
 }
