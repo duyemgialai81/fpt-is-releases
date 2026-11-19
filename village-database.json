@@ -204,13 +204,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 300,
-                "cycleNo": 8
+                "fertCutLeftSec": 7200,
+                "cycleNo": 9,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-19T12:59:07.595Z",
+                "matureAt": "2026-11-19T12:59:52.595Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -223,13 +227,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 300,
-                "cycleNo": 8
+                "fertCutLeftSec": 7200,
+                "cycleNo": 9,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-19T12:59:09.109Z",
+                "matureAt": "2026-11-19T12:59:54.109Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -336,7 +344,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T12:58:20.976Z",
+          "serverTime": "2026-11-19T12:58:25.061Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -349,7 +357,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 124,
+            "used": 120,
             "capacity": 150,
             "items": [
               {
@@ -358,7 +366,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 58
+                "qty": 54
               }
             ],
             "nextUpgrade": [
@@ -3994,7 +4002,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093101354,
+      "lastLoginAt": 1795093105074,
       "host": "DoJadeRoy"
     }
   },
@@ -4006,10 +4014,10 @@
       "gold": 1060,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093101357
+      "updatedAt": 1795093105074
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T12:58:21.357Z"
+  "updatedAt": "2026-11-19T12:58:25.074Z"
 }
