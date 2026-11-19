@@ -25,7 +25,7 @@
           "gold": 1820,
           "xu": 26,
           "level": 2,
-          "exp": 258,
+          "exp": 278,
           "expToNext": 296
         },
         "home": {
@@ -203,16 +203,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 9,
-                "cropId": "ngo",
-                "matureAt": "2026-11-19T12:59:52.595Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 10
               }
             },
             {
@@ -225,16 +222,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 9,
-                "cropId": "ngo",
-                "matureAt": "2026-11-19T12:59:54.109Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 10
               }
             },
             {
@@ -247,16 +241,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 9,
-                "cropId": "ngo",
-                "matureAt": "2026-11-19T12:59:56.596Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 10
               }
             },
             {
@@ -269,16 +260,13 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "EMPTY",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "fertCutLeftSec": 7200,
-                "cycleNo": 3,
-                "cropId": "ngo",
-                "matureAt": "2026-11-19T12:59:58.517Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "lastFamily": "lua",
+                "lastGrowSeconds": 360,
+                "cycleNo": 4
               }
             },
             {
@@ -347,7 +335,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:00:10.050Z",
+          "serverTime": "2026-11-19T13:00:13.206Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -360,8 +348,8 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 122,
-            "capacity": 150,
+            "used": 154,
+            "capacity": 174,
             "items": [
               {
                 "itemId": "lua",
@@ -369,7 +357,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 56
+                "qty": 88
               }
             ],
             "nextUpgrade": [
@@ -2999,7 +2987,7 @@
               {
                 "tier": 1,
                 "threshold": 100,
-                "progress": 20,
+                "progress": 24,
                 "reward": {
                   "gold": 200,
                   "exp": 50
@@ -3011,7 +2999,7 @@
               {
                 "tier": 2,
                 "threshold": 1000,
-                "progress": 20,
+                "progress": 24,
                 "reward": {
                   "gold": 500,
                   "exp": 150
@@ -3023,7 +3011,7 @@
               {
                 "tier": 3,
                 "threshold": 10000,
-                "progress": 20,
+                "progress": 24,
                 "reward": {
                   "gold": 1500,
                   "exp": 400
@@ -4005,7 +3993,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093210231,
+      "lastLoginAt": 1795093213215,
       "host": "DoJadeRoy"
     }
   },
@@ -4017,10 +4005,10 @@
       "gold": 1820,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093210232
+      "updatedAt": 1795093213215
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:00:10.232Z"
+  "updatedAt": "2026-11-19T13:00:13.215Z"
 }
