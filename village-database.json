@@ -22,10 +22,10 @@
           ]
         },
         "wallet": {
-          "gold": 1820,
+          "gold": 1812,
           "xu": 26,
           "level": 2,
-          "exp": 278,
+          "exp": 283,
           "expToNext": 296
         },
         "home": {
@@ -181,16 +181,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "MATURE",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
                 "fertCutLeftSec": 7200,
-                "cycleNo": 9,
-                "cropId": "ngo",
-                "matureAt": "2026-11-19T12:59:50.329Z",
-                "yieldExpected": 8,
-                "yieldRemaining": 8
+                "cycleNo": 11,
+                "cropId": "rau_muong",
+                "stage": 0,
+                "stageEndsAt": "2026-11-19T13:01:06.074Z",
+                "matureAt": "2026-11-19T13:01:51.074Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -335,7 +336,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:00:13.206Z",
+          "serverTime": "2026-11-19T13:00:21.747Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -348,7 +349,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 154,
+            "used": 162,
             "capacity": 174,
             "items": [
               {
@@ -357,7 +358,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 88
+                "qty": 96
               }
             ],
             "nextUpgrade": [
@@ -2987,7 +2988,7 @@
               {
                 "tier": 1,
                 "threshold": 100,
-                "progress": 24,
+                "progress": 25,
                 "reward": {
                   "gold": 200,
                   "exp": 50
@@ -2999,7 +3000,7 @@
               {
                 "tier": 2,
                 "threshold": 1000,
-                "progress": 24,
+                "progress": 25,
                 "reward": {
                   "gold": 500,
                   "exp": 150
@@ -3011,7 +3012,7 @@
               {
                 "tier": 3,
                 "threshold": 10000,
-                "progress": 24,
+                "progress": 25,
                 "reward": {
                   "gold": 1500,
                   "exp": 400
@@ -3993,7 +3994,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093213215,
+      "lastLoginAt": 1795093221768,
       "host": "DoJadeRoy"
     }
   },
@@ -4002,13 +4003,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 1820,
+      "gold": 1812,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093213215
+      "updatedAt": 1795093221768
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:00:13.215Z"
+  "updatedAt": "2026-11-19T13:00:21.768Z"
 }
