@@ -227,13 +227,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 10
+                "fertCutLeftSec": 7200,
+                "cycleNo": 11,
+                "cropId": "ngo",
+                "stage": 0,
+                "stageEndsAt": "2026-11-19T13:01:12.526Z",
+                "matureAt": "2026-11-19T13:01:57.526Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -340,7 +344,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:00:25.052Z",
+          "serverTime": "2026-11-19T13:00:27.833Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -353,7 +357,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 162,
+            "used": 160,
             "capacity": 174,
             "items": [
               {
@@ -362,7 +366,7 @@
               },
               {
                 "itemId": "ngo",
-                "qty": 96
+                "qty": 94
               }
             ],
             "nextUpgrade": [
@@ -3998,7 +4002,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093225593,
+      "lastLoginAt": 1795093227998,
       "host": "DoJadeRoy"
     }
   },
@@ -4010,10 +4014,10 @@
       "gold": 1804,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093225593
+      "updatedAt": 1795093227999
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:00:25.593Z"
+  "updatedAt": "2026-11-19T13:00:27.999Z"
 }
