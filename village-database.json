@@ -211,8 +211,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 11,
                 "cropId": "rau_muong",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T13:01:10.005Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T13:01:55.005Z",
                 "matureAt": "2026-11-19T13:01:55.005Z",
                 "yieldExpected": 8
               }
@@ -234,8 +234,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 11,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T13:01:12.526Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T13:01:57.526Z",
                 "matureAt": "2026-11-19T13:01:57.526Z",
                 "yieldExpected": 8
               }
@@ -356,7 +356,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:01:09.114Z",
+          "serverTime": "2026-11-19T13:01:14.118Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -4014,7 +4014,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093270055,
+      "lastLoginAt": 1795093274218,
       "host": "DoJadeRoy"
     }
   },
@@ -4026,10 +4026,10 @@
       "gold": 1804,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093270055
+      "updatedAt": 1795093274218
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:01:10.055Z"
+  "updatedAt": "2026-11-19T13:01:14.218Z"
 }
