@@ -257,8 +257,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 11,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T13:01:14.248Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T13:01:59.248Z",
                 "matureAt": "2026-11-19T13:01:59.248Z",
                 "yieldExpected": 8
               }
@@ -280,8 +280,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 5,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T13:01:15.872Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T13:02:00.872Z",
                 "matureAt": "2026-11-19T13:02:00.872Z",
                 "yieldExpected": 8
               }
@@ -303,8 +303,8 @@
                 "fertCutLeftSec": 7200,
                 "cycleNo": 7,
                 "cropId": "ngo",
-                "stage": 0,
-                "stageEndsAt": "2026-11-19T13:01:17.819Z",
+                "stage": 1,
+                "stageEndsAt": "2026-11-19T13:02:02.819Z",
                 "matureAt": "2026-11-19T13:02:02.819Z",
                 "yieldExpected": 8
               }
@@ -356,7 +356,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-19T13:01:14.118Z",
+          "serverTime": "2026-11-19T13:01:19.111Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -4014,7 +4014,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795093274218,
+      "lastLoginAt": 1795093280066,
       "host": "DoJadeRoy"
     }
   },
@@ -4026,10 +4026,10 @@
       "gold": 1804,
       "level": 2,
       "host": "DoJadeRoy",
-      "updatedAt": 1795093274218
+      "updatedAt": 1795093280066
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-19T13:01:14.218Z"
+  "updatedAt": "2026-11-19T13:01:20.066Z"
 }
