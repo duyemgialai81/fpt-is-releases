@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-20T03:45:50.347Z",
+  "updatedAt": "2026-11-20T04:12:27.854Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -942,15 +942,15 @@
     },
     {
       "moduleId": "toaan-phanquyen",
-      "moduleName": "Phân Quyền Tòa Án",
-      "description": "Bật toàn bộ quyền theo phân hệ, tạo 3 nhóm quyền chuẩn eKPI, nhân bản nhóm mẫu và kiểm tra nhóm quyền đơn vị Tòa án. Giao diện tối giản chuẩn FPT UI Kit.",
-      "version": "1.3.0",
+      "moduleName": "Phân Quyền Văn Bản Tòa Án",
+      "description": "Phân quyền và thu hồi quyền sử dụng quy trình văn bản eDLM Tòa Án Nhân Dân Tối Cao (dieuhanhso.toaan.gov.vn) theo danh sách email. Giao diện tối giản chuẩn FPT UI Kit.",
+      "version": "2.0.0",
       "icon": "⚖️",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/toaan-phanquyen-1.3.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/toaan-phanquyen-2.0.0.zip",
       "uiSchema": {
         "moduleId": "toaan-phanquyen",
-        "moduleName": "Phân Quyền Tòa Án",
-        "description": "Bật toàn bộ quyền theo phân hệ, tạo 3 nhóm quyền chuẩn eKPI, nhân bản nhóm mẫu và kiểm tra nhóm quyền đơn vị Tòa án. Giao diện tối giản chuẩn FPT UI Kit.",
+        "moduleName": "Phân Quyền Văn Bản Tòa Án",
+        "description": "Phân quyền và thu hồi quyền sử dụng quy trình văn bản eDLM Tòa Án Nhân Dân Tối Cao (dieuhanhso.toaan.gov.vn) theo danh sách email. Giao diện tối giản chuẩn FPT UI Kit.",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -968,8 +968,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-20T03:45:50.347Z",
+      "lastPublishedAt": "2026-11-20T04:12:27.854Z",
       "publishHistory": [
+        {
+          "version": "2.0.0",
+          "publishedAt": "2026-11-20T04:12:27.854Z",
+          "source": "zip"
+        },
         {
           "version": "1.3.0",
           "publishedAt": "2026-11-20T03:45:50.347Z",
