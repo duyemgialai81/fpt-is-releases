@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-20T10:32:12.302Z",
+  "updatedAt": "2026-11-20T10:32:55.142Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -968,8 +968,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-20T10:32:12.302Z",
+      "lastPublishedAt": "2026-11-20T10:32:55.142Z",
       "publishHistory": [
+        {
+          "version": "2.1.0",
+          "publishedAt": "2026-11-20T10:32:55.142Z",
+          "source": "zip"
+        },
         {
           "version": "2.1.0",
           "publishedAt": "2026-11-20T10:32:12.302Z",
