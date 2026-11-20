@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-20T04:12:27.854Z",
+  "updatedAt": "2026-11-20T10:32:12.302Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -943,14 +943,14 @@
     {
       "moduleId": "toaan-phanquyen",
       "moduleName": "Phân Quyền Văn Bản Tòa Án",
-      "description": "Phân quyền và thu hồi quyền sử dụng quy trình văn bản eDLM Tòa Án Nhân Dân Tối Cao (dieuhanhso.toaan.gov.vn) theo danh sách email. Giao diện tối giản chuẩn FPT UI Kit.",
-      "version": "2.0.0",
+      "description": "Phân quyền & thu hồi quyền Văn bản đến (theo quy trình) và Văn bản đi (chia sẻ trực tiếp) trên eDLM Tòa Án Nhân Dân Tối Cao (dieuhanhso.toaan.gov.vn) kèm danh mục 3.221 đơn vị.",
+      "version": "2.1.0",
       "icon": "⚖️",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/toaan-phanquyen-2.0.0.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/toaan-phanquyen-2.1.0.zip",
       "uiSchema": {
         "moduleId": "toaan-phanquyen",
         "moduleName": "Phân Quyền Văn Bản Tòa Án",
-        "description": "Phân quyền và thu hồi quyền sử dụng quy trình văn bản eDLM Tòa Án Nhân Dân Tối Cao (dieuhanhso.toaan.gov.vn) theo danh sách email. Giao diện tối giản chuẩn FPT UI Kit.",
+        "description": "Phân quyền & thu hồi quyền Văn bản đến (theo quy trình) và Văn bản đi (chia sẻ trực tiếp) trên eDLM Tòa Án Nhân Dân Tối Cao (dieuhanhso.toaan.gov.vn) kèm danh mục 3.221 đơn vị.",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -968,8 +968,13 @@
           }
         ]
       },
-      "lastPublishedAt": "2026-11-20T04:12:27.854Z",
+      "lastPublishedAt": "2026-11-20T10:32:12.302Z",
       "publishHistory": [
+        {
+          "version": "2.1.0",
+          "publishedAt": "2026-11-20T10:32:12.302Z",
+          "source": "zip"
+        },
         {
           "version": "2.0.0",
           "publishedAt": "2026-11-20T04:12:27.854Z",
