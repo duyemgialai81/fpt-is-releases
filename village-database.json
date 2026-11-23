@@ -273,13 +273,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "lastFamily": "lua",
-                "lastGrowSeconds": 360,
-                "cycleNo": 6
+                "fertCutLeftSec": 7200,
+                "cycleNo": 7,
+                "cropId": "rau_muong",
+                "stage": 0,
+                "stageEndsAt": "2026-11-23T04:31:38.439Z",
+                "matureAt": "2026-11-23T04:32:23.439Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -348,7 +352,7 @@
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-23T04:30:51.356Z",
+          "serverTime": "2026-11-23T04:30:54.852Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -361,7 +365,7 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 194,
+            "used": 192,
             "capacity": 222,
             "items": [
               {
@@ -374,7 +378,7 @@
               },
               {
                 "itemId": "rau_muong",
-                "qty": 12
+                "qty": 10
               }
             ],
             "nextUpgrade": [
@@ -4010,7 +4014,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795408251425,
+      "lastLoginAt": 1795408254943,
       "host": "DoJadeRoy"
     }
   },
@@ -4022,10 +4026,10 @@
       "gold": 1954,
       "level": 3,
       "host": "DoJadeRoy",
-      "updatedAt": 1795408251426
+      "updatedAt": 1795408254944
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-23T04:30:51.426Z"
+  "updatedAt": "2026-11-23T04:30:54.944Z"
 }
