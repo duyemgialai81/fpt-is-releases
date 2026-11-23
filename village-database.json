@@ -7,7 +7,7 @@
       "farmName": "Nông Dân FPT-IS Nông Trại",
       "save": {
         "version": 1,
-        "nextObjId": 450004,
+        "nextObjId": 450005,
         "user": {
           "id": "6d6f6617-ea76-4064-bf05-f45be5de2656",
           "displayName": "Nông Dân FPT-IS",
@@ -22,7 +22,7 @@
           ]
         },
         "wallet": {
-          "gold": 1654,
+          "gold": 1554,
           "xu": 28,
           "level": 3,
           "exp": 13,
@@ -364,11 +364,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "cycleNo": 0
+                "fertCutLeftSec": 7200,
+                "cycleNo": 1,
+                "cropId": "lua",
+                "stage": 0,
+                "stageEndsAt": "2026-11-23T04:31:54.468Z",
+                "matureAt": "2026-11-23T04:32:39.468Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -381,11 +387,17 @@
               "level": 1,
               "stored": false,
               "field": {
-                "state": "EMPTY",
+                "state": "GROWING",
                 "soilTier": 0,
                 "problems": [],
                 "fertilizedThisCycle": false,
-                "cycleNo": 0
+                "fertCutLeftSec": 7200,
+                "cycleNo": 1,
+                "cropId": "lua",
+                "stage": 0,
+                "stageEndsAt": "2026-11-23T04:31:52.752Z",
+                "matureAt": "2026-11-23T04:32:37.752Z",
+                "yieldExpected": 8
               }
             },
             {
@@ -404,10 +416,27 @@
                 "fertilizedThisCycle": false,
                 "cycleNo": 0
               }
+            },
+            {
+              "id": 450004,
+              "defId": "field",
+              "kind": "field",
+              "x": 22,
+              "y": 34,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "EMPTY",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "cycleNo": 0
+              }
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-23T04:31:04.491Z",
+          "serverTime": "2026-11-23T04:31:09.908Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -420,12 +449,12 @@
         "storage": {
           "ham": {
             "level": 0,
-            "used": 190,
+            "used": 186,
             "capacity": 222,
             "items": [
               {
                 "itemId": "lua",
-                "qty": 66
+                "qty": 62
               },
               {
                 "itemId": "ngo",
@@ -4069,7 +4098,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795408264785,
+      "lastLoginAt": 1795408269943,
       "host": "DoJadeRoy"
     }
   },
@@ -4078,13 +4107,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 1654,
+      "gold": 1554,
       "level": 3,
       "host": "DoJadeRoy",
-      "updatedAt": 1795408264786
+      "updatedAt": 1795408269943
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-23T04:31:04.786Z"
+  "updatedAt": "2026-11-23T04:31:09.943Z"
 }
