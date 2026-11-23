@@ -7,7 +7,7 @@
       "farmName": "Nông Dân FPT-IS Nông Trại",
       "save": {
         "version": 1,
-        "nextObjId": 450002,
+        "nextObjId": 450003,
         "user": {
           "id": "6d6f6617-ea76-4064-bf05-f45be5de2656",
           "displayName": "Nông Dân FPT-IS",
@@ -22,7 +22,7 @@
           ]
         },
         "wallet": {
-          "gold": 1854,
+          "gold": 1754,
           "xu": 28,
           "level": 3,
           "exp": 13,
@@ -370,10 +370,27 @@
                 "fertilizedThisCycle": false,
                 "cycleNo": 0
               }
+            },
+            {
+              "id": 450002,
+              "defId": "field",
+              "kind": "field",
+              "x": 26,
+              "y": 34,
+              "rot": 0,
+              "level": 1,
+              "stored": false,
+              "field": {
+                "state": "EMPTY",
+                "soilTier": 0,
+                "problems": [],
+                "fertilizedThisCycle": false,
+                "cycleNo": 0
+              }
             }
           ],
           "bag": [],
-          "serverTime": "2026-11-23T04:30:58.644Z",
+          "serverTime": "2026-11-23T04:31:01.705Z",
           "layoutTemplate": "trung_a",
           "region": "trung",
           "scenery": {
@@ -4035,7 +4052,7 @@
         "marketNewspaper": [],
         "userId": "6d6f6617-ea76-4064-bf05-f45be5de2656"
       },
-      "lastLoginAt": 1795408258917,
+      "lastLoginAt": 1795408262131,
       "host": "DoJadeRoy"
     }
   },
@@ -4044,13 +4061,13 @@
       "id": "nông dân fpt-is",
       "name": "Nông Dân FPT-IS",
       "farmName": "Nông Dân FPT-IS Nông Trại",
-      "gold": 1854,
+      "gold": 1754,
       "level": 3,
       "host": "DoJadeRoy",
-      "updatedAt": 1795408258918
+      "updatedAt": 1795408262131
     }
   ],
   "presence": {},
   "market": {},
-  "updatedAt": "2026-11-23T04:30:58.918Z"
+  "updatedAt": "2026-11-23T04:31:02.131Z"
 }
