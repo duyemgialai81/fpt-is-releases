@@ -1,6 +1,6 @@
 {
   "catalogVersion": "2.0",
-  "updatedAt": "2026-11-26T01:46:08.988Z",
+  "updatedAt": "2026-11-26T02:13:10.970Z",
   "modules": [
     {
       "moduleId": "module-studio",
@@ -449,14 +449,14 @@
     {
       "moduleId": "edlm-hoan-thanh-vb-den",
       "moduleName": "Quản Lý & Chuyển Trạng Thái Văn Bản eDLM",
-      "description": "Gỡ văn bản bị treo trên eDLM Bộ Nội vụ: đọc mọi trạng thái Văn bản đến & Văn bản đi (Chờ xử lý gồm tab con Chủ trì / Phối hợp / Bị trả lại / Đã thu hồi, Đang xử lý, Đã xử lý, Trả lại, Thu hồi, Nhận để biết) rồi chỉ ghi thẳng trạng thái task sang trạng thái đích (VB đến Đã xử lý = completed, VB đi = accepted), giữ nguyên số, nội dung, luồng; hoàn tác về đúng trạng thái cũ và lịch sử",
-      "version": "0.9.3",
+      "description": "Gỡ văn bản bị treo trên eDLM Bộ Nội vụ: đọc mọi trạng thái Văn bản đến & Văn bản đi (Chờ xử lý gồm tab con Chủ trì / Phối hợp / Bị trả lại / Đã thu hồi, Đang xử lý, Đã xử lý, Trả lại, Thu hồi, Nhận để biết) hoặc chuyển theo link đơn lẻ, rồi chỉ ghi thẳng trạng thái task sang trạng thái đích (VB đến Đã xử lý = completed, VB đi = accepted), giữ nguyên số, nội dung, luồng; hoàn tác về đúng trạng thái cũ và lịch sử",
+      "version": "0.10.0",
       "icon": "🔄",
-      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-hoan-thanh-vb-den-0.9.3.zip",
+      "downloadUrl": "https://github.com/duyemgialai81/fpt-is-releases/releases/download/modules-v1/edlm-hoan-thanh-vb-den-0.10.0.zip",
       "uiSchema": {
         "moduleId": "edlm-hoan-thanh-vb-den",
         "moduleName": "Quản Lý & Chuyển Trạng Thái Văn Bản eDLM",
-        "description": "Gỡ văn bản bị treo trên eDLM Bộ Nội vụ: đọc mọi trạng thái Văn bản đến & Văn bản đi (Chờ xử lý gồm tab con Chủ trì / Phối hợp / Bị trả lại / Đã thu hồi, Đang xử lý, Đã xử lý, Trả lại, Thu hồi, Nhận để biết) rồi chỉ ghi thẳng trạng thái task sang trạng thái đích (VB đến Đã xử lý = completed, VB đi = accepted), giữ nguyên số, nội dung, luồng; hoàn tác về đúng trạng thái cũ và lịch sử",
+        "description": "Gỡ văn bản bị treo trên eDLM Bộ Nội vụ: đọc mọi trạng thái Văn bản đến & Văn bản đi (Chờ xử lý gồm tab con Chủ trì / Phối hợp / Bị trả lại / Đã thu hồi, Đang xử lý, Đã xử lý, Trả lại, Thu hồi, Nhận để biết) hoặc chuyển theo link đơn lẻ, rồi chỉ ghi thẳng trạng thái task sang trạng thái đích (VB đến Đã xử lý = completed, VB đi = accepted), giữ nguyên số, nội dung, luồng; hoàn tác về đúng trạng thái cũ và lịch sử",
         "action": "process-task",
         "submitText": "🚀 Bắt Đầu Thực Thi [process-task]",
         "fields": [
@@ -475,8 +475,14 @@
         ]
       },
       "author": "FPT-IS",
-      "lastPublishedAt": "2026-11-26T01:46:08.988Z",
+      "lastPublishedAt": "2026-11-26T02:13:10.970Z",
       "publishHistory": [
+        {
+          "version": "0.10.0",
+          "publishedAt": "2026-11-26T02:13:10.970Z",
+          "source": "zip",
+          "author": "FPT-IS"
+        },
         {
           "version": "0.9.3",
           "publishedAt": "2026-11-26T01:46:08.988Z",
